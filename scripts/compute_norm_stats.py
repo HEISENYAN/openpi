@@ -15,6 +15,7 @@ import openpi.training.config as _config
 import openpi.training.data_loader as _data_loader
 import openpi.transforms as transforms
 
+import debugpy
 
 class RemoveStrings(transforms.DataTransformFn):
     def __call__(self, x: dict) -> dict:
@@ -114,4 +115,7 @@ def main(config_name: str, max_frames: int | None = None):
 
 
 if __name__ == "__main__":
+    print("waiting for debugger to attach")
+    # debugpy.listen(("0.0.0.0", 5678))
+    # debugpy.wait_for_client()
     tyro.cli(main)
