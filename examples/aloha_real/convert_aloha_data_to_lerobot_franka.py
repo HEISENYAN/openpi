@@ -22,7 +22,7 @@ import tyro
 import json
 import os
 import fnmatch
-
+import tensorflow_datasets as tfds
 
 @dataclasses.dataclass(frozen=True)
 class DatasetConfig:
@@ -46,13 +46,13 @@ def create_empty_dataset(
     dataset_config: DatasetConfig = DEFAULT_DATASET_CONFIG,
 ) -> LeRobotDataset:
     motors = [
-        "left_waist",
-        "left_shoulder",
-        "left_elbow",
-        "left_forearm_roll",
-        "left_wrist_angle",
-        "left_wrist_rotate",
-        "left_gripper",
+        # "left_waist",
+        # "left_shoulder",
+        # "left_elbow",
+        # "left_forearm_roll",
+        # "left_wrist_angle",
+        # "left_wrist_rotate",
+        # "left_gripper",
         "right_waist",
         "right_shoulder",
         "right_elbow",
@@ -60,11 +60,12 @@ def create_empty_dataset(
         "right_wrist_angle",
         "right_wrist_rotate",
         "right_gripper",
+        "right_gripper",
     ]
 
     cameras = [
         "cam_high",
-        "cam_left_wrist",
+        #"cam_left_wrist",
         "cam_right_wrist",
     ]
 
@@ -85,28 +86,10 @@ def create_empty_dataset(
         },
     }
 
-    if has_velocity:
-        features["observation.velocity"] = {
-            "dtype": "float32",
-            "shape": (len(motors), ),
-            "names": [
-                motors,
-            ],
-        }
-
-    if has_effort:
-        features["observation.effort"] = {
-            "dtype": "float32",
-            "shape": (len(motors), ),
-            "names": [
-                motors,
-            ],
-        }
-
     for cam in cameras:
         features[f"observation.images.{cam}"] = {
             "dtype": mode,
-            "shape": (3, 480, 640), # TODO 这里改过，原先是3，480，640
+            "shape": (3, 256, 256), # TODO 这里改过，原先是3，480，640
             "names": [
                 "channels",
                 "height",
@@ -119,7 +102,7 @@ def create_empty_dataset(
 
     return LeRobotDataset.create(
         repo_id=repo_id,
-        fps=50,
+        fps=20,
         robot_type=robot_type,
         features=features,
         use_videos=dataset_config.use_videos,
@@ -136,14 +119,6 @@ def get_cameras(hdf5_files: list[Path]) -> list[str]:
         return [key for key in ep["/observations/images"].keys() if "depth" not in key]  # noqa: SIM118
 
 
-def has_velocity(hdf5_files: list[Path]) -> bool:
-    with h5py.File(hdf5_files[0], "r") as ep:
-        return "/observations/qvel" in ep
-
-
-def has_effort(hdf5_files: list[Path]) -> bool:
-    with h5py.File(hdf5_files[0], "r") as ep:
-        return "/observations/effort" in ep
 
 
 def load_raw_images_per_camera(ep: h5py.File, cameras: list[str]) -> dict[str, np.ndarray]:
@@ -179,22 +154,22 @@ def load_raw_episode_data(
         torch.Tensor | None,
 ]:
     with h5py.File(ep_path, "r") as ep:
-        state = torch.from_numpy(ep["/observations/qpos"][:])
-        action = torch.from_numpy(ep["/action"][:])
+        state = torch.from_numpy(ep["/observations/qpos"][:,7:14])
+        action = torch.from_numpy(ep["/action"][:,7:14])
 
         velocity = None
         if "/observations/qvel" in ep:
-            velocity = torch.from_numpy(ep["/observations/qvel"][:])
+            velocity = torch.from_numpy(ep["/observations/qvel"][:,7:14])
 
         effort = None
         if "/observations/effort" in ep:
-            effort = torch.from_numpy(ep["/observations/effort"][:])
+            effort = torch.from_numpy(ep["/observations/effort"][:,7:14])
 
         imgs_per_cam = load_raw_images_per_camera(
             ep,
             [
                 "cam_high",
-                "cam_left_wrist",
+                #"cam_left_wrist",
                 "cam_right_wrist",
             ],
         )
@@ -208,36 +183,16 @@ def populate_dataset(
     task: str,
     episodes: list[int] | None = None,
 ) -> LeRobotDataset:
-    if episodes is None:
-        episodes = range(len(hdf5_files))
+    tfds_ds = tfds.load("coffee:1.0.0", split="train", data_dir="/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/processed_data")
+    episodes = tfds_ds.take(300)
 
-    for ep_idx in tqdm.tqdm(episodes):
-        ep_path = hdf5_files[ep_idx]
-
-        imgs_per_cam, state, action, velocity, effort = load_raw_episode_data(ep_path)
-        num_frames = state.shape[0]
-        # add prompt
-        dir_path = os.path.dirname(ep_path)
-        json_Path = f"{dir_path}/instructions.json"
-
-        with open(json_Path, 'r') as f_instr:
-            instruction_dict = json.load(f_instr)
-            instructions = instruction_dict['instructions']
-            instruction = np.random.choice(instructions)
-        for i in range(num_frames):
+    for episode in episodes:
+        for step in episode["steps"].as_numpy_iterator():
             frame = {
-                "observation.state": state[i],
-                "action": action[i],
-                "task": instruction,
+                "observation.state": step["observation"]["state"],
+                "action": step["action"],
+                "task": step["language_instruction"].decode(),
             }
-
-            for camera, img_array in imgs_per_cam.items():
-                frame[f"observation.images.{camera}"] = img_array[i]
-
-            if velocity is not None:
-                frame["observation.velocity"] = velocity[i]
-            if effort is not None:
-                frame["observation.effort"] = effort[i]
             dataset.add_frame(frame)
         dataset.save_episode()
 
@@ -273,8 +228,6 @@ def port_aloha(
         repo_id,
         robot_type="mobile_aloha" if is_mobile else "aloha",
         mode=mode,
-        has_effort=has_effort(hdf5_files),
-        has_velocity=has_velocity(hdf5_files),
         dataset_config=dataset_config,
     )
     dataset = populate_dataset(
