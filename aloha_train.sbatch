@@ -31,5 +31,5 @@ export PYTHONUNBUFFERED=1
 #bash vla-server.bash
 
 #bash eval_distributed.sh adjust_bottle demo_clean demo_clean 50 0 0 
-bash finetune.sh pi0_base_aloha_robotwin_lora real 0,1,2,3
+bash finetune.sh pi0_base_aloha_robotwin_lora demo_clean 0,1,2,3
 #bash quick_eval.bash

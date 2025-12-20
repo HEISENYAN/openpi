@@ -8,9 +8,7 @@ import dataclasses
 from pathlib import Path
 import shutil
 from typing import Literal
-import debugpy
-# debugpy.listen(("0.0.0.0", 5678))
-# debugpy.wait_for_client()
+
 import h5py
 from lerobot.common.datasets.lerobot_dataset import HF_LEROBOT_HOME
 from lerobot.common.datasets.lerobot_dataset import LeRobotDataset
@@ -106,7 +104,7 @@ def create_empty_dataset(
     for cam in cameras:
         features[f"observation.images.{cam}"] = {
             "dtype": mode,
-            "shape": (3, 480, 640), # TODO 这里改过，原先是3，480，640
+            "shape": (3, 480, 640),
             "names": [
                 "channels",
                 "height",

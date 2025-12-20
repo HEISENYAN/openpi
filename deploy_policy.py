@@ -46,7 +46,9 @@ def eval(TASK_ENV, model, observation):
         observation = TASK_ENV.get_obs()
         input_rgb_arr, input_state = encode_obs(observation)
         model.update_observation_window(input_rgb_arr, input_state)
-
+        
+    
+    
     # ============================
 
 

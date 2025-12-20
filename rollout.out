@@ -1,0 +1,40 @@
+Sat Dec 20 18:48:39 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.158.01             Driver Version: 570.158.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H800                    On  |   00000000:1B:00.0 Off |                    0 |
+| N/A   23C    P0             65W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H800                    On  |   00000000:43:00.0 Off |                    0 |
+| N/A   23C    P0             67W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA H800                    On  |   00000000:52:00.0 Off |                    0 |
+| N/A   23C    P0             68W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA H800                    On  |   00000000:61:00.0 Off |                    0 |
+| N/A   23C    P0             68W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[33mgpu id (to use): 0[0m
+[32mRender Well[0m
+{'policy_name': 'yzy_openpi', 'task_name': 'beat_block_hammer', 'task_config': 'demo_clean', 'ckpt_setting': 'beat_block_hammer', 'seed': 0, 'instruction_type': 'unseen', 'train_config_name': 'pi0_torch_from_jax', 'model_name': 'beat_block_hammer', 'checkpoint_id': 30000, 'pi0_step': 8, 'device': 'cuda:0'}
+###########################Start Evaluation###########################
+start process in gpu:  0
+start process in gpu:  1
+start process in gpu:  2
+start process in gpu:  3

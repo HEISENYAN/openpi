@@ -4,9 +4,9 @@ from openpi.shared import download
 import numpy as np
 import debugpy
 
-config = _config.get_config("pi0_aloha")
+config = _config.get_config("pi0_base_torch_full")
 
-checkpoint_dir = download.maybe_download("gs://openpi-assets/checkpoints/pi0_base")
+checkpoint_dir = download.maybe_download("/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_torch_full/pytorch_handover_block/30000")
 
 # Create a trained policy.
 policy = policy_config.create_trained_policy(config, checkpoint_dir)
@@ -23,5 +23,7 @@ example = {
     }
 }
 print("start inference")
+
+
 action_chunk = policy.infer(example)["actions"]
 print(action_chunk)

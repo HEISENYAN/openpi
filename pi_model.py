@@ -34,9 +34,10 @@ class PI0:
         config = _config.get_config(self.train_config_name)
         self.policy = _policy_config.create_trained_policy(
             config,
-            #checkpoint_dir=f"policy/yzy_openpi/checkpoints/{self.train_config_name}/{self.model_name}/{self.checkpoint_id}")
-            checkpoint_dir=download.maybe_download("gs://openpi-assets/checkpoints/pi0_base"))
+            checkpoint_dir=f"policy/yzy_openpi/checkpoints/{self.train_config_name}/{self.model_name}/{self.checkpoint_id}")
+            #checkpoint_dir=download.maybe_download("gs://openpi-assets/checkpoints/pi0_base"))
             #robotwin_repo_id=model_name)
+        #self.policy.eval()
         print("loading model success!")
         self.img_size = (224, 224)
         self.observation_window = None
