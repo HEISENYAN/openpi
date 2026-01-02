@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import dill
 import os, sys
-
+import copy
 current_file_path = os.path.abspath(__file__)
 parent_directory = os.path.dirname(current_file_path)
 sys.path.append(parent_directory)
@@ -41,7 +41,7 @@ def eval(TASK_ENV, model, observation):
     # ======== Get Action ========
     data = []
     data_point = {
-        "observation": model.observation_window,
+        "observation": copy.deepcopy(model.observation_window),
         "action": None,
         "reward": TASK_ENV.eval_success,
         "timestep": TASK_ENV.take_action_cnt
@@ -60,7 +60,7 @@ def eval(TASK_ENV, model, observation):
             return data
         input_rgb_arr, input_state = encode_obs(observation)
         model.update_observation_window(input_rgb_arr, input_state)
-        data_point["observation"] = model.observation_window
+        data_point["observation"] = copy.deepcopy(model.observation_window)
         data_point["timestep"] = TASK_ENV.take_action_cnt
         data_point["reward"] = TASK_ENV.eval_success
         
