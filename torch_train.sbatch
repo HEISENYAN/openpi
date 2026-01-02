@@ -33,6 +33,6 @@ export PYTHONUNBUFFERED=1
 #bash finetune.sh pi0_base_piper real 0,1,2,3
 #bash quick_eval.bash
 uv run torchrun --standalone --nnodes=1 --nproc_per_node=8 scripts/train_pytorch.py pi0_base_torch_full \
- --exp_name pytorch_handover_block \
- --save_interval 10000 \
-# --resume
+ --exp_name pytorch_beat_block_hammer \
+ --save_interval 5000 \
+ --resume

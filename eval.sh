@@ -26,7 +26,7 @@ python script/eval_policy.py --config policy/$policy_name/deploy_policy.yml \
     --policy_name ${policy_name} 
 
 
-#bash eval.sh handover_block demo_clean pi0_base_torch_full pytorch_handover_block 0 0
+#bash eval.sh beat_block_hammer demo_clean pi0_base_torch_full pytorch_beat_block_hammer 0 0
 #bash eval.sh handover_block demo_clean pi0_base_aloha_robotwin_lora demo_clean 0 0
 #bash eval.sh beat_block_hammer demo_clean pi0_base_torch_lora beat_hammer 0 0
 #bash eval.sh beat_block_hammer demo_clean pi0_torch_from_jax beat_block_hammer 0 0
