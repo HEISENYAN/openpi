@@ -40,29 +40,26 @@ def eval(TASK_ENV, model, observation):
 
     # ======== Get Action ========
     data = []
-    data_point = {
-        "observation": copy.deepcopy(model.observation_window),
-        "action": None,
-        "reward": TASK_ENV.eval_success,
-        "timestep": TASK_ENV.take_action_cnt
-    }
-
 
     actions = model.get_action()[:model.pi0_step]
 
     
     for action in actions:
-        TASK_ENV.take_action(action)
-        data_point["action"] = action
+        # Create a new data_point dict for each iteration
+        data_point = {
+            "observation": copy.deepcopy(model.observation_window),
+            "action": action,
+            "reward": TASK_ENV.eval_success,
+            "timestep": TASK_ENV.take_action_cnt
+        }
         data.append(data_point)
+        
+        TASK_ENV.take_action(action)
         observation = TASK_ENV.get_obs()
         if TASK_ENV.eval_success:
             return data
         input_rgb_arr, input_state = encode_obs(observation)
         model.update_observation_window(input_rgb_arr, input_state)
-        data_point["observation"] = copy.deepcopy(model.observation_window)
-        data_point["timestep"] = TASK_ENV.take_action_cnt
-        data_point["reward"] = TASK_ENV.eval_success
         
     
     return data
