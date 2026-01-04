@@ -1061,7 +1061,7 @@ _CONFIGS = [
         name="pi0_base_aloha_robotwin_full",
         model=pi0_config.Pi0Config(),
         data=LeRobotAlohaDataConfig(
-            repo_id="handover_block",  # your datasets repo_id
+            repo_id="folding_clothes",  # your datasets repo_id
             adapt_to_pi=False,
             repack_transforms=_transforms.Group(inputs=[
                 _transforms.RepackTransform({
@@ -1082,9 +1082,9 @@ _CONFIGS = [
         ),
         #freeze_filter=pi0_config.Pi0Config().get_freeze_filter(),
         batch_size=128,  # the total batch_size not pre_gpu batch_size
-        weight_loader=weight_loaders.CheckpointWeightLoader("s3://openpi-assets/checkpoints/pi0_base/params"),
-        num_train_steps=30000,
-        fsdp_devices=4,  # refer line 359
+        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_base/params"),
+        num_train_steps=200000,
+        fsdp_devices=8,  # refer line 359
     ),
     TrainConfig(
         name="pi0_base_torch_full",
@@ -1110,7 +1110,7 @@ _CONFIGS = [
                 prompt_from_task=True,  # Set to True for prompt by task_name
             ),
         ),
-        batch_size=16,
+        batch_size=32,
         lr_schedule=_optimizer.CosineDecaySchedule(
             warmup_steps=10_000,
             peak_lr=5e-5,
