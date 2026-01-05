@@ -171,3 +171,4 @@ gpu.sh
 processed_data/*
 
 test.*
+data_processing/tmp_data/*
