@@ -223,7 +223,15 @@ def main(config: _config.TrainConfig):
         shuffle=True,
     )
     data_iter = iter(data_loader)
-    batch = next(data_iter)
+    batch_data = next(data_iter)
+    
+    # Handle batch with or without metadata
+    if isinstance(batch_data, tuple) and len(batch_data) == 2:
+        batch, batch_metadata = batch_data[0], batch_data[1]
+    else:
+        batch = batch_data
+        batch_metadata = {}
+    
     logging.info(f"Initialized data loader:\n{training_utils.array_tree_to_info(batch)}")
 
     # Log images from first batch to sanity check.
@@ -263,11 +271,27 @@ def main(config: _config.TrainConfig):
         if step % config.log_interval == 0:
             stacked_infos = common_utils.stack_forest(infos)
             reduced_info = jax.device_get(jax.tree.map(jnp.mean, stacked_infos))
-            info_str = ", ".join(f"{k}={v:.4f}" for k, v in reduced_info.items())
+            
+            # 添加dataset index信息到wandb log
+            if batch_metadata and "dataset_indices" in batch_metadata:
+                indices = np.array(batch_metadata["dataset_indices"])
+                # 记录统计信息
+                step_info = {}
+                sample_indices = indices[:min(32, len(indices))]
+                for i, idx in enumerate(sample_indices):
+                    step_info[f"dataset_index_sample_{i}"] = float(idx)
+            print(step_info)
+            info_str = ", ".join(f"{k}={v:.4f}" if isinstance(v, (int, float)) else f"{k}={v}" for k, v in reduced_info.items())
             pbar.write(f"Step {step}: {info_str}")
             wandb.log(reduced_info, step=step)
             infos = []
-        batch = next(data_iter)
+        
+        batch_data = next(data_iter)
+        if isinstance(batch_data, tuple) and len(batch_data) == 2:
+            batch, batch_metadata = batch_data[0], batch_data[1]
+        else:
+            batch = batch_data
+            batch_metadata = {}
 
         if (step % config.save_interval == 0 and step > start_step) or step == config.num_train_steps - 1:
             _checkpoints.save_state(checkpoint_manager, train_state, data_loader, step)

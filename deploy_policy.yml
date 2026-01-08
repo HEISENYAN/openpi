@@ -10,5 +10,5 @@ instruction_type: unseen
 
 train_config_name: null
 model_name: null
-checkpoint_id: 20000
+checkpoint_id: 40000
 pi0_step: 8

@@ -9,7 +9,7 @@
 #SBATCH --requeue
 #SBATCH --nice=0
 #SBATCH --account=peilab
-#SBATCH --output=train_aloha_folding.out
+#SBATCH --output=train_aloha_test_4.out
 
 
 nvidia-smi
@@ -31,6 +31,6 @@ export PYTHONUNBUFFERED=1
 #bash vla-server.bash
 export XDG_CACHE_HOME=/project/peilab/yanzhengyang/.cache
 #bash eval_distributed.sh adjust_bottle demo_clean demo_clean 50 0 0 
-bash finetune.sh pi0_base_aloha_folding_full folding_clothes 0,1
+bash finetune.sh pi0_base_aloha_robotwin_full folding_clothes_test_4 0,1
 #bash quick_eval.bash
 #uv run torchrun --standalone --nnodes=1 --nproc_per_node=2 scripts/train_pytorch.py pi0_base_torch_full --exp_name pytorch_handover_block

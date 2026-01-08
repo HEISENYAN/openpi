@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=yanzhengyang
 #SBATCH --nodes=1
-#SBATCH --gpus=4
+#SBATCH --gpus=8
 #SBATCH --time=48:00:00
 #SBATCH --partition=preempt
 #SBATCH --requeue
@@ -17,7 +17,7 @@ module purge
 #module load slurm
 #module avail cuda
 module load slurm
-#module load cuda12.2/toolkit/12.2.2
+module load cuda12.2/toolkit/12.2.2
 #module avail tensorrt
 source /home/congcong/miniconda3/bin/activate RoboTwin
 
@@ -31,5 +31,5 @@ export PYTHONUNBUFFERED=1
 
 #bash eval_distributed.sh adjust_bottle demo_clean demo_clean 50 0 0 
 #bash finetune.sh pi0_base_piper real 0,1,2,3
-bash eval_distributed.sh beat_block_hammer demo_clean pi0_torch_from_jax beat_block_hammer 0 0 0,1,2,3
+bash eval_distributed.sh beat_block_hammer demo_clean pi0_base_torch_full pytorch_beat_block_hammer 0 0,1,2,3,4,5,6,7
 # --resume

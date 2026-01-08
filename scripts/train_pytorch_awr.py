@@ -45,7 +45,7 @@ import openpi.models_pytorch.pi0_pytorch_awr
 import openpi.shared.normalize as _normalize
 import openpi.training.config as _config
 import openpi.training.data_loader as _data
-from transformers import Qwen2_5_VLForConditionalGeneration
+from openpi.qwenvl.value_function import ValueFunction
 
 def init_logging():
     level_mapping = {"DEBUG": "D", "INFO": "I", "WARNING": "W", "ERROR": "E", "CRITICAL": "C"}
@@ -632,13 +632,6 @@ def main():
         debugpy.listen(('0.0.0.0', 5678))
         debugpy.wait_for_client()
         print(f"Debugger attached")
-    import torch
-    reward = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-        path,
-        attn_implementation=True,
-        torch_dtype=torch.bfloat16,
-        device_map="auto"
-        )
     
     config = _config.cli()
     train_loop(config)
@@ -648,8 +641,5 @@ if __name__ == "__main__":
     main()
 
 """
-    uv run torchrun --standalone --nnodes=1 --nproc_per_node=8 scripts/train_pytorch_awr.py pi0_base_torch_full \
-    --exp_name pytorch_beat_block_hammer \
-    --save_interval 5000 \
-    --resume
+    uv run torchrun --standalone --nnodes=1 --nproc_per_node=2 scripts/train_pytorch_awr.py pi0_base_torch_awr --exp_name pytorch_beat_block_hammer
 """

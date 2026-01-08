@@ -3958,3 +3958,1215 @@ See an explanation at https://jax.readthedocs.io/en/latest/faq.html#buffer-donat
 02:34:03.422 [I] Progress on: 2.50kit/200kit rate:1.4it/s remaining:38:50:05 elapsed:31:00 postfix:- (8428:tqdm_logging.py:145)
 02:34:14.028 [I] Progress on: 2.52kit/200kit rate:1.4it/s remaining:38:48:07 elapsed:31:10 postfix:- (8428:tqdm_logging.py:145)
 02:34:24.627 [I] Progress on: 2.53kit/200kit rate:1.4it/s remaining:38:49:36 elapsed:31:21 postfix:- (8428:tqdm_logging.py:145)
+02:34:35.228 [I] Progress on: 2.55kit/200kit rate:1.4it/s remaining:38:48:25 elapsed:31:32 postfix:- (8428:tqdm_logging.py:145)
+02:34:45.828 [I] Progress on: 2.56kit/200kit rate:1.4it/s remaining:38:46:45 elapsed:31:42 postfix:- (8428:tqdm_logging.py:145)
+02:34:56.429 [I] Progress on: 2.58kit/200kit rate:1.4it/s remaining:38:47:06 elapsed:31:53 postfix:- (8428:tqdm_logging.py:145)
+02:35:07.027 [I] Progress on: 2.59kit/200kit rate:1.4it/s remaining:38:46:31 elapsed:32:03 postfix:- (8428:tqdm_logging.py:145)
+Step 2600: grad_norm=0.4062, loss=0.0388, param_norm=1378.8002
+02:35:17.675 [I] Progress on: 2.61kit/200kit rate:1.4it/s remaining:38:43:23 elapsed:32:14 postfix:- (8428:tqdm_logging.py:145)
+02:35:28.273 [I] Progress on: 2.62kit/200kit rate:1.4it/s remaining:38:44:43 elapsed:32:25 postfix:- (8428:tqdm_logging.py:145)
+02:35:38.873 [I] Progress on: 2.64kit/200kit rate:1.4it/s remaining:38:43:46 elapsed:32:35 postfix:- (8428:tqdm_logging.py:145)
+02:35:49.474 [I] Progress on: 2.65kit/200kit rate:1.4it/s remaining:38:44:18 elapsed:32:46 postfix:- (8428:tqdm_logging.py:145)
+02:36:00.076 [I] Progress on: 2.67kit/200kit rate:1.4it/s remaining:38:43:57 elapsed:32:56 postfix:- (8428:tqdm_logging.py:145)
+02:36:10.674 [I] Progress on: 2.68kit/200kit rate:1.4it/s remaining:38:43:54 elapsed:33:07 postfix:- (8428:tqdm_logging.py:145)
+02:36:20.808 [I] Progress on: 2.70kit/200kit rate:1.4it/s remaining:38:51:22 elapsed:33:17 postfix:- (8428:tqdm_logging.py:145)
+Step 2700: grad_norm=0.4053, loss=0.0388, param_norm=1378.8484
+02:36:31.453 [I] Progress on: 2.71kit/200kit rate:1.4it/s remaining:38:45:13 elapsed:33:28 postfix:- (8428:tqdm_logging.py:145)
+02:36:42.055 [I] Progress on: 2.73kit/200kit rate:1.4it/s remaining:38:44:18 elapsed:33:38 postfix:- (8428:tqdm_logging.py:145)
+02:36:52.654 [I] Progress on: 2.74kit/200kit rate:1.4it/s remaining:38:42:33 elapsed:33:49 postfix:- (8428:tqdm_logging.py:145)
+02:37:03.255 [I] Progress on: 2.76kit/200kit rate:1.4it/s remaining:38:41:45 elapsed:34:00 postfix:- (8428:tqdm_logging.py:145)
+02:37:13.858 [I] Progress on: 2.77kit/200kit rate:1.4it/s remaining:38:40:14 elapsed:34:10 postfix:- (8428:tqdm_logging.py:145)
+02:37:24.456 [I] Progress on: 2.79kit/200kit rate:1.4it/s remaining:38:40:09 elapsed:34:21 postfix:- (8428:tqdm_logging.py:145)
+Step 2800: grad_norm=0.3983, loss=0.0367, param_norm=1378.8975
+02:37:35.111 [I] Progress on: 2.80kit/200kit rate:1.4it/s remaining:38:54:04 elapsed:34:31 postfix:- (8428:tqdm_logging.py:145)
+02:37:45.710 [I] Progress on: 2.82kit/200kit rate:1.4it/s remaining:38:45:38 elapsed:34:42 postfix:- (8428:tqdm_logging.py:145)
+02:37:56.311 [I] Progress on: 2.83kit/200kit rate:1.4it/s remaining:38:44:44 elapsed:34:53 postfix:- (8428:tqdm_logging.py:145)
+02:38:06.914 [I] Progress on: 2.85kit/200kit rate:1.4it/s remaining:38:42:14 elapsed:35:03 postfix:- (8428:tqdm_logging.py:145)
+02:38:17.514 [I] Progress on: 2.86kit/200kit rate:1.4it/s remaining:38:38:54 elapsed:35:14 postfix:- (8428:tqdm_logging.py:145)
+02:38:28.128 [I] Progress on: 2.88kit/200kit rate:1.4it/s remaining:38:46:53 elapsed:35:24 postfix:- (8428:tqdm_logging.py:145)
+02:38:38.726 [I] Progress on: 2.89kit/200kit rate:1.4it/s remaining:38:44:37 elapsed:35:35 postfix:- (8428:tqdm_logging.py:145)
+Step 2900: grad_norm=0.3849, loss=0.0363, param_norm=1378.9458
+02:38:49.375 [I] Progress on: 2.91kit/200kit rate:1.4it/s remaining:38:42:29 elapsed:35:46 postfix:- (8428:tqdm_logging.py:145)
+02:38:59.974 [I] Progress on: 2.92kit/200kit rate:1.4it/s remaining:38:38:02 elapsed:35:56 postfix:- (8428:tqdm_logging.py:145)
+02:39:10.574 [I] Progress on: 2.94kit/200kit rate:1.4it/s remaining:38:37:20 elapsed:36:07 postfix:- (8428:tqdm_logging.py:145)
+02:39:21.179 [I] Progress on: 2.95kit/200kit rate:1.4it/s remaining:38:40:24 elapsed:36:18 postfix:- (8428:tqdm_logging.py:145)
+02:39:31.775 [I] Progress on: 2.97kit/200kit rate:1.4it/s remaining:38:37:45 elapsed:36:28 postfix:- (8428:tqdm_logging.py:145)
+02:39:42.376 [I] Progress on: 2.98kit/200kit rate:1.4it/s remaining:38:38:36 elapsed:36:39 postfix:- (8428:tqdm_logging.py:145)
+02:39:52.978 [I] Progress on: 3.00kit/200kit rate:1.4it/s remaining:38:38:52 elapsed:36:49 postfix:- (8428:tqdm_logging.py:145)
+Step 3000: grad_norm=0.4146, loss=0.0359, param_norm=1378.9956
+02:39:55.221 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+02:39:55.222 [I] [process=0] Saving checkpoint at step 3000                                       (8428:checkpoint_manager.py:1408)
+02:39:55.222 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000. (8428:async_checkpointer.py:439)
+02:39:55.230 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8 (8428:atomicity.py:144)
+02:39:55.238 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/assets.orbax-checkpoint-tmp-9 (8428:atomicity.py:144)
+02:39:55.238 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/params.orbax-checkpoint-tmp-10 (8428:atomicity.py:144)
+02:39:55.238 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/train_state.orbax-checkpoint-tmp-11 (8428:atomicity.py:144)
+02:39:55.249 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+02:40:34.054 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+02:40:34.055 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:40:35.672 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/params.orbax-checkpoint-tmp-10/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+02:45:48.564 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:45:48.565 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 35.0 MiB/s (total bytes: 12.1 GiB) (time elapsed: 5 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:45:48.568 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:45:48.570 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:45:48.573 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 104.9 MiB/s (total bytes: 36.2 GiB) (time elapsed: 5 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:45:48.591 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+02:45:48.592 [I] Finished blocking save in 353.37 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000. (8428:async_checkpointer.py:548)
+02:45:48.597 [I] Deleting Checkpoint[step=2000 | time=2026-01-05 18:27:48.200134+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+02:45:48.598 [I] [process=0][thread=MainThread][step=3000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+02:45:48.599 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+02:45:48.600 [I] {'step': 3000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767638395.221847, 'wait_for_prev_duration_secs': 0.00019431114196777344, 'checkpointer_blocking_start_time': 1767638395.2223299, 'checkpointer_blocking_duration_secs': 353.3753819465637, 'get_old_steps_start_time': 1767638748.5977461, 'get_old_steps_duration_secs': 0.0002028942108154297, 'checkpoint_manager_blocking_start_time': 1767638395.221712, 'checkpoint_manager_blocking_duration_secs': 353.37868428230286} (8428:standard_logger.py:34)
+02:45:48.613 [I] Progress on: 3.00kit/200kit rate:106.8s/it remaining:5842:09:16 elapsed:42:45 postfix:- (8428:tqdm_logging.py:145)
+02:45:48.638 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/train_state.orbax-checkpoint-tmp-11/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+02:45:58.832 [I] Progress on: 3.01kit/200kit rate:2.2s/it remaining:121:12:36 elapsed:42:55 postfix:- (8428:tqdm_logging.py:145)
+02:46:09.243 [I] Progress on: 3.03kit/200kit rate:1.4it/s remaining:39:35:50 elapsed:43:06 postfix:- (8428:tqdm_logging.py:145)
+02:46:19.841 [I] Progress on: 3.04kit/200kit rate:1.4it/s remaining:38:41:22 elapsed:43:16 postfix:- (8428:tqdm_logging.py:145)
+02:46:23.786 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 31.8 MiB/s (total bytes: 12.1 GiB) (time elapsed: 6 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:46:28.890 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 94.1 MiB/s (total bytes: 36.2 GiB) (time elapsed: 6 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:46:28.891 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+02:46:28.893 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/assets.orbax-checkpoint-tmp-9 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/assets (8428:atomicity.py:289)
+02:46:28.899 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+02:46:29.001 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/train_state.orbax-checkpoint-tmp-11 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/train_state (8428:atomicity.py:289)
+02:46:29.011 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+02:46:29.039 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/params.orbax-checkpoint-tmp-10 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8/params (8428:atomicity.py:289)
+02:46:29.042 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000.orbax-checkpoint-tmp-8 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000 (8428:atomicity.py:289)
+02:46:29.049 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000`. (8428:atomicity.py:573)
+02:46:29.050 [I] Finished asynchronous save (blocking + background) in 393.83 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/3000 (8428:async_checkpointer.py:412)
+02:46:29.050 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+02:46:29.050 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+02:46:29.050 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+02:46:30.422 [I] Progress on: 3.06kit/200kit rate:1.4it/s remaining:38:37:44 elapsed:43:27 postfix:- (8428:tqdm_logging.py:145)
+02:46:31.560 [I] Deleted step 2000.                                                               (8428:deleter.py:114)
+02:46:31.560 [I] [process=0][thread=save_finalize][step=3000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+02:46:31.560 [I] [process=0][thread=save_finalize][step=3000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+02:46:41.030 [I] Progress on: 3.07kit/200kit rate:1.4it/s remaining:38:37:42 elapsed:43:37 postfix:- (8428:tqdm_logging.py:145)
+02:46:51.619 [I] Progress on: 3.09kit/200kit rate:1.4it/s remaining:38:31:14 elapsed:43:48 postfix:- (8428:tqdm_logging.py:145)
+Step 3100: grad_norm=0.3775, loss=0.0343, param_norm=1379.0438
+02:47:01.639 [I] Progress on: 3.10kit/200kit rate:1.3it/s remaining:40:40:38 elapsed:43:58 postfix:- (8428:tqdm_logging.py:145)
+02:47:12.159 [I] Progress on: 3.12kit/200kit rate:1.4it/s remaining:38:34:06 elapsed:44:09 postfix:- (8428:tqdm_logging.py:145)
+02:47:22.761 [I] Progress on: 3.13kit/200kit rate:1.4it/s remaining:38:37:08 elapsed:44:19 postfix:- (8428:tqdm_logging.py:145)
+02:47:33.360 [I] Progress on: 3.15kit/200kit rate:1.4it/s remaining:38:35:01 elapsed:44:30 postfix:- (8428:tqdm_logging.py:145)
+02:47:43.959 [I] Progress on: 3.16kit/200kit rate:1.4it/s remaining:38:36:03 elapsed:44:40 postfix:- (8428:tqdm_logging.py:145)
+02:47:54.571 [I] Progress on: 3.18kit/200kit rate:1.4it/s remaining:38:43:35 elapsed:44:51 postfix:- (8428:tqdm_logging.py:145)
+02:48:05.164 [I] Progress on: 3.19kit/200kit rate:1.4it/s remaining:38:32:11 elapsed:45:02 postfix:- (8428:tqdm_logging.py:145)
+Step 3200: grad_norm=0.3820, loss=0.0341, param_norm=1379.0920
+02:48:15.811 [I] Progress on: 3.21kit/200kit rate:1.4it/s remaining:38:41:14 elapsed:45:12 postfix:- (8428:tqdm_logging.py:145)
+02:48:26.413 [I] Progress on: 3.22kit/200kit rate:1.4it/s remaining:38:41:26 elapsed:45:23 postfix:- (8428:tqdm_logging.py:145)
+02:48:37.011 [I] Progress on: 3.24kit/200kit rate:1.4it/s remaining:38:36:46 elapsed:45:33 postfix:- (8428:tqdm_logging.py:145)
+02:48:47.615 [I] Progress on: 3.25kit/200kit rate:1.4it/s remaining:38:42:26 elapsed:45:44 postfix:- (8428:tqdm_logging.py:145)
+02:48:58.212 [I] Progress on: 3.27kit/200kit rate:1.4it/s remaining:38:39:28 elapsed:45:55 postfix:- (8428:tqdm_logging.py:145)
+02:49:08.814 [I] Progress on: 3.28kit/200kit rate:1.4it/s remaining:38:39:54 elapsed:46:05 postfix:- (8428:tqdm_logging.py:145)
+02:49:19.416 [I] Progress on: 3.30kit/200kit rate:1.4it/s remaining:38:35:56 elapsed:46:16 postfix:- (8428:tqdm_logging.py:145)
+Step 3300: grad_norm=0.3856, loss=0.0331, param_norm=1379.1412
+02:49:30.082 [I] Progress on: 3.31kit/200kit rate:1.4it/s remaining:38:40:55 elapsed:46:26 postfix:- (8428:tqdm_logging.py:145)
+02:49:40.682 [I] Progress on: 3.33kit/200kit rate:1.4it/s remaining:38:32:29 elapsed:46:37 postfix:- (8428:tqdm_logging.py:145)
+02:49:51.284 [I] Progress on: 3.34kit/200kit rate:1.4it/s remaining:38:33:06 elapsed:46:48 postfix:- (8428:tqdm_logging.py:145)
+02:50:01.880 [I] Progress on: 3.36kit/200kit rate:1.4it/s remaining:38:30:24 elapsed:46:58 postfix:- (8428:tqdm_logging.py:145)
+02:50:12.502 [I] Progress on: 3.37kit/200kit rate:1.4it/s remaining:38:48:03 elapsed:47:09 postfix:- (8428:tqdm_logging.py:145)
+02:50:23.092 [I] Progress on: 3.39kit/200kit rate:1.4it/s remaining:38:37:03 elapsed:47:19 postfix:- (8428:tqdm_logging.py:145)
+Step 3400: grad_norm=0.3687, loss=0.0314, param_norm=1379.1895
+02:50:33.785 [I] Progress on: 3.40kit/200kit rate:1.4it/s remaining:38:34:06 elapsed:47:30 postfix:- (8428:tqdm_logging.py:145)
+02:50:44.336 [I] Progress on: 3.42kit/200kit rate:1.4it/s remaining:38:32:30 elapsed:47:41 postfix:- (8428:tqdm_logging.py:145)
+02:50:54.941 [I] Progress on: 3.43kit/200kit rate:1.4it/s remaining:38:37:49 elapsed:47:51 postfix:- (8428:tqdm_logging.py:145)
+02:51:05.541 [I] Progress on: 3.45kit/200kit rate:1.4it/s remaining:38:30:48 elapsed:48:02 postfix:- (8428:tqdm_logging.py:145)
+02:51:16.145 [I] Progress on: 3.46kit/200kit rate:1.4it/s remaining:38:35:11 elapsed:48:13 postfix:- (8428:tqdm_logging.py:145)
+02:51:26.738 [I] Progress on: 3.48kit/200kit rate:1.4it/s remaining:38:28:55 elapsed:48:23 postfix:- (8428:tqdm_logging.py:145)
+02:51:37.345 [I] Progress on: 3.49kit/200kit rate:1.4it/s remaining:38:34:35 elapsed:48:34 postfix:- (8428:tqdm_logging.py:145)
+Step 3500: grad_norm=0.3636, loss=0.0317, param_norm=1379.2345
+02:51:47.994 [I] Progress on: 3.51kit/200kit rate:1.4it/s remaining:38:39:25 elapsed:48:44 postfix:- (8428:tqdm_logging.py:145)
+02:51:58.601 [I] Progress on: 3.52kit/200kit rate:1.4it/s remaining:38:37:27 elapsed:48:55 postfix:- (8428:tqdm_logging.py:145)
+02:52:09.198 [I] Progress on: 3.54kit/200kit rate:1.4it/s remaining:38:31:45 elapsed:49:06 postfix:- (8428:tqdm_logging.py:145)
+02:52:19.803 [I] Progress on: 3.55kit/200kit rate:1.4it/s remaining:38:37:53 elapsed:49:16 postfix:- (8428:tqdm_logging.py:145)
+02:52:30.404 [I] Progress on: 3.57kit/200kit rate:1.4it/s remaining:38:32:15 elapsed:49:27 postfix:- (8428:tqdm_logging.py:145)
+02:52:41.006 [I] Progress on: 3.58kit/200kit rate:1.4it/s remaining:38:32:59 elapsed:49:37 postfix:- (8428:tqdm_logging.py:145)
+02:52:51.104 [I] Progress on: 3.60kit/200kit rate:1.4it/s remaining:38:11:46 elapsed:49:47 postfix:- (8428:tqdm_logging.py:145)
+Step 3600: grad_norm=0.3571, loss=0.0302, param_norm=1379.2826
+02:53:01.762 [I] Progress on: 3.61kit/200kit rate:1.4it/s remaining:38:52:07 elapsed:49:58 postfix:- (8428:tqdm_logging.py:145)
+02:53:12.324 [I] Progress on: 3.62kit/200kit rate:1.4it/s remaining:38:08:48 elapsed:50:09 postfix:- (8428:tqdm_logging.py:145)
+02:53:22.969 [I] Progress on: 3.64kit/200kit rate:1.4it/s remaining:38:54:26 elapsed:50:19 postfix:- (8428:tqdm_logging.py:145)
+02:53:33.534 [I] Progress on: 3.65kit/200kit rate:1.4it/s remaining:38:11:39 elapsed:50:30 postfix:- (8428:tqdm_logging.py:145)
+02:53:44.175 [I] Progress on: 3.67kit/200kit rate:1.4it/s remaining:38:59:21 elapsed:50:41 postfix:- (8428:tqdm_logging.py:145)
+02:53:54.735 [I] Progress on: 3.69kit/200kit rate:1.4it/s remaining:38:12:49 elapsed:50:51 postfix:- (8428:tqdm_logging.py:145)
+02:54:05.370 [I] Progress on: 3.70kit/200kit rate:1.4it/s remaining:38:53:49 elapsed:51:02 postfix:- (8428:tqdm_logging.py:145)
+Step 3700: grad_norm=0.3533, loss=0.0306, param_norm=1379.3295
+02:54:15.960 [I] Progress on: 3.71kit/200kit rate:1.4it/s remaining:38:09:46 elapsed:51:12 postfix:- (8428:tqdm_logging.py:145)
+02:54:26.599 [I] Progress on: 3.73kit/200kit rate:1.4it/s remaining:38:54:35 elapsed:51:23 postfix:- (8428:tqdm_logging.py:145)
+02:54:37.160 [I] Progress on: 3.75kit/200kit rate:1.4it/s remaining:38:09:12 elapsed:51:34 postfix:- (8428:tqdm_logging.py:145)
+02:54:47.795 [I] Progress on: 3.76kit/200kit rate:1.4it/s remaining:38:50:40 elapsed:51:44 postfix:- (8428:tqdm_logging.py:145)
+02:54:58.361 [I] Progress on: 3.77kit/200kit rate:1.4it/s remaining:38:10:12 elapsed:51:55 postfix:- (8428:tqdm_logging.py:145)
+02:55:09.001 [I] Progress on: 3.79kit/200kit rate:1.4it/s remaining:38:54:49 elapsed:52:05 postfix:- (8428:tqdm_logging.py:145)
+Step 3800: grad_norm=0.3724, loss=0.0300, param_norm=1379.3757
+02:55:19.596 [I] Progress on: 3.81kit/200kit rate:1.4it/s remaining:38:09:06 elapsed:52:16 postfix:- (8428:tqdm_logging.py:145)
+02:55:30.234 [I] Progress on: 3.82kit/200kit rate:1.4it/s remaining:38:52:35 elapsed:52:27 postfix:- (8428:tqdm_logging.py:145)
+02:55:40.801 [I] Progress on: 3.83kit/200kit rate:1.4it/s remaining:38:09:28 elapsed:52:37 postfix:- (8428:tqdm_logging.py:145)
+02:55:51.443 [I] Progress on: 3.85kit/200kit rate:1.4it/s remaining:38:55:12 elapsed:52:48 postfix:- (8428:tqdm_logging.py:145)
+02:56:02.003 [I] Progress on: 3.87kit/200kit rate:1.4it/s remaining:38:09:25 elapsed:52:58 postfix:- (8428:tqdm_logging.py:145)
+02:56:12.651 [I] Progress on: 3.88kit/200kit rate:1.4it/s remaining:38:51:54 elapsed:53:09 postfix:- (8428:tqdm_logging.py:145)
+02:56:23.216 [I] Progress on: 3.90kit/200kit rate:1.4it/s remaining:38:10:08 elapsed:53:20 postfix:- (8428:tqdm_logging.py:145)
+Step 3900: grad_norm=0.3918, loss=0.0298, param_norm=1379.4242
+02:56:33.876 [I] Progress on: 3.91kit/200kit rate:1.4it/s remaining:38:55:24 elapsed:53:30 postfix:- (8428:tqdm_logging.py:145)
+02:56:44.436 [I] Progress on: 3.92kit/200kit rate:1.4it/s remaining:38:09:47 elapsed:53:41 postfix:- (8428:tqdm_logging.py:145)
+02:56:55.077 [I] Progress on: 3.94kit/200kit rate:1.4it/s remaining:38:49:25 elapsed:53:51 postfix:- (8428:tqdm_logging.py:145)
+02:57:05.640 [I] Progress on: 3.96kit/200kit rate:1.4it/s remaining:38:06:02 elapsed:54:02 postfix:- (8428:tqdm_logging.py:145)
+02:57:16.289 [I] Progress on: 3.97kit/200kit rate:1.4it/s remaining:38:56:17 elapsed:54:13 postfix:- (8428:tqdm_logging.py:145)
+02:57:26.855 [I] Progress on: 3.98kit/200kit rate:1.4it/s remaining:38:09:08 elapsed:54:23 postfix:- (8428:tqdm_logging.py:145)
+02:57:37.492 [I] Progress on: 4.00kit/200kit rate:1.4it/s remaining:38:49:19 elapsed:54:34 postfix:- (8428:tqdm_logging.py:145)
+Step 4000: grad_norm=0.3452, loss=0.0279, param_norm=1379.4718
+02:57:38.285 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+02:57:38.285 [I] [process=0] Saving checkpoint at step 4000                                       (8428:checkpoint_manager.py:1408)
+02:57:38.286 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000. (8428:async_checkpointer.py:439)
+02:57:38.294 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12 (8428:atomicity.py:144)
+02:57:38.304 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/assets.orbax-checkpoint-tmp-13 (8428:atomicity.py:144)
+02:57:38.304 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/params.orbax-checkpoint-tmp-14 (8428:atomicity.py:144)
+02:57:38.305 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/train_state.orbax-checkpoint-tmp-15 (8428:atomicity.py:144)
+02:57:38.317 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+02:57:40.584 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+02:57:40.588 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:57:40.605 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/params.orbax-checkpoint-tmp-14/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+02:57:48.500 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:57:48.500 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.2 GiB/s (total bytes: 12.1 GiB) (time elapsed: 10 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:57:48.502 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:57:48.505 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+02:57:48.505 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 3.5 GiB/s (total bytes: 36.2 GiB) (time elapsed: 10 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:57:48.524 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+02:57:48.525 [I] Finished blocking save in 10.24 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000. (8428:async_checkpointer.py:548)
+02:57:48.530 [I] Deleting Checkpoint[step=3000 | time=2026-01-05 18:45:48.597723+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+02:57:48.530 [I] [process=0][thread=MainThread][step=4000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+02:57:48.531 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+02:57:48.531 [I] {'step': 4000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767639458.285389, 'wait_for_prev_duration_secs': 0.00016736984252929688, 'checkpointer_blocking_start_time': 1767639458.285856, 'checkpointer_blocking_duration_secs': 10.244519472122192, 'get_old_steps_start_time': 1767639468.530411, 'get_old_steps_duration_secs': 0.0003895759582519531, 'checkpoint_manager_blocking_start_time': 1767639458.2852526, 'checkpoint_manager_blocking_duration_secs': 10.24634838104248} (8428:standard_logger.py:34)
+02:57:48.532 [I] Progress on: 4.00kit/200kit rate:3.8s/it remaining:207:29:38 elapsed:54:45 postfix:- (8428:tqdm_logging.py:145)
+02:57:48.666 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/train_state.orbax-checkpoint-tmp-15/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+02:57:58.855 [I] Progress on: 4.01kit/200kit rate:1.3it/s remaining:42:54:53 elapsed:54:55 postfix:- (8428:tqdm_logging.py:145)
+02:58:09.399 [I] Progress on: 4.03kit/200kit rate:1.4it/s remaining:38:10:52 elapsed:55:06 postfix:- (8428:tqdm_logging.py:145)
+02:58:20.030 [I] Progress on: 4.04kit/200kit rate:1.4it/s remaining:38:37:01 elapsed:55:16 postfix:- (8428:tqdm_logging.py:145)
+02:58:25.735 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 260.3 MiB/s (total bytes: 12.1 GiB) (time elapsed: 47 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:58:30.621 [I] Progress on: 4.06kit/200kit rate:1.4it/s remaining:38:24:14 elapsed:55:27 postfix:- (8428:tqdm_logging.py:145)
+02:58:31.080 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 702.0 MiB/s (total bytes: 36.2 GiB) (time elapsed: 52 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+02:58:31.081 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+02:58:31.082 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/assets.orbax-checkpoint-tmp-13 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/assets (8428:atomicity.py:289)
+02:58:31.088 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+02:58:31.125 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/train_state.orbax-checkpoint-tmp-15 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/train_state (8428:atomicity.py:289)
+02:58:31.132 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+02:58:31.158 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/params.orbax-checkpoint-tmp-14 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12/params (8428:atomicity.py:289)
+02:58:31.161 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000.orbax-checkpoint-tmp-12 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000 (8428:atomicity.py:289)
+02:58:31.167 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000`. (8428:atomicity.py:573)
+02:58:31.167 [I] Finished asynchronous save (blocking + background) in 52.88 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/4000 (8428:async_checkpointer.py:412)
+02:58:31.167 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+02:58:31.167 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+02:58:31.167 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+02:58:34.049 [I] Deleted step 3000.                                                               (8428:deleter.py:114)
+02:58:34.049 [I] [process=0][thread=save_finalize][step=4000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+02:58:34.049 [I] [process=0][thread=save_finalize][step=4000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+02:58:41.230 [I] Progress on: 4.07kit/200kit rate:1.4it/s remaining:38:27:16 elapsed:55:38 postfix:- (8428:tqdm_logging.py:145)
+02:58:51.832 [I] Progress on: 4.09kit/200kit rate:1.4it/s remaining:38:27:20 elapsed:55:48 postfix:- (8428:tqdm_logging.py:145)
+Step 4100: grad_norm=0.3314, loss=0.0276, param_norm=1379.5157
+02:59:02.469 [I] Progress on: 4.10kit/200kit rate:1.4it/s remaining:38:28:34 elapsed:55:59 postfix:- (8428:tqdm_logging.py:145)
+02:59:13.066 [I] Progress on: 4.12kit/200kit rate:1.4it/s remaining:38:22:37 elapsed:56:09 postfix:- (8428:tqdm_logging.py:145)
+02:59:23.680 [I] Progress on: 4.13kit/200kit rate:1.4it/s remaining:38:32:03 elapsed:56:20 postfix:- (8428:tqdm_logging.py:145)
+02:59:34.276 [I] Progress on: 4.15kit/200kit rate:1.4it/s remaining:38:26:50 elapsed:56:31 postfix:- (8428:tqdm_logging.py:145)
+02:59:44.880 [I] Progress on: 4.16kit/200kit rate:1.4it/s remaining:38:31:52 elapsed:56:41 postfix:- (8428:tqdm_logging.py:145)
+02:59:55.477 [I] Progress on: 4.18kit/200kit rate:1.4it/s remaining:38:24:29 elapsed:56:52 postfix:- (8428:tqdm_logging.py:145)
+03:00:05.607 [I] Progress on: 4.19kit/200kit rate:1.4it/s remaining:39:31:05 elapsed:57:02 postfix:- (8428:tqdm_logging.py:145)
+Step 4200: grad_norm=0.3423, loss=0.0288, param_norm=1379.5621
+03:00:16.263 [I] Progress on: 4.21kit/200kit rate:1.4it/s remaining:38:34:18 elapsed:57:13 postfix:- (8428:tqdm_logging.py:145)
+03:00:26.859 [I] Progress on: 4.22kit/200kit rate:1.4it/s remaining:38:28:30 elapsed:57:23 postfix:- (8428:tqdm_logging.py:145)
+03:00:37.467 [I] Progress on: 4.24kit/200kit rate:1.4it/s remaining:38:29:28 elapsed:57:34 postfix:- (8428:tqdm_logging.py:145)
+03:00:48.069 [I] Progress on: 4.25kit/200kit rate:1.4it/s remaining:38:22:50 elapsed:57:44 postfix:- (8428:tqdm_logging.py:145)
+03:00:58.681 [I] Progress on: 4.27kit/200kit rate:1.4it/s remaining:38:30:52 elapsed:57:55 postfix:- (8428:tqdm_logging.py:145)
+03:01:09.277 [I] Progress on: 4.28kit/200kit rate:1.4it/s remaining:38:25:56 elapsed:58:06 postfix:- (8428:tqdm_logging.py:145)
+03:01:19.883 [I] Progress on: 4.30kit/200kit rate:1.4it/s remaining:38:31:11 elapsed:58:16 postfix:- (8428:tqdm_logging.py:145)
+Step 4300: grad_norm=0.3744, loss=0.0276, param_norm=1379.6102
+03:01:30.538 [I] Progress on: 4.31kit/200kit rate:1.4it/s remaining:38:25:16 elapsed:58:27 postfix:- (8428:tqdm_logging.py:145)
+03:01:41.140 [I] Progress on: 4.33kit/200kit rate:1.4it/s remaining:38:28:39 elapsed:58:38 postfix:- (8428:tqdm_logging.py:145)
+03:01:51.741 [I] Progress on: 4.34kit/200kit rate:1.4it/s remaining:38:20:47 elapsed:58:48 postfix:- (8428:tqdm_logging.py:145)
+03:02:02.347 [I] Progress on: 4.36kit/200kit rate:1.4it/s remaining:38:26:32 elapsed:58:59 postfix:- (8428:tqdm_logging.py:145)
+03:02:12.942 [I] Progress on: 4.37kit/200kit rate:1.4it/s remaining:38:21:09 elapsed:59:09 postfix:- (8428:tqdm_logging.py:145)
+03:02:23.546 [I] Progress on: 4.39kit/200kit rate:1.4it/s remaining:38:26:09 elapsed:59:20 postfix:- (8428:tqdm_logging.py:145)
+Step 4400: grad_norm=0.3610, loss=0.0281, param_norm=1379.6559
+03:02:34.185 [I] Progress on: 4.40kit/200kit rate:1.4it/s remaining:38:26:36 elapsed:59:31 postfix:- (8428:tqdm_logging.py:145)
+03:02:44.789 [I] Progress on: 4.42kit/200kit rate:1.4it/s remaining:38:25:06 elapsed:59:41 postfix:- (8428:tqdm_logging.py:145)
+03:02:55.396 [I] Progress on: 4.43kit/200kit rate:1.4it/s remaining:38:25:26 elapsed:59:52 postfix:- (8428:tqdm_logging.py:145)
+03:03:06.001 [I] Progress on: 4.45kit/200kit rate:1.4it/s remaining:38:27:32 elapsed:1:00:02 postfix:- (8428:tqdm_logging.py:145)
+03:03:16.603 [I] Progress on: 4.46kit/200kit rate:1.4it/s remaining:38:20:59 elapsed:1:00:13 postfix:- (8428:tqdm_logging.py:145)
+03:03:27.207 [I] Progress on: 4.48kit/200kit rate:1.4it/s remaining:38:21:24 elapsed:1:00:24 postfix:- (8428:tqdm_logging.py:145)
+03:03:37.363 [I] Progress on: 4.49kit/200kit rate:1.4it/s remaining:38:54:28 elapsed:1:00:34 postfix:- (8428:tqdm_logging.py:145)
+Step 4500: grad_norm=0.3448, loss=0.0258, param_norm=1379.7010
+03:03:47.960 [I] Progress on: 4.51kit/200kit rate:1.4it/s remaining:38:04:12 elapsed:1:00:44 postfix:- (8428:tqdm_logging.py:145)
+03:03:58.595 [I] Progress on: 4.52kit/200kit rate:1.4it/s remaining:38:44:28 elapsed:1:00:55 postfix:- (8428:tqdm_logging.py:145)
+03:04:09.160 [I] Progress on: 4.54kit/200kit rate:1.4it/s remaining:38:02:15 elapsed:1:01:06 postfix:- (8428:tqdm_logging.py:145)
+03:04:19.800 [I] Progress on: 4.55kit/200kit rate:1.4it/s remaining:38:45:51 elapsed:1:01:16 postfix:- (8428:tqdm_logging.py:145)
+03:04:30.359 [I] Progress on: 4.57kit/200kit rate:1.4it/s remaining:38:03:00 elapsed:1:01:27 postfix:- (8428:tqdm_logging.py:145)
+03:04:40.995 [I] Progress on: 4.58kit/200kit rate:1.4it/s remaining:38:43:06 elapsed:1:01:37 postfix:- (8428:tqdm_logging.py:145)
+03:04:51.569 [I] Progress on: 4.60kit/200kit rate:1.4it/s remaining:38:01:33 elapsed:1:01:48 postfix:- (8428:tqdm_logging.py:145)
+Step 4600: grad_norm=0.3307, loss=0.0256, param_norm=1379.7451
+03:05:02.229 [I] Progress on: 4.61kit/200kit rate:1.4it/s remaining:38:42:32 elapsed:1:01:59 postfix:- (8428:tqdm_logging.py:145)
+03:05:12.806 [I] Progress on: 4.63kit/200kit rate:1.4it/s remaining:38:02:40 elapsed:1:02:09 postfix:- (8428:tqdm_logging.py:145)
+03:05:23.440 [I] Progress on: 4.64kit/200kit rate:1.4it/s remaining:38:40:01 elapsed:1:02:20 postfix:- (8428:tqdm_logging.py:145)
+03:05:34.011 [I] Progress on: 4.66kit/200kit rate:1.4it/s remaining:37:59:05 elapsed:1:02:30 postfix:- (8428:tqdm_logging.py:145)
+03:05:44.660 [I] Progress on: 4.67kit/200kit rate:1.4it/s remaining:38:47:03 elapsed:1:02:41 postfix:- (8428:tqdm_logging.py:145)
+03:05:55.220 [I] Progress on: 4.69kit/200kit rate:1.4it/s remaining:37:59:18 elapsed:1:02:52 postfix:- (8428:tqdm_logging.py:145)
+Step 4700: grad_norm=0.3188, loss=0.0249, param_norm=1379.7913
+03:06:05.223 [I] Progress on: 4.70kit/200kit rate:1.4it/s remaining:38:42:52 elapsed:1:03:02 postfix:- (8428:tqdm_logging.py:145)
+03:06:15.779 [I] Progress on: 4.72kit/200kit rate:1.4it/s remaining:38:44:27 elapsed:1:03:12 postfix:- (8428:tqdm_logging.py:145)
+03:06:26.347 [I] Progress on: 4.73kit/200kit rate:1.4it/s remaining:37:59:34 elapsed:1:03:23 postfix:- (8428:tqdm_logging.py:145)
+03:06:36.989 [I] Progress on: 4.75kit/200kit rate:1.4it/s remaining:38:39:54 elapsed:1:03:33 postfix:- (8428:tqdm_logging.py:145)
+03:06:47.561 [I] Progress on: 4.76kit/200kit rate:1.4it/s remaining:38:00:36 elapsed:1:03:44 postfix:- (8428:tqdm_logging.py:145)
+03:06:58.201 [I] Progress on: 4.78kit/200kit rate:1.4it/s remaining:38:44:04 elapsed:1:03:55 postfix:- (8428:tqdm_logging.py:145)
+03:07:08.224 [I] Progress on: 4.79kit/200kit rate:1.4it/s remaining:38:40:58 elapsed:1:04:05 postfix:- (8428:tqdm_logging.py:145)
+Step 4800: grad_norm=0.3246, loss=0.0251, param_norm=1379.8364
+03:07:18.832 [I] Progress on: 4.80kit/200kit rate:1.4it/s remaining:37:56:23 elapsed:1:04:15 postfix:- (8428:tqdm_logging.py:145)
+03:07:29.470 [I] Progress on: 4.82kit/200kit rate:1.4it/s remaining:38:41:23 elapsed:1:04:26 postfix:- (8428:tqdm_logging.py:145)
+03:07:40.047 [I] Progress on: 4.83kit/200kit rate:1.4it/s remaining:38:02:30 elapsed:1:04:36 postfix:- (8428:tqdm_logging.py:145)
+03:07:50.695 [I] Progress on: 4.85kit/200kit rate:1.4it/s remaining:38:40:27 elapsed:1:04:47 postfix:- (8428:tqdm_logging.py:145)
+03:08:01.267 [I] Progress on: 4.87kit/200kit rate:1.4it/s remaining:38:01:22 elapsed:1:04:58 postfix:- (8428:tqdm_logging.py:145)
+03:08:11.906 [I] Progress on: 4.88kit/200kit rate:1.4it/s remaining:38:35:43 elapsed:1:05:08 postfix:- (8428:tqdm_logging.py:145)
+03:08:22.472 [I] Progress on: 4.89kit/200kit rate:1.4it/s remaining:37:56:51 elapsed:1:05:19 postfix:- (8428:tqdm_logging.py:145)
+Step 4900: grad_norm=0.3216, loss=0.0252, param_norm=1379.8813
+03:08:33.139 [I] Progress on: 4.91kit/200kit rate:1.4it/s remaining:38:34:55 elapsed:1:05:30 postfix:- (8428:tqdm_logging.py:145)
+03:08:43.721 [I] Progress on: 4.92kit/200kit rate:1.4it/s remaining:37:58:56 elapsed:1:05:40 postfix:- (8428:tqdm_logging.py:145)
+03:08:54.359 [I] Progress on: 4.94kit/200kit rate:1.4it/s remaining:38:40:11 elapsed:1:05:51 postfix:- (8428:tqdm_logging.py:145)
+03:09:04.926 [I] Progress on: 4.96kit/200kit rate:1.4it/s remaining:38:02:57 elapsed:1:06:01 postfix:- (8428:tqdm_logging.py:145)
+03:09:15.581 [I] Progress on: 4.97kit/200kit rate:1.4it/s remaining:38:44:37 elapsed:1:06:12 postfix:- (8428:tqdm_logging.py:145)
+03:09:26.162 [I] Progress on: 4.99kit/200kit rate:1.4it/s remaining:38:02:11 elapsed:1:06:23 postfix:- (8428:tqdm_logging.py:145)
+03:09:36.803 [I] Progress on: 5.00kit/200kit rate:1.4it/s remaining:38:38:53 elapsed:1:06:33 postfix:- (8428:tqdm_logging.py:145)
+Step 5000: grad_norm=0.3297, loss=0.0242, param_norm=1379.9249
+03:09:37.602 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+03:09:37.603 [I] [process=0] Saving checkpoint at step 5000                                       (8428:checkpoint_manager.py:1408)
+03:09:37.603 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000. (8428:async_checkpointer.py:439)
+03:09:37.614 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16 (8428:atomicity.py:144)
+03:09:37.621 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/assets.orbax-checkpoint-tmp-17 (8428:atomicity.py:144)
+03:09:37.622 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/params.orbax-checkpoint-tmp-18 (8428:atomicity.py:144)
+03:09:37.623 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/train_state.orbax-checkpoint-tmp-19 (8428:atomicity.py:144)
+03:09:37.636 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:09:39.775 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:09:39.778 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:09:39.820 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/params.orbax-checkpoint-tmp-18/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:09:47.694 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:09:47.694 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.2 GiB/s (total bytes: 12.1 GiB) (time elapsed: 10 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:09:47.696 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:09:47.697 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 3.6 GiB/s (total bytes: 36.2 GiB) (time elapsed: 10 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:09:47.698 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:09:47.714 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+03:09:47.714 [I] Finished blocking save in 10.11 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000. (8428:async_checkpointer.py:548)
+03:09:47.715 [I] Deleting Checkpoint[step=4000 | time=2026-01-05 18:57:48.530387+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+03:09:47.716 [I] [process=0][thread=MainThread][step=5000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+03:09:47.717 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+03:09:47.721 [I] {'step': 5000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767640177.602836, 'wait_for_prev_duration_secs': 0.00015544891357421875, 'checkpointer_blocking_start_time': 1767640177.6032858, 'checkpointer_blocking_duration_secs': 10.112555027008057, 'get_old_steps_start_time': 1767640187.7158651, 'get_old_steps_duration_secs': 0.00033020973205566406, 'checkpoint_manager_blocking_start_time': 1767640177.6027136, 'checkpoint_manager_blocking_duration_secs': 10.118483066558838} (8428:standard_logger.py:34)
+03:09:47.722 [I] Progress on: 5.00kit/200kit rate:3.8s/it remaining:204:28:59 elapsed:1:06:44 postfix:- (8428:tqdm_logging.py:145)
+03:09:47.760 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/train_state.orbax-checkpoint-tmp-19/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:09:58.997 [I] Progress on: 5.01kit/200kit rate:2.5s/it remaining:137:04:10 elapsed:1:06:55 postfix:- (8428:tqdm_logging.py:145)
+03:10:09.523 [I] Progress on: 5.02kit/200kit rate:1.4it/s remaining:38:19:49 elapsed:1:07:06 postfix:- (8428:tqdm_logging.py:145)
+03:10:20.174 [I] Progress on: 5.04kit/200kit rate:1.4it/s remaining:38:52:02 elapsed:1:07:17 postfix:- (8428:tqdm_logging.py:145)
+03:10:28.073 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 244.8 MiB/s (total bytes: 12.1 GiB) (time elapsed: 50 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:10:30.721 [I] Progress on: 5.05kit/200kit rate:1.4it/s remaining:37:54:59 elapsed:1:07:27 postfix:- (8428:tqdm_logging.py:145)
+03:10:38.083 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 612.8 MiB/s (total bytes: 36.2 GiB) (time elapsed: a minute) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:10:38.083 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+03:10:38.085 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/assets.orbax-checkpoint-tmp-17 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/assets (8428:atomicity.py:289)
+03:10:38.091 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:10:38.175 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/train_state.orbax-checkpoint-tmp-19 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/train_state (8428:atomicity.py:289)
+03:10:38.180 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:10:38.258 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/params.orbax-checkpoint-tmp-18 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16/params (8428:atomicity.py:289)
+03:10:38.260 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000.orbax-checkpoint-tmp-16 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000 (8428:atomicity.py:289)
+03:10:38.266 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000`. (8428:atomicity.py:573)
+03:10:38.266 [I] Finished asynchronous save (blocking + background) in 60.66 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/5000 (8428:async_checkpointer.py:412)
+03:10:38.266 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+03:10:38.266 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+03:10:38.267 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+03:10:40.844 [I] Deleted step 4000.                                                               (8428:deleter.py:114)
+03:10:40.845 [I] [process=0][thread=save_finalize][step=5000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+03:10:40.845 [I] [process=0][thread=save_finalize][step=5000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+03:10:41.358 [I] Progress on: 5.07kit/200kit rate:1.4it/s remaining:38:36:59 elapsed:1:07:38 postfix:- (8428:tqdm_logging.py:145)
+03:10:51.923 [I] Progress on: 5.08kit/200kit rate:1.4it/s remaining:37:58:58 elapsed:1:07:48 postfix:- (8428:tqdm_logging.py:145)
+03:11:02.555 [I] Progress on: 5.10kit/200kit rate:1.4it/s remaining:38:34:59 elapsed:1:07:59 postfix:- (8428:tqdm_logging.py:145)
+Step 5100: grad_norm=0.3081, loss=0.0238, param_norm=1379.9698
+03:11:13.147 [I] Progress on: 5.11kit/200kit rate:1.4it/s remaining:37:56:15 elapsed:1:08:10 postfix:- (8428:tqdm_logging.py:145)
+03:11:23.783 [I] Progress on: 5.13kit/200kit rate:1.4it/s remaining:38:35:26 elapsed:1:08:20 postfix:- (8428:tqdm_logging.py:145)
+03:11:34.347 [I] Progress on: 5.14kit/200kit rate:1.4it/s remaining:37:53:26 elapsed:1:08:31 postfix:- (8428:tqdm_logging.py:145)
+03:11:44.982 [I] Progress on: 5.16kit/200kit rate:1.4it/s remaining:38:34:38 elapsed:1:08:41 postfix:- (8428:tqdm_logging.py:145)
+03:11:55.548 [I] Progress on: 5.17kit/200kit rate:1.4it/s remaining:37:54:27 elapsed:1:08:52 postfix:- (8428:tqdm_logging.py:145)
+03:12:06.183 [I] Progress on: 5.19kit/200kit rate:1.4it/s remaining:38:34:05 elapsed:1:09:03 postfix:- (8428:tqdm_logging.py:145)
+Step 5200: grad_norm=0.3185, loss=0.0240, param_norm=1380.0144
+03:12:16.814 [I] Progress on: 5.20kit/200kit rate:1.4it/s remaining:38:18:18 elapsed:1:09:13 postfix:- (8428:tqdm_logging.py:145)
+03:12:27.420 [I] Progress on: 5.22kit/200kit rate:1.4it/s remaining:38:16:59 elapsed:1:09:24 postfix:- (8428:tqdm_logging.py:145)
+03:12:38.020 [I] Progress on: 5.23kit/200kit rate:1.4it/s remaining:38:15:23 elapsed:1:09:34 postfix:- (8428:tqdm_logging.py:145)
+03:12:48.621 [I] Progress on: 5.25kit/200kit rate:1.4it/s remaining:38:16:39 elapsed:1:09:45 postfix:- (8428:tqdm_logging.py:145)
+03:12:59.226 [I] Progress on: 5.26kit/200kit rate:1.4it/s remaining:38:20:37 elapsed:1:09:56 postfix:- (8428:tqdm_logging.py:145)
+03:13:09.826 [I] Progress on: 5.28kit/200kit rate:1.4it/s remaining:38:13:42 elapsed:1:10:06 postfix:- (8428:tqdm_logging.py:145)
+03:13:20.429 [I] Progress on: 5.29kit/200kit rate:1.4it/s remaining:38:10:19 elapsed:1:10:17 postfix:- (8428:tqdm_logging.py:145)
+Step 5300: grad_norm=0.3235, loss=0.0237, param_norm=1380.0581
+03:13:31.070 [I] Progress on: 5.31kit/200kit rate:1.4it/s remaining:38:09:58 elapsed:1:10:27 postfix:- (8428:tqdm_logging.py:145)
+03:13:41.672 [I] Progress on: 5.32kit/200kit rate:1.4it/s remaining:38:12:00 elapsed:1:10:38 postfix:- (8428:tqdm_logging.py:145)
+03:13:52.281 [I] Progress on: 5.34kit/200kit rate:1.4it/s remaining:38:15:44 elapsed:1:10:49 postfix:- (8428:tqdm_logging.py:145)
+03:14:02.887 [I] Progress on: 5.35kit/200kit rate:1.4it/s remaining:38:11:59 elapsed:1:10:59 postfix:- (8428:tqdm_logging.py:145)
+03:14:13.486 [I] Progress on: 5.37kit/200kit rate:1.4it/s remaining:38:11:48 elapsed:1:11:10 postfix:- (8428:tqdm_logging.py:145)
+03:14:23.850 [I] Progress on: 5.38kit/200kit rate:1.4it/s remaining:38:57:03 elapsed:1:11:20 postfix:- (8428:tqdm_logging.py:145)
+03:14:34.426 [I] Progress on: 5.40kit/200kit rate:1.4it/s remaining:37:55:37 elapsed:1:11:31 postfix:- (8428:tqdm_logging.py:145)
+Step 5400: grad_norm=0.3031, loss=0.0231, param_norm=1380.1016
+03:14:45.087 [I] Progress on: 5.41kit/200kit rate:1.4it/s remaining:38:28:51 elapsed:1:11:41 postfix:- (8428:tqdm_logging.py:145)
+03:14:55.663 [I] Progress on: 5.43kit/200kit rate:1.4it/s remaining:37:53:49 elapsed:1:11:52 postfix:- (8428:tqdm_logging.py:145)
+03:15:06.302 [I] Progress on: 5.44kit/200kit rate:1.4it/s remaining:38:35:42 elapsed:1:12:03 postfix:- (8428:tqdm_logging.py:145)
+03:15:16.869 [I] Progress on: 5.46kit/200kit rate:1.4it/s remaining:37:52:17 elapsed:1:12:13 postfix:- (8428:tqdm_logging.py:145)
+03:15:27.503 [I] Progress on: 5.47kit/200kit rate:1.4it/s remaining:38:30:26 elapsed:1:12:24 postfix:- (8428:tqdm_logging.py:145)
+03:15:38.070 [I] Progress on: 5.49kit/200kit rate:1.4it/s remaining:37:52:22 elapsed:1:12:34 postfix:- (8428:tqdm_logging.py:145)
+Step 5500: grad_norm=0.3220, loss=0.0232, param_norm=1380.1434
+03:15:48.075 [I] Progress on: 5.50kit/200kit rate:1.4it/s remaining:38:29:03 elapsed:1:12:44 postfix:- (8428:tqdm_logging.py:145)
+03:15:58.618 [I] Progress on: 5.52kit/200kit rate:1.4it/s remaining:38:31:52 elapsed:1:12:55 postfix:- (8428:tqdm_logging.py:145)
+03:16:09.183 [I] Progress on: 5.53kit/200kit rate:1.4it/s remaining:37:51:53 elapsed:1:13:06 postfix:- (8428:tqdm_logging.py:145)
+03:16:19.819 [I] Progress on: 5.55kit/200kit rate:1.4it/s remaining:38:32:06 elapsed:1:13:16 postfix:- (8428:tqdm_logging.py:145)
+03:16:30.388 [I] Progress on: 5.56kit/200kit rate:1.4it/s remaining:37:54:05 elapsed:1:13:27 postfix:- (8428:tqdm_logging.py:145)
+03:16:41.028 [I] Progress on: 5.58kit/200kit rate:1.4it/s remaining:38:28:22 elapsed:1:13:37 postfix:- (8428:tqdm_logging.py:145)
+03:16:51.609 [I] Progress on: 5.59kit/200kit rate:1.4it/s remaining:37:52:26 elapsed:1:13:48 postfix:- (8428:tqdm_logging.py:145)
+Step 5600: grad_norm=0.3134, loss=0.0243, param_norm=1380.1860
+03:17:02.268 [I] Progress on: 5.61kit/200kit rate:1.4it/s remaining:38:28:27 elapsed:1:13:59 postfix:- (8428:tqdm_logging.py:145)
+03:17:12.830 [I] Progress on: 5.62kit/200kit rate:1.4it/s remaining:37:49:58 elapsed:1:14:09 postfix:- (8428:tqdm_logging.py:145)
+03:17:23.464 [I] Progress on: 5.64kit/200kit rate:1.4it/s remaining:38:28:27 elapsed:1:14:20 postfix:- (8428:tqdm_logging.py:145)
+03:17:34.030 [I] Progress on: 5.65kit/200kit rate:1.4it/s remaining:37:49:22 elapsed:1:14:30 postfix:- (8428:tqdm_logging.py:145)
+03:17:44.663 [I] Progress on: 5.67kit/200kit rate:1.4it/s remaining:38:27:58 elapsed:1:14:41 postfix:- (8428:tqdm_logging.py:145)
+03:17:55.235 [I] Progress on: 5.68kit/200kit rate:1.4it/s remaining:37:50:40 elapsed:1:14:52 postfix:- (8428:tqdm_logging.py:145)
+03:18:05.869 [I] Progress on: 5.70kit/200kit rate:1.4it/s remaining:38:25:36 elapsed:1:15:02 postfix:- (8428:tqdm_logging.py:145)
+Step 5700: grad_norm=0.3119, loss=0.0216, param_norm=1380.2281
+03:18:16.464 [I] Progress on: 5.71kit/200kit rate:1.4it/s remaining:37:50:05 elapsed:1:15:13 postfix:- (8428:tqdm_logging.py:145)
+03:18:27.100 [I] Progress on: 5.73kit/200kit rate:1.4it/s remaining:38:29:09 elapsed:1:15:23 postfix:- (8428:tqdm_logging.py:145)
+03:18:37.664 [I] Progress on: 5.74kit/200kit rate:1.4it/s remaining:37:49:14 elapsed:1:15:34 postfix:- (8428:tqdm_logging.py:145)
+03:18:48.299 [I] Progress on: 5.76kit/200kit rate:1.4it/s remaining:38:29:01 elapsed:1:15:45 postfix:- (8428:tqdm_logging.py:145)
+03:18:58.866 [I] Progress on: 5.77kit/200kit rate:1.4it/s remaining:37:50:18 elapsed:1:15:55 postfix:- (8428:tqdm_logging.py:145)
+03:19:09.498 [I] Progress on: 5.79kit/200kit rate:1.4it/s remaining:38:28:10 elapsed:1:16:06 postfix:- (8428:tqdm_logging.py:145)
+Step 5800: grad_norm=0.3267, loss=0.0235, param_norm=1380.2712
+03:19:20.177 [I] Progress on: 5.80kit/200kit rate:1.4it/s remaining:38:26:43 elapsed:1:16:17 postfix:- (8428:tqdm_logging.py:145)
+03:19:30.724 [I] Progress on: 5.82kit/200kit rate:1.4it/s remaining:38:30:01 elapsed:1:16:27 postfix:- (8428:tqdm_logging.py:145)
+03:19:41.291 [I] Progress on: 5.83kit/200kit rate:1.4it/s remaining:37:46:45 elapsed:1:16:38 postfix:- (8428:tqdm_logging.py:145)
+03:19:51.932 [I] Progress on: 5.85kit/200kit rate:1.4it/s remaining:38:26:50 elapsed:1:16:48 postfix:- (8428:tqdm_logging.py:145)
+03:20:02.499 [I] Progress on: 5.86kit/200kit rate:1.4it/s remaining:37:47:58 elapsed:1:16:59 postfix:- (8428:tqdm_logging.py:145)
+03:20:13.137 [I] Progress on: 5.88kit/200kit rate:1.4it/s remaining:38:25:39 elapsed:1:17:09 postfix:- (8428:tqdm_logging.py:145)
+03:20:23.705 [I] Progress on: 5.89kit/200kit rate:1.4it/s remaining:37:47:59 elapsed:1:17:20 postfix:- (8428:tqdm_logging.py:145)
+Step 5900: grad_norm=0.3004, loss=0.0218, param_norm=1380.3130
+03:20:34.371 [I] Progress on: 5.91kit/200kit rate:1.4it/s remaining:38:25:44 elapsed:1:17:31 postfix:- (8428:tqdm_logging.py:145)
+03:20:44.936 [I] Progress on: 5.92kit/200kit rate:1.4it/s remaining:37:44:38 elapsed:1:17:41 postfix:- (8428:tqdm_logging.py:145)
+03:20:55.571 [I] Progress on: 5.94kit/200kit rate:1.4it/s remaining:38:22:21 elapsed:1:17:52 postfix:- (8428:tqdm_logging.py:145)
+03:21:06.136 [I] Progress on: 5.95kit/200kit rate:1.4it/s remaining:37:43:12 elapsed:1:18:02 postfix:- (8428:tqdm_logging.py:145)
+03:21:16.771 [I] Progress on: 5.97kit/200kit rate:1.4it/s remaining:38:23:23 elapsed:1:18:13 postfix:- (8428:tqdm_logging.py:145)
+03:21:27.342 [I] Progress on: 5.98kit/200kit rate:1.4it/s remaining:37:49:27 elapsed:1:18:24 postfix:- (8428:tqdm_logging.py:145)
+03:21:37.983 [I] Progress on: 6.00kit/200kit rate:1.4it/s remaining:38:28:04 elapsed:1:18:34 postfix:- (8428:tqdm_logging.py:145)
+Step 6000: grad_norm=0.2995, loss=0.0211, param_norm=1380.3545
+03:21:41.617 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+03:21:41.617 [I] [process=0] Saving checkpoint at step 6000                                       (8428:checkpoint_manager.py:1408)
+03:21:41.618 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000. (8428:async_checkpointer.py:439)
+03:21:41.626 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20 (8428:atomicity.py:144)
+03:21:41.632 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/train_state.orbax-checkpoint-tmp-23 (8428:atomicity.py:144)
+03:21:41.633 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/params.orbax-checkpoint-tmp-22 (8428:atomicity.py:144)
+03:21:41.633 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/assets.orbax-checkpoint-tmp-21 (8428:atomicity.py:144)
+03:21:41.653 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:21:43.770 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:21:43.772 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:21:43.808 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/params.orbax-checkpoint-tmp-22/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:22:19.418 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:22:19.419 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 326.8 MiB/s (total bytes: 12.1 GiB) (time elapsed: 37 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:22:19.421 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:22:19.424 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:22:19.424 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 980.4 MiB/s (total bytes: 36.2 GiB) (time elapsed: 37 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:22:19.449 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+03:22:19.450 [I] Finished blocking save in 37.83 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000. (8428:async_checkpointer.py:548)
+03:22:19.482 [I] Preserving Checkpoint[step=5000 | time=2026-01-05 19:09:47.715849+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+03:22:19.484 [I] [process=0][thread=MainThread][step=6000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+03:22:19.487 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+03:22:19.488 [I] {'step': 6000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767640901.6175785, 'wait_for_prev_duration_secs': 0.00015974044799804688, 'checkpointer_blocking_start_time': 1767640901.6179893, 'checkpointer_blocking_duration_secs': 37.8646502494812, 'get_old_steps_start_time': 1767640939.4826853, 'get_old_steps_duration_secs': 0.0017626285552978516, 'checkpoint_manager_blocking_start_time': 1767640901.6174526, 'checkpoint_manager_blocking_duration_secs': 37.871042251586914} (8428:standard_logger.py:34)
+03:22:19.578 [I] Progress on: 6.00kit/200kit rate:12.1s/it remaining:653:35:49 elapsed:1:19:16 postfix:- (8428:tqdm_logging.py:145)
+03:22:19.601 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/train_state.orbax-checkpoint-tmp-23/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:22:30.018 [I] Progress on: 6.01kit/200kit rate:1.1it/s remaining:47:42:23 elapsed:1:19:26 postfix:- (8428:tqdm_logging.py:145)
+03:22:40.534 [I] Progress on: 6.03kit/200kit rate:1.4it/s remaining:37:49:03 elapsed:1:19:37 postfix:- (8428:tqdm_logging.py:145)
+03:22:51.171 [I] Progress on: 6.04kit/200kit rate:1.4it/s remaining:38:25:21 elapsed:1:19:48 postfix:- (8428:tqdm_logging.py:145)
+03:22:53.598 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 171.6 MiB/s (total bytes: 12.1 GiB) (time elapsed: a minute) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:22:56.819 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 492.8 MiB/s (total bytes: 36.2 GiB) (time elapsed: a minute) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:22:56.820 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+03:22:56.821 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/assets.orbax-checkpoint-tmp-21 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/assets (8428:atomicity.py:289)
+03:22:56.829 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:22:56.867 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/train_state.orbax-checkpoint-tmp-23 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/train_state (8428:atomicity.py:289)
+03:22:56.876 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:22:56.907 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/params.orbax-checkpoint-tmp-22 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20/params (8428:atomicity.py:289)
+03:22:56.910 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000.orbax-checkpoint-tmp-20 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000 (8428:atomicity.py:289)
+03:22:56.917 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000`. (8428:atomicity.py:573)
+03:22:56.918 [I] Finished asynchronous save (blocking + background) in 75.30 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/6000 (8428:async_checkpointer.py:412)
+03:22:56.918 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+03:22:56.918 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+03:22:56.918 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+03:22:56.918 [I] [process=0][thread=save_finalize][step=6000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+03:22:56.918 [I] [process=0][thread=save_finalize][step=6000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+03:23:01.733 [I] Progress on: 6.06kit/200kit rate:1.4it/s remaining:37:37:32 elapsed:1:19:58 postfix:- (8428:tqdm_logging.py:145)
+03:23:12.374 [I] Progress on: 6.07kit/200kit rate:1.4it/s remaining:38:26:55 elapsed:1:20:09 postfix:- (8428:tqdm_logging.py:145)
+03:23:22.941 [I] Progress on: 6.09kit/200kit rate:1.4it/s remaining:37:39:34 elapsed:1:20:19 postfix:- (8428:tqdm_logging.py:145)
+Step 6100: grad_norm=0.3001, loss=0.0219, param_norm=1380.3961
+03:23:33.617 [I] Progress on: 6.10kit/200kit rate:1.4it/s remaining:38:20:54 elapsed:1:20:30 postfix:- (8428:tqdm_logging.py:145)
+03:23:44.176 [I] Progress on: 6.12kit/200kit rate:1.4it/s remaining:37:41:22 elapsed:1:20:41 postfix:- (8428:tqdm_logging.py:145)
+03:23:54.818 [I] Progress on: 6.13kit/200kit rate:1.4it/s remaining:38:22:45 elapsed:1:20:51 postfix:- (8428:tqdm_logging.py:145)
+03:24:05.384 [I] Progress on: 6.15kit/200kit rate:1.4it/s remaining:37:39:04 elapsed:1:21:02 postfix:- (8428:tqdm_logging.py:145)
+03:24:16.037 [I] Progress on: 6.16kit/200kit rate:1.4it/s remaining:38:29:33 elapsed:1:21:12 postfix:- (8428:tqdm_logging.py:145)
+03:24:26.608 [I] Progress on: 6.18kit/200kit rate:1.4it/s remaining:37:42:51 elapsed:1:21:23 postfix:- (8428:tqdm_logging.py:145)
+03:24:37.259 [I] Progress on: 6.19kit/200kit rate:1.4it/s remaining:38:30:28 elapsed:1:21:34 postfix:- (8428:tqdm_logging.py:145)
+Step 6200: grad_norm=0.3066, loss=0.0217, param_norm=1380.4387
+03:24:47.854 [I] Progress on: 6.21kit/200kit rate:1.4it/s remaining:37:42:16 elapsed:1:21:44 postfix:- (8428:tqdm_logging.py:145)
+03:24:58.493 [I] Progress on: 6.22kit/200kit rate:1.4it/s remaining:38:20:56 elapsed:1:21:55 postfix:- (8428:tqdm_logging.py:145)
+03:25:09.060 [I] Progress on: 6.24kit/200kit rate:1.4it/s remaining:37:39:15 elapsed:1:22:05 postfix:- (8428:tqdm_logging.py:145)
+03:25:19.705 [I] Progress on: 6.25kit/200kit rate:1.4it/s remaining:38:25:19 elapsed:1:22:16 postfix:- (8428:tqdm_logging.py:145)
+03:25:30.273 [I] Progress on: 6.27kit/200kit rate:1.4it/s remaining:37:39:42 elapsed:1:22:27 postfix:- (8428:tqdm_logging.py:145)
+03:25:40.410 [I] Progress on: 6.28kit/200kit rate:1.4it/s remaining:38:10:27 elapsed:1:22:37 postfix:- (8428:tqdm_logging.py:145)
+03:25:51.015 [I] Progress on: 6.30kit/200kit rate:1.4it/s remaining:38:02:01 elapsed:1:22:47 postfix:- (8428:tqdm_logging.py:145)
+Step 6300: grad_norm=0.3032, loss=0.0209, param_norm=1380.4806
+03:26:01.659 [I] Progress on: 6.31kit/200kit rate:1.4it/s remaining:37:57:24 elapsed:1:22:58 postfix:- (8428:tqdm_logging.py:145)
+03:26:12.273 [I] Progress on: 6.33kit/200kit rate:1.4it/s remaining:38:07:12 elapsed:1:23:09 postfix:- (8428:tqdm_logging.py:145)
+03:26:22.873 [I] Progress on: 6.34kit/200kit rate:1.4it/s remaining:37:59:06 elapsed:1:23:19 postfix:- (8428:tqdm_logging.py:145)
+03:26:33.475 [I] Progress on: 6.36kit/200kit rate:1.4it/s remaining:38:01:16 elapsed:1:23:30 postfix:- (8428:tqdm_logging.py:145)
+03:26:44.074 [I] Progress on: 6.37kit/200kit rate:1.4it/s remaining:37:59:11 elapsed:1:23:40 postfix:- (8428:tqdm_logging.py:145)
+03:26:54.681 [I] Progress on: 6.39kit/200kit rate:1.4it/s remaining:38:00:43 elapsed:1:23:51 postfix:- (8428:tqdm_logging.py:145)
+Step 6400: grad_norm=0.2957, loss=0.0207, param_norm=1380.5203
+03:27:05.336 [I] Progress on: 6.40kit/200kit rate:1.4it/s remaining:38:07:15 elapsed:1:24:02 postfix:- (8428:tqdm_logging.py:145)
+03:27:15.948 [I] Progress on: 6.42kit/200kit rate:1.4it/s remaining:38:02:20 elapsed:1:24:12 postfix:- (8428:tqdm_logging.py:145)
+03:27:26.553 [I] Progress on: 6.43kit/200kit rate:1.4it/s remaining:37:58:57 elapsed:1:24:23 postfix:- (8428:tqdm_logging.py:145)
+03:27:37.155 [I] Progress on: 6.45kit/200kit rate:1.4it/s remaining:38:01:14 elapsed:1:24:34 postfix:- (8428:tqdm_logging.py:145)
+03:27:47.753 [I] Progress on: 6.46kit/200kit rate:1.4it/s remaining:37:58:54 elapsed:1:24:44 postfix:- (8428:tqdm_logging.py:145)
+03:27:58.363 [I] Progress on: 6.48kit/200kit rate:1.4it/s remaining:38:00:13 elapsed:1:24:55 postfix:- (8428:tqdm_logging.py:145)
+03:28:08.972 [I] Progress on: 6.49kit/200kit rate:1.4it/s remaining:38:04:52 elapsed:1:25:05 postfix:- (8428:tqdm_logging.py:145)
+Step 6500: grad_norm=0.2812, loss=0.0201, param_norm=1380.5603
+03:28:19.615 [I] Progress on: 6.51kit/200kit rate:1.4it/s remaining:37:59:14 elapsed:1:25:16 postfix:- (8428:tqdm_logging.py:145)
+03:28:30.218 [I] Progress on: 6.52kit/200kit rate:1.4it/s remaining:37:56:32 elapsed:1:25:27 postfix:- (8428:tqdm_logging.py:145)
+03:28:40.400 [I] Progress on: 6.54kit/200kit rate:1.3it/s remaining:40:47:29 elapsed:1:25:37 postfix:- (8428:tqdm_logging.py:145)
+03:28:51.000 [I] Progress on: 6.55kit/200kit rate:1.4it/s remaining:37:58:17 elapsed:1:25:47 postfix:- (8428:tqdm_logging.py:145)
+03:29:01.599 [I] Progress on: 6.57kit/200kit rate:1.4it/s remaining:37:55:37 elapsed:1:25:58 postfix:- (8428:tqdm_logging.py:145)
+03:29:12.211 [I] Progress on: 6.58kit/200kit rate:1.4it/s remaining:37:59:54 elapsed:1:26:09 postfix:- (8428:tqdm_logging.py:145)
+03:29:22.819 [I] Progress on: 6.60kit/200kit rate:1.4it/s remaining:38:01:22 elapsed:1:26:19 postfix:- (8428:tqdm_logging.py:145)
+Step 6600: grad_norm=0.2895, loss=0.0196, param_norm=1380.6006
+03:29:33.455 [I] Progress on: 6.61kit/200kit rate:1.4it/s remaining:37:57:33 elapsed:1:26:30 postfix:- (8428:tqdm_logging.py:145)
+03:29:44.059 [I] Progress on: 6.63kit/200kit rate:1.4it/s remaining:37:54:25 elapsed:1:26:40 postfix:- (8428:tqdm_logging.py:145)
+03:29:54.663 [I] Progress on: 6.64kit/200kit rate:1.4it/s remaining:37:58:54 elapsed:1:26:51 postfix:- (8428:tqdm_logging.py:145)
+03:30:05.274 [I] Progress on: 6.66kit/200kit rate:1.4it/s remaining:38:02:29 elapsed:1:27:02 postfix:- (8428:tqdm_logging.py:145)
+03:30:15.882 [I] Progress on: 6.67kit/200kit rate:1.4it/s remaining:37:57:27 elapsed:1:27:12 postfix:- (8428:tqdm_logging.py:145)
+03:30:26.496 [I] Progress on: 6.69kit/200kit rate:1.4it/s remaining:37:59:02 elapsed:1:27:23 postfix:- (8428:tqdm_logging.py:145)
+Step 6700: grad_norm=0.2877, loss=0.0194, param_norm=1380.6420
+03:30:36.517 [I] Progress on: 6.70kit/200kit rate:1.3it/s remaining:39:50:27 elapsed:1:27:33 postfix:- (8428:tqdm_logging.py:145)
+03:30:47.052 [I] Progress on: 6.72kit/200kit rate:1.4it/s remaining:37:59:21 elapsed:1:27:43 postfix:- (8428:tqdm_logging.py:145)
+03:30:57.658 [I] Progress on: 6.73kit/200kit rate:1.4it/s remaining:37:58:03 elapsed:1:27:54 postfix:- (8428:tqdm_logging.py:145)
+03:31:08.256 [I] Progress on: 6.75kit/200kit rate:1.4it/s remaining:37:55:54 elapsed:1:28:05 postfix:- (8428:tqdm_logging.py:145)
+03:31:18.861 [I] Progress on: 6.76kit/200kit rate:1.4it/s remaining:37:55:21 elapsed:1:28:15 postfix:- (8428:tqdm_logging.py:145)
+03:31:29.472 [I] Progress on: 6.78kit/200kit rate:1.4it/s remaining:37:59:35 elapsed:1:28:26 postfix:- (8428:tqdm_logging.py:145)
+03:31:40.077 [I] Progress on: 6.79kit/200kit rate:1.4it/s remaining:37:55:23 elapsed:1:28:36 postfix:- (8428:tqdm_logging.py:145)
+Step 6800: grad_norm=0.3063, loss=0.0202, param_norm=1380.6819
+03:31:50.717 [I] Progress on: 6.81kit/200kit rate:1.4it/s remaining:37:56:50 elapsed:1:28:47 postfix:- (8428:tqdm_logging.py:145)
+03:32:01.326 [I] Progress on: 6.82kit/200kit rate:1.4it/s remaining:37:56:21 elapsed:1:28:58 postfix:- (8428:tqdm_logging.py:145)
+03:32:11.934 [I] Progress on: 6.84kit/200kit rate:1.4it/s remaining:37:59:09 elapsed:1:29:08 postfix:- (8428:tqdm_logging.py:145)
+03:32:22.540 [I] Progress on: 6.85kit/200kit rate:1.4it/s remaining:38:00:36 elapsed:1:29:19 postfix:- (8428:tqdm_logging.py:145)
+03:32:33.139 [I] Progress on: 6.87kit/200kit rate:1.4it/s remaining:37:58:26 elapsed:1:29:30 postfix:- (8428:tqdm_logging.py:145)
+03:32:43.747 [I] Progress on: 6.88kit/200kit rate:1.4it/s remaining:37:56:18 elapsed:1:29:40 postfix:- (8428:tqdm_logging.py:145)
+03:32:54.362 [I] Progress on: 6.90kit/200kit rate:1.4it/s remaining:37:56:25 elapsed:1:29:51 postfix:- (8428:tqdm_logging.py:145)
+Step 6900: grad_norm=0.2810, loss=0.0189, param_norm=1380.7222
+03:33:05.006 [I] Progress on: 6.91kit/200kit rate:1.4it/s remaining:37:53:04 elapsed:1:30:01 postfix:- (8428:tqdm_logging.py:145)
+03:33:15.616 [I] Progress on: 6.93kit/200kit rate:1.4it/s remaining:37:55:47 elapsed:1:30:12 postfix:- (8428:tqdm_logging.py:145)
+03:33:26.225 [I] Progress on: 6.94kit/200kit rate:1.4it/s remaining:37:51:12 elapsed:1:30:23 postfix:- (8428:tqdm_logging.py:145)
+03:33:36.830 [I] Progress on: 6.96kit/200kit rate:1.4it/s remaining:37:55:21 elapsed:1:30:33 postfix:- (8428:tqdm_logging.py:145)
+03:33:47.435 [I] Progress on: 6.97kit/200kit rate:1.4it/s remaining:37:53:58 elapsed:1:30:44 postfix:- (8428:tqdm_logging.py:145)
+03:33:58.044 [I] Progress on: 6.99kit/200kit rate:1.4it/s remaining:37:57:51 elapsed:1:30:54 postfix:- (8428:tqdm_logging.py:145)
+Step 7000: grad_norm=0.2994, loss=0.0199, param_norm=1380.7625
+03:34:08.735 [I] Progress on: 7.00kit/200kit rate:1.4it/s remaining:37:56:49 elapsed:1:31:05 postfix:- (8428:tqdm_logging.py:145)
+03:34:08.773 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+03:34:08.774 [I] [process=0] Saving checkpoint at step 7000                                       (8428:checkpoint_manager.py:1408)
+03:34:08.774 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000. (8428:async_checkpointer.py:439)
+03:34:08.783 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24 (8428:atomicity.py:144)
+03:34:08.791 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/train_state.orbax-checkpoint-tmp-27 (8428:atomicity.py:144)
+03:34:08.791 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/assets.orbax-checkpoint-tmp-25 (8428:atomicity.py:144)
+03:34:08.791 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/params.orbax-checkpoint-tmp-26 (8428:atomicity.py:144)
+03:34:08.810 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:34:11.033 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:34:11.034 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:34:11.081 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/params.orbax-checkpoint-tmp-26/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:34:18.906 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:34:18.906 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.2 GiB/s (total bytes: 12.1 GiB) (time elapsed: 10 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:34:18.908 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:34:18.911 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:34:18.913 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 3.6 GiB/s (total bytes: 36.2 GiB) (time elapsed: 10 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:34:18.929 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+03:34:18.929 [I] Finished blocking save in 10.16 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000. (8428:async_checkpointer.py:548)
+03:34:18.931 [I] Preserving Checkpoint[step=5000 | time=2026-01-05 19:09:47.715849+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+03:34:18.931 [I] Deleting Checkpoint[step=6000 | time=2026-01-05 19:22:19.482657+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+03:34:18.931 [I] [process=0][thread=MainThread][step=7000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+03:34:18.932 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+03:34:18.933 [I] {'step': 7000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767641648.7738233, 'wait_for_prev_duration_secs': 0.00025153160095214844, 'checkpointer_blocking_start_time': 1767641648.7743769, 'checkpointer_blocking_duration_secs': 10.156614065170288, 'get_old_steps_start_time': 1767641658.9310179, 'get_old_steps_duration_secs': 0.0008502006530761719, 'checkpoint_manager_blocking_start_time': 1767641648.773688, 'checkpoint_manager_blocking_duration_secs': 10.159334182739258} (8428:standard_logger.py:34)
+03:34:18.934 [I] Progress on: 7.00kit/200kit rate:3.8s/it remaining:203:19:50 elapsed:1:31:15 postfix:- (8428:tqdm_logging.py:145)
+03:34:19.066 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/train_state.orbax-checkpoint-tmp-27/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:34:29.555 [I] Progress on: 7.01kit/200kit rate:1.1s/it remaining:57:51:32 elapsed:1:31:26 postfix:- (8428:tqdm_logging.py:145)
+03:34:40.146 [I] Progress on: 7.03kit/200kit rate:1.4it/s remaining:37:57:24 elapsed:1:31:37 postfix:- (8428:tqdm_logging.py:145)
+03:34:50.751 [I] Progress on: 7.04kit/200kit rate:1.4it/s remaining:37:50:11 elapsed:1:31:47 postfix:- (8428:tqdm_logging.py:145)
+03:34:53.474 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 276.4 MiB/s (total bytes: 12.1 GiB) (time elapsed: 44 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:35:00.897 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 711.0 MiB/s (total bytes: 36.2 GiB) (time elapsed: 52 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:35:00.897 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+03:35:00.899 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/assets.orbax-checkpoint-tmp-25 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/assets (8428:atomicity.py:289)
+03:35:00.906 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:35:00.999 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/train_state.orbax-checkpoint-tmp-27 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/train_state (8428:atomicity.py:289)
+03:35:01.005 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:35:01.125 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/params.orbax-checkpoint-tmp-26 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24/params (8428:atomicity.py:289)
+03:35:01.127 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000.orbax-checkpoint-tmp-24 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000 (8428:atomicity.py:289)
+03:35:01.134 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000`. (8428:atomicity.py:573)
+03:35:01.134 [I] Finished asynchronous save (blocking + background) in 52.36 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/7000 (8428:async_checkpointer.py:412)
+03:35:01.134 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+03:35:01.134 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+03:35:01.135 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+03:35:01.364 [I] Progress on: 7.05kit/200kit rate:1.4it/s remaining:37:54:30 elapsed:1:31:58 postfix:- (8428:tqdm_logging.py:145)
+03:35:03.973 [I] Deleted step 6000.                                                               (8428:deleter.py:114)
+03:35:03.973 [I] [process=0][thread=save_finalize][step=7000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+03:35:03.973 [I] [process=0][thread=save_finalize][step=7000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+03:35:11.977 [I] Progress on: 7.07kit/200kit rate:1.4it/s remaining:37:51:43 elapsed:1:32:08 postfix:- (8428:tqdm_logging.py:145)
+03:35:22.577 [I] Progress on: 7.08kit/200kit rate:1.4it/s remaining:37:59:27 elapsed:1:32:19 postfix:- (8428:tqdm_logging.py:145)
+03:35:33.174 [I] Progress on: 7.10kit/200kit rate:1.4it/s remaining:37:51:48 elapsed:1:32:30 postfix:- (8428:tqdm_logging.py:145)
+Step 7100: grad_norm=0.2872, loss=0.0188, param_norm=1380.8025
+03:35:43.837 [I] Progress on: 7.12kit/200kit rate:1.4it/s remaining:37:58:22 elapsed:1:32:40 postfix:- (8428:tqdm_logging.py:145)
+03:35:54.445 [I] Progress on: 7.13kit/200kit rate:1.4it/s remaining:37:50:28 elapsed:1:32:51 postfix:- (8428:tqdm_logging.py:145)
+03:36:05.057 [I] Progress on: 7.14kit/200kit rate:1.4it/s remaining:37:54:20 elapsed:1:33:01 postfix:- (8428:tqdm_logging.py:145)
+03:36:15.655 [I] Progress on: 7.16kit/200kit rate:1.4it/s remaining:37:51:42 elapsed:1:33:12 postfix:- (8428:tqdm_logging.py:145)
+03:36:25.824 [I] Progress on: 7.17kit/200kit rate:1.4it/s remaining:38:44:26 elapsed:1:33:22 postfix:- (8428:tqdm_logging.py:145)
+03:36:36.383 [I] Progress on: 7.19kit/200kit rate:1.4it/s remaining:37:30:16 elapsed:1:33:33 postfix:- (8428:tqdm_logging.py:145)
+Step 7200: grad_norm=0.2897, loss=0.0188, param_norm=1380.8403
+03:36:47.049 [I] Progress on: 7.20kit/200kit rate:1.4it/s remaining:38:04:13 elapsed:1:33:43 postfix:- (8428:tqdm_logging.py:145)
+03:36:57.624 [I] Progress on: 7.22kit/200kit rate:1.4it/s remaining:37:29:27 elapsed:1:33:54 postfix:- (8428:tqdm_logging.py:145)
+03:37:08.265 [I] Progress on: 7.23kit/200kit rate:1.4it/s remaining:38:14:21 elapsed:1:34:05 postfix:- (8428:tqdm_logging.py:145)
+03:37:18.834 [I] Progress on: 7.25kit/200kit rate:1.4it/s remaining:37:30:18 elapsed:1:34:15 postfix:- (8428:tqdm_logging.py:145)
+03:37:29.475 [I] Progress on: 7.26kit/200kit rate:1.4it/s remaining:38:11:54 elapsed:1:34:26 postfix:- (8428:tqdm_logging.py:145)
+03:37:40.053 [I] Progress on: 7.28kit/200kit rate:1.4it/s remaining:37:31:16 elapsed:1:34:36 postfix:- (8428:tqdm_logging.py:145)
+03:37:50.692 [I] Progress on: 7.29kit/200kit rate:1.4it/s remaining:38:13:13 elapsed:1:34:47 postfix:- (8428:tqdm_logging.py:145)
+Step 7300: grad_norm=0.2838, loss=0.0182, param_norm=1380.8784
+03:38:01.279 [I] Progress on: 7.31kit/200kit rate:1.4it/s remaining:37:27:26 elapsed:1:34:58 postfix:- (8428:tqdm_logging.py:145)
+03:38:11.928 [I] Progress on: 7.32kit/200kit rate:1.4it/s remaining:38:14:09 elapsed:1:35:08 postfix:- (8428:tqdm_logging.py:145)
+03:38:22.499 [I] Progress on: 7.34kit/200kit rate:1.4it/s remaining:37:31:07 elapsed:1:35:19 postfix:- (8428:tqdm_logging.py:145)
+03:38:33.140 [I] Progress on: 7.35kit/200kit rate:1.4it/s remaining:38:10:53 elapsed:1:35:30 postfix:- (8428:tqdm_logging.py:145)
+03:38:43.714 [I] Progress on: 7.37kit/200kit rate:1.4it/s remaining:37:30:50 elapsed:1:35:40 postfix:- (8428:tqdm_logging.py:145)
+03:38:54.362 [I] Progress on: 7.38kit/200kit rate:1.4it/s remaining:38:09:40 elapsed:1:35:51 postfix:- (8428:tqdm_logging.py:145)
+03:39:04.939 [I] Progress on: 7.40kit/200kit rate:1.4it/s remaining:37:31:02 elapsed:1:36:01 postfix:- (8428:tqdm_logging.py:145)
+Step 7400: grad_norm=0.3007, loss=0.0190, param_norm=1380.9163
+03:39:15.476 [I] Progress on: 7.41kit/200kit rate:1.4it/s remaining:37:39:32 elapsed:1:36:12 postfix:- (8428:tqdm_logging.py:145)
+03:39:26.118 [I] Progress on: 7.43kit/200kit rate:1.4it/s remaining:38:04:38 elapsed:1:36:22 postfix:- (8428:tqdm_logging.py:145)
+03:39:36.694 [I] Progress on: 7.44kit/200kit rate:1.4it/s remaining:37:30:26 elapsed:1:36:33 postfix:- (8428:tqdm_logging.py:145)
+03:39:47.330 [I] Progress on: 7.46kit/200kit rate:1.4it/s remaining:38:10:16 elapsed:1:36:44 postfix:- (8428:tqdm_logging.py:145)
+03:39:57.895 [I] Progress on: 7.47kit/200kit rate:1.4it/s remaining:37:30:09 elapsed:1:36:54 postfix:- (8428:tqdm_logging.py:145)
+03:40:08.545 [I] Progress on: 7.49kit/200kit rate:1.4it/s remaining:38:09:57 elapsed:1:37:05 postfix:- (8428:tqdm_logging.py:145)
+Step 7500: grad_norm=0.2896, loss=0.0193, param_norm=1380.9543
+03:40:19.141 [I] Progress on: 7.50kit/200kit rate:1.4it/s remaining:37:15:48 elapsed:1:37:16 postfix:- (8428:tqdm_logging.py:145)
+03:40:29.791 [I] Progress on: 7.52kit/200kit rate:1.4it/s remaining:38:09:06 elapsed:1:37:26 postfix:- (8428:tqdm_logging.py:145)
+03:40:40.362 [I] Progress on: 7.53kit/200kit rate:1.4it/s remaining:37:29:00 elapsed:1:37:37 postfix:- (8428:tqdm_logging.py:145)
+03:40:51.000 [I] Progress on: 7.55kit/200kit rate:1.4it/s remaining:38:04:42 elapsed:1:37:47 postfix:- (8428:tqdm_logging.py:145)
+03:41:01.566 [I] Progress on: 7.56kit/200kit rate:1.4it/s remaining:37:23:24 elapsed:1:37:58 postfix:- (8428:tqdm_logging.py:145)
+03:41:12.216 [I] Progress on: 7.58kit/200kit rate:1.4it/s remaining:38:08:53 elapsed:1:38:09 postfix:- (8428:tqdm_logging.py:145)
+03:41:22.786 [I] Progress on: 7.59kit/200kit rate:1.4it/s remaining:37:26:12 elapsed:1:38:19 postfix:- (8428:tqdm_logging.py:145)
+Step 7600: grad_norm=0.2757, loss=0.0182, param_norm=1380.9924
+03:41:33.450 [I] Progress on: 7.61kit/200kit rate:1.4it/s remaining:38:04:12 elapsed:1:38:30 postfix:- (8428:tqdm_logging.py:145)
+03:41:44.016 [I] Progress on: 7.62kit/200kit rate:1.4it/s remaining:37:27:49 elapsed:1:38:40 postfix:- (8428:tqdm_logging.py:145)
+03:41:54.657 [I] Progress on: 7.64kit/200kit rate:1.4it/s remaining:38:06:25 elapsed:1:38:51 postfix:- (8428:tqdm_logging.py:145)
+03:42:05.236 [I] Progress on: 7.65kit/200kit rate:1.4it/s remaining:37:33:12 elapsed:1:39:02 postfix:- (8428:tqdm_logging.py:145)
+03:42:15.875 [I] Progress on: 7.67kit/200kit rate:1.4it/s remaining:38:04:12 elapsed:1:39:12 postfix:- (8428:tqdm_logging.py:145)
+03:42:26.444 [I] Progress on: 7.68kit/200kit rate:1.4it/s remaining:37:24:51 elapsed:1:39:23 postfix:- (8428:tqdm_logging.py:145)
+03:42:37.095 [I] Progress on: 7.70kit/200kit rate:1.4it/s remaining:38:10:17 elapsed:1:39:33 postfix:- (8428:tqdm_logging.py:145)
+Step 7700: grad_norm=0.2741, loss=0.0185, param_norm=1381.0312
+03:42:47.294 [I] Progress on: 7.71kit/200kit rate:1.4it/s remaining:38:17:58 elapsed:1:39:44 postfix:- (8428:tqdm_logging.py:145)
+03:42:57.869 [I] Progress on: 7.73kit/200kit rate:1.4it/s remaining:37:25:48 elapsed:1:39:54 postfix:- (8428:tqdm_logging.py:145)
+03:43:08.517 [I] Progress on: 7.74kit/200kit rate:1.4it/s remaining:38:07:12 elapsed:1:40:05 postfix:- (8428:tqdm_logging.py:145)
+03:43:19.091 [I] Progress on: 7.76kit/200kit rate:1.4it/s remaining:37:27:10 elapsed:1:40:15 postfix:- (8428:tqdm_logging.py:145)
+03:43:29.736 [I] Progress on: 7.77kit/200kit rate:1.4it/s remaining:38:03:41 elapsed:1:40:26 postfix:- (8428:tqdm_logging.py:145)
+03:43:40.306 [I] Progress on: 7.79kit/200kit rate:1.4it/s remaining:37:21:18 elapsed:1:40:37 postfix:- (8428:tqdm_logging.py:145)
+Step 7800: grad_norm=0.2844, loss=0.0179, param_norm=1381.0677
+03:43:50.319 [I] Progress on: 7.80kit/200kit rate:1.4it/s remaining:38:06:38 elapsed:1:40:47 postfix:- (8428:tqdm_logging.py:145)
+03:44:00.886 [I] Progress on: 7.82kit/200kit rate:1.4it/s remaining:38:05:48 elapsed:1:40:57 postfix:- (8428:tqdm_logging.py:145)
+03:44:11.459 [I] Progress on: 7.83kit/200kit rate:1.4it/s remaining:37:25:51 elapsed:1:41:08 postfix:- (8428:tqdm_logging.py:145)
+03:44:22.108 [I] Progress on: 7.85kit/200kit rate:1.4it/s remaining:38:03:00 elapsed:1:41:18 postfix:- (8428:tqdm_logging.py:145)
+03:44:32.679 [I] Progress on: 7.86kit/200kit rate:1.4it/s remaining:37:26:41 elapsed:1:41:29 postfix:- (8428:tqdm_logging.py:145)
+03:44:43.323 [I] Progress on: 7.88kit/200kit rate:1.4it/s remaining:38:03:50 elapsed:1:41:40 postfix:- (8428:tqdm_logging.py:145)
+03:44:53.885 [I] Progress on: 7.89kit/200kit rate:1.4it/s remaining:37:21:31 elapsed:1:41:50 postfix:- (8428:tqdm_logging.py:145)
+Step 7900: grad_norm=0.2765, loss=0.0171, param_norm=1381.1044
+03:45:04.564 [I] Progress on: 7.91kit/200kit rate:1.4it/s remaining:38:04:27 elapsed:1:42:01 postfix:- (8428:tqdm_logging.py:145)
+03:45:15.130 [I] Progress on: 7.92kit/200kit rate:1.4it/s remaining:37:19:07 elapsed:1:42:11 postfix:- (8428:tqdm_logging.py:145)
+03:45:25.764 [I] Progress on: 7.94kit/200kit rate:1.4it/s remaining:37:56:36 elapsed:1:42:22 postfix:- (8428:tqdm_logging.py:145)
+03:45:36.330 [I] Progress on: 7.95kit/200kit rate:1.4it/s remaining:37:18:15 elapsed:1:42:33 postfix:- (8428:tqdm_logging.py:145)
+03:45:46.989 [I] Progress on: 7.97kit/200kit rate:1.4it/s remaining:38:03:59 elapsed:1:42:43 postfix:- (8428:tqdm_logging.py:145)
+03:45:57.559 [I] Progress on: 7.98kit/200kit rate:1.4it/s remaining:37:22:02 elapsed:1:42:54 postfix:- (8428:tqdm_logging.py:145)
+03:46:08.204 [I] Progress on: 8.00kit/200kit rate:1.4it/s remaining:38:02:35 elapsed:1:43:05 postfix:- (8428:tqdm_logging.py:145)
+Step 8000: grad_norm=0.2790, loss=0.0174, param_norm=1381.1417
+03:46:11.830 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+03:46:11.831 [I] [process=0] Saving checkpoint at step 8000                                       (8428:checkpoint_manager.py:1408)
+03:46:11.831 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000. (8428:async_checkpointer.py:439)
+03:46:11.840 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28 (8428:atomicity.py:144)
+03:46:11.847 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/assets.orbax-checkpoint-tmp-29 (8428:atomicity.py:144)
+03:46:11.849 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/params.orbax-checkpoint-tmp-30 (8428:atomicity.py:144)
+03:46:11.849 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/train_state.orbax-checkpoint-tmp-31 (8428:atomicity.py:144)
+03:46:11.860 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:46:13.906 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+03:46:13.907 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:46:13.949 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/params.orbax-checkpoint-tmp-30/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:48:28.973 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:48:28.974 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 90.1 MiB/s (total bytes: 12.1 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:48:28.975 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:48:28.977 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+03:48:28.978 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 270.2 MiB/s (total bytes: 36.2 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:48:28.993 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+03:48:28.994 [I] Finished blocking save in 137.16 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000. (8428:async_checkpointer.py:548)
+03:48:28.995 [I] Preserving Checkpoint[step=5000 | time=2026-01-05 19:09:47.715849+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+03:48:28.996 [I] Deleting Checkpoint[step=7000 | time=2026-01-05 19:34:18.931000+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+03:48:28.996 [I] [process=0][thread=MainThread][step=8000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+03:48:28.999 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+03:48:29.001 [I] {'step': 8000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767642371.8309445, 'wait_for_prev_duration_secs': 0.00015807151794433594, 'checkpointer_blocking_start_time': 1767642371.8313813, 'checkpointer_blocking_duration_secs': 137.1639063358307, 'get_old_steps_start_time': 1767642508.995309, 'get_old_steps_duration_secs': 0.0013751983642578125, 'checkpoint_manager_blocking_start_time': 1767642371.830818, 'checkpoint_manager_blocking_duration_secs': 137.17089653015137} (8428:standard_logger.py:34)
+03:48:29.003 [I] Progress on: 8.00kit/200kit rate:41.9s/it remaining:2234:05:59 elapsed:1:45:25 postfix:- (8428:tqdm_logging.py:145)
+03:48:29.016 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/train_state.orbax-checkpoint-tmp-31/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+03:48:39.426 [I] Progress on: 8.01kit/200kit rate:1.2s/it remaining:61:35:06 elapsed:1:45:36 postfix:- (8428:tqdm_logging.py:145)
+03:48:59.525 [I] Progress on: 8.03kit/200kit rate:4.4s/it remaining:236:27:40 elapsed:1:45:56 postfix:- (8428:tqdm_logging.py:145)
+03:49:03.259 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 72.1 MiB/s (total bytes: 12.1 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:49:10.056 [I] Progress on: 8.04kit/200kit rate:1.4it/s remaining:38:55:04 elapsed:1:46:06 postfix:- (8428:tqdm_logging.py:145)
+03:49:12.869 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 204.7 MiB/s (total bytes: 36.2 GiB) (time elapsed: 3 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+03:49:12.869 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+03:49:12.871 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/assets.orbax-checkpoint-tmp-29 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/assets (8428:atomicity.py:289)
+03:49:12.879 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:49:13.032 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/train_state.orbax-checkpoint-tmp-31 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/train_state (8428:atomicity.py:289)
+03:49:13.037 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+03:49:13.074 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/params.orbax-checkpoint-tmp-30 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28/params (8428:atomicity.py:289)
+03:49:13.076 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000.orbax-checkpoint-tmp-28 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000 (8428:atomicity.py:289)
+03:49:13.083 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000`. (8428:atomicity.py:573)
+03:49:13.083 [I] Finished asynchronous save (blocking + background) in 181.25 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/8000 (8428:async_checkpointer.py:412)
+03:49:13.083 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+03:49:13.083 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+03:49:13.084 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+03:49:15.190 [I] Deleted step 7000.                                                               (8428:deleter.py:114)
+03:49:15.190 [I] [process=0][thread=save_finalize][step=8000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+03:49:15.190 [I] [process=0][thread=save_finalize][step=8000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+03:49:20.622 [I] Progress on: 8.05kit/200kit rate:1.4it/s remaining:37:21:44 elapsed:1:46:17 postfix:- (8428:tqdm_logging.py:145)
+03:49:30.763 [I] Progress on: 8.07kit/200kit rate:1.4it/s remaining:38:06:48 elapsed:1:46:27 postfix:- (8428:tqdm_logging.py:145)
+03:49:41.361 [I] Progress on: 8.08kit/200kit rate:1.4it/s remaining:37:42:18 elapsed:1:46:38 postfix:- (8428:tqdm_logging.py:145)
+03:49:51.960 [I] Progress on: 8.10kit/200kit rate:1.4it/s remaining:37:40:38 elapsed:1:46:48 postfix:- (8428:tqdm_logging.py:145)
+Step 8100: grad_norm=0.2822, loss=0.0175, param_norm=1381.1788
+03:50:02.600 [I] Progress on: 8.11kit/200kit rate:1.4it/s remaining:37:41:45 elapsed:1:46:59 postfix:- (8428:tqdm_logging.py:145)
+03:50:13.205 [I] Progress on: 8.13kit/200kit rate:1.4it/s remaining:37:42:20 elapsed:1:47:10 postfix:- (8428:tqdm_logging.py:145)
+03:50:23.814 [I] Progress on: 8.14kit/200kit rate:1.4it/s remaining:37:41:48 elapsed:1:47:20 postfix:- (8428:tqdm_logging.py:145)
+03:50:34.431 [I] Progress on: 8.16kit/200kit rate:1.4it/s remaining:37:45:45 elapsed:1:47:31 postfix:- (8428:tqdm_logging.py:145)
+03:50:45.041 [I] Progress on: 8.17kit/200kit rate:1.4it/s remaining:37:40:41 elapsed:1:47:41 postfix:- (8428:tqdm_logging.py:145)
+03:50:55.645 [I] Progress on: 8.19kit/200kit rate:1.4it/s remaining:37:39:04 elapsed:1:47:52 postfix:- (8428:tqdm_logging.py:145)
+Step 8200: grad_norm=0.2698, loss=0.0161, param_norm=1381.2146
+03:51:06.288 [I] Progress on: 8.20kit/200kit rate:1.4it/s remaining:37:41:35 elapsed:1:48:03 postfix:- (8428:tqdm_logging.py:145)
+03:51:16.899 [I] Progress on: 8.22kit/200kit rate:1.4it/s remaining:37:45:06 elapsed:1:48:13 postfix:- (8428:tqdm_logging.py:145)
+03:51:27.507 [I] Progress on: 8.23kit/200kit rate:1.4it/s remaining:37:41:13 elapsed:1:48:24 postfix:- (8428:tqdm_logging.py:145)
+03:51:38.118 [I] Progress on: 8.25kit/200kit rate:1.4it/s remaining:37:43:38 elapsed:1:48:34 postfix:- (8428:tqdm_logging.py:145)
+03:51:48.721 [I] Progress on: 8.26kit/200kit rate:1.4it/s remaining:37:39:30 elapsed:1:48:45 postfix:- (8428:tqdm_logging.py:145)
+03:51:59.325 [I] Progress on: 8.28kit/200kit rate:1.4it/s remaining:37:40:04 elapsed:1:48:56 postfix:- (8428:tqdm_logging.py:145)
+03:52:09.935 [I] Progress on: 8.29kit/200kit rate:1.4it/s remaining:37:39:49 elapsed:1:49:06 postfix:- (8428:tqdm_logging.py:145)
+Step 8300: grad_norm=0.2552, loss=0.0162, param_norm=1381.2502
+03:52:20.585 [I] Progress on: 8.31kit/200kit rate:1.4it/s remaining:37:36:24 elapsed:1:49:17 postfix:- (8428:tqdm_logging.py:145)
+03:52:31.197 [I] Progress on: 8.32kit/200kit rate:1.4it/s remaining:37:39:08 elapsed:1:49:28 postfix:- (8428:tqdm_logging.py:145)
+03:52:41.796 [I] Progress on: 8.34kit/200kit rate:1.4it/s remaining:37:38:17 elapsed:1:49:38 postfix:- (8428:tqdm_logging.py:145)
+03:52:52.401 [I] Progress on: 8.35kit/200kit rate:1.4it/s remaining:37:37:02 elapsed:1:49:49 postfix:- (8428:tqdm_logging.py:145)
+03:53:03.008 [I] Progress on: 8.37kit/200kit rate:1.4it/s remaining:37:39:43 elapsed:1:49:59 postfix:- (8428:tqdm_logging.py:145)
+03:53:13.621 [I] Progress on: 8.38kit/200kit rate:1.4it/s remaining:37:39:53 elapsed:1:50:10 postfix:- (8428:tqdm_logging.py:145)
+03:53:24.235 [I] Progress on: 8.40kit/200kit rate:1.4it/s remaining:37:39:18 elapsed:1:50:21 postfix:- (8428:tqdm_logging.py:145)
+Step 8400: grad_norm=0.2669, loss=0.0166, param_norm=1381.2847
+03:53:34.886 [I] Progress on: 8.41kit/200kit rate:1.4it/s remaining:37:37:50 elapsed:1:50:31 postfix:- (8428:tqdm_logging.py:145)
+03:53:45.486 [I] Progress on: 8.43kit/200kit rate:1.4it/s remaining:37:34:55 elapsed:1:50:42 postfix:- (8428:tqdm_logging.py:145)
+03:53:56.095 [I] Progress on: 8.44kit/200kit rate:1.4it/s remaining:37:37:37 elapsed:1:50:52 postfix:- (8428:tqdm_logging.py:145)
+03:54:06.704 [I] Progress on: 8.46kit/200kit rate:1.4it/s remaining:37:36:14 elapsed:1:51:03 postfix:- (8428:tqdm_logging.py:145)
+03:54:17.315 [I] Progress on: 8.47kit/200kit rate:1.4it/s remaining:37:37:07 elapsed:1:51:14 postfix:- (8428:tqdm_logging.py:145)
+03:54:27.920 [I] Progress on: 8.49kit/200kit rate:1.4it/s remaining:37:35:27 elapsed:1:51:24 postfix:- (8428:tqdm_logging.py:145)
+Step 8500: grad_norm=0.2728, loss=0.0174, param_norm=1381.3206
+03:54:38.581 [I] Progress on: 8.50kit/200kit rate:1.4it/s remaining:37:43:17 elapsed:1:51:35 postfix:- (8428:tqdm_logging.py:145)
+03:54:49.186 [I] Progress on: 8.52kit/200kit rate:1.4it/s remaining:37:34:34 elapsed:1:51:46 postfix:- (8428:tqdm_logging.py:145)
+03:54:59.796 [I] Progress on: 8.53kit/200kit rate:1.4it/s remaining:37:36:57 elapsed:1:51:56 postfix:- (8428:tqdm_logging.py:145)
+03:55:10.415 [I] Progress on: 8.55kit/200kit rate:1.4it/s remaining:37:43:17 elapsed:1:52:07 postfix:- (8428:tqdm_logging.py:145)
+03:55:21.026 [I] Progress on: 8.56kit/200kit rate:1.4it/s remaining:37:34:27 elapsed:1:52:17 postfix:- (8428:tqdm_logging.py:145)
+03:55:31.651 [I] Progress on: 8.58kit/200kit rate:1.4it/s remaining:37:37:12 elapsed:1:52:28 postfix:- (8428:tqdm_logging.py:145)
+03:55:42.259 [I] Progress on: 8.59kit/200kit rate:1.4it/s remaining:37:35:32 elapsed:1:52:39 postfix:- (8428:tqdm_logging.py:145)
+Step 8600: grad_norm=0.2582, loss=0.0166, param_norm=1381.3549
+03:55:52.912 [I] Progress on: 8.61kit/200kit rate:1.4it/s remaining:37:35:30 elapsed:1:52:49 postfix:- (8428:tqdm_logging.py:145)
+03:56:03.524 [I] Progress on: 8.62kit/200kit rate:1.4it/s remaining:37:36:37 elapsed:1:53:00 postfix:- (8428:tqdm_logging.py:145)
+03:56:14.139 [I] Progress on: 8.64kit/200kit rate:1.4it/s remaining:37:37:46 elapsed:1:53:11 postfix:- (8428:tqdm_logging.py:145)
+03:56:24.746 [I] Progress on: 8.65kit/200kit rate:1.4it/s remaining:37:36:42 elapsed:1:53:21 postfix:- (8428:tqdm_logging.py:145)
+03:56:35.359 [I] Progress on: 8.67kit/200kit rate:1.4it/s remaining:37:36:21 elapsed:1:53:32 postfix:- (8428:tqdm_logging.py:145)
+03:56:45.976 [I] Progress on: 8.68kit/200kit rate:1.4it/s remaining:37:39:36 elapsed:1:53:42 postfix:- (8428:tqdm_logging.py:145)
+03:56:56.590 [I] Progress on: 8.70kit/200kit rate:1.4it/s remaining:37:34:32 elapsed:1:53:53 postfix:- (8428:tqdm_logging.py:145)
+Step 8700: grad_norm=0.2931, loss=0.0171, param_norm=1381.3894
+03:57:07.246 [I] Progress on: 8.71kit/200kit rate:1.4it/s remaining:37:37:33 elapsed:1:54:04 postfix:- (8428:tqdm_logging.py:145)
+03:57:17.864 [I] Progress on: 8.73kit/200kit rate:1.4it/s remaining:37:39:27 elapsed:1:54:14 postfix:- (8428:tqdm_logging.py:145)
+03:57:28.486 [I] Progress on: 8.74kit/200kit rate:1.4it/s remaining:37:38:10 elapsed:1:54:25 postfix:- (8428:tqdm_logging.py:145)
+03:57:39.098 [I] Progress on: 8.76kit/200kit rate:1.4it/s remaining:37:33:29 elapsed:1:54:35 postfix:- (8428:tqdm_logging.py:145)
+03:57:49.706 [I] Progress on: 8.77kit/200kit rate:1.4it/s remaining:37:32:24 elapsed:1:54:46 postfix:- (8428:tqdm_logging.py:145)
+03:58:00.322 [I] Progress on: 8.79kit/200kit rate:1.4it/s remaining:37:35:23 elapsed:1:54:57 postfix:- (8428:tqdm_logging.py:145)
+Step 8800: grad_norm=0.2756, loss=0.0160, param_norm=1381.4243
+03:58:10.979 [I] Progress on: 8.80kit/200kit rate:1.4it/s remaining:37:39:22 elapsed:1:55:07 postfix:- (8428:tqdm_logging.py:145)
+03:58:21.585 [I] Progress on: 8.82kit/200kit rate:1.4it/s remaining:37:33:27 elapsed:1:55:18 postfix:- (8428:tqdm_logging.py:145)
+03:58:32.202 [I] Progress on: 8.83kit/200kit rate:1.4it/s remaining:37:39:30 elapsed:1:55:29 postfix:- (8428:tqdm_logging.py:145)
+03:58:42.819 [I] Progress on: 8.85kit/200kit rate:1.4it/s remaining:37:36:11 elapsed:1:55:39 postfix:- (8428:tqdm_logging.py:145)
+03:58:53.109 [I] Progress on: 8.86kit/200kit rate:1.3it/s remaining:40:18:13 elapsed:1:55:49 postfix:- (8428:tqdm_logging.py:145)
+03:59:03.726 [I] Progress on: 8.88kit/200kit rate:1.4it/s remaining:37:34:28 elapsed:1:56:00 postfix:- (8428:tqdm_logging.py:145)
+03:59:14.337 [I] Progress on: 8.89kit/200kit rate:1.4it/s remaining:37:33:41 elapsed:1:56:11 postfix:- (8428:tqdm_logging.py:145)
+Step 8900: grad_norm=0.2553, loss=0.0163, param_norm=1381.4584
+03:59:24.994 [I] Progress on: 8.91kit/200kit rate:1.4it/s remaining:37:37:15 elapsed:1:56:21 postfix:- (8428:tqdm_logging.py:145)
+03:59:35.606 [I] Progress on: 8.92kit/200kit rate:1.4it/s remaining:37:33:22 elapsed:1:56:32 postfix:- (8428:tqdm_logging.py:145)
+03:59:46.223 [I] Progress on: 8.94kit/200kit rate:1.4it/s remaining:37:32:57 elapsed:1:56:43 postfix:- (8428:tqdm_logging.py:145)
+03:59:56.830 [I] Progress on: 8.95kit/200kit rate:1.4it/s remaining:37:32:02 elapsed:1:56:53 postfix:- (8428:tqdm_logging.py:145)
+04:00:06.944 [I] Progress on: 8.97kit/200kit rate:1.4it/s remaining:37:27:36 elapsed:1:57:03 postfix:- (8428:tqdm_logging.py:145)
+04:00:17.598 [I] Progress on: 8.98kit/200kit rate:1.4it/s remaining:37:53:11 elapsed:1:57:14 postfix:- (8428:tqdm_logging.py:145)
+04:00:28.190 [I] Progress on: 9.00kit/200kit rate:1.4it/s remaining:37:13:49 elapsed:1:57:25 postfix:- (8428:tqdm_logging.py:145)
+Step 9000: grad_norm=0.2583, loss=0.0168, param_norm=1381.4922
+04:00:31.151 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+04:00:31.152 [I] [process=0] Saving checkpoint at step 9000                                       (8428:checkpoint_manager.py:1408)
+04:00:31.152 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000. (8428:async_checkpointer.py:439)
+04:00:31.161 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32 (8428:atomicity.py:144)
+04:00:31.168 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/assets.orbax-checkpoint-tmp-33 (8428:atomicity.py:144)
+04:00:31.168 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/train_state.orbax-checkpoint-tmp-35 (8428:atomicity.py:144)
+04:00:31.168 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/params.orbax-checkpoint-tmp-34 (8428:atomicity.py:144)
+04:00:31.191 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:00:33.296 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:00:33.297 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:00:33.315 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/params.orbax-checkpoint-tmp-34/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:02:34.913 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:02:34.914 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 99.8 MiB/s (total bytes: 12.1 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:02:34.915 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:02:34.917 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:02:34.917 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 299.4 MiB/s (total bytes: 36.2 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:02:34.931 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+04:02:34.932 [I] Finished blocking save in 123.78 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000. (8428:async_checkpointer.py:548)
+04:02:34.933 [I] Preserving Checkpoint[step=5000 | time=2026-01-05 19:09:47.715849+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+04:02:34.934 [I] Deleting Checkpoint[step=8000 | time=2026-01-05 19:48:28.995295+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+04:02:34.935 [I] [process=0][thread=MainThread][step=9000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+04:02:34.935 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+04:02:34.936 [I] {'step': 9000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767643231.1517, 'wait_for_prev_duration_secs': 0.00017309188842773438, 'checkpointer_blocking_start_time': 1767643231.1521714, 'checkpointer_blocking_duration_secs': 123.78131437301636, 'get_old_steps_start_time': 1767643354.933503, 'get_old_steps_duration_secs': 0.0014972686767578125, 'checkpoint_manager_blocking_start_time': 1767643231.1515822, 'checkpoint_manager_blocking_duration_secs': 123.78517293930054} (8428:standard_logger.py:34)
+04:02:34.939 [I] Progress on: 9.00kit/200kit rate:37.9s/it remaining:2009:34:25 elapsed:1:59:31 postfix:- (8428:tqdm_logging.py:145)
+04:02:34.957 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/train_state.orbax-checkpoint-tmp-35/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:02:45.359 [I] Progress on: 9.02kit/200kit rate:1.0it/s remaining:50:54:20 elapsed:1:59:42 postfix:- (8428:tqdm_logging.py:145)
+04:02:56.013 [I] Progress on: 9.03kit/200kit rate:1.4it/s remaining:37:34:41 elapsed:1:59:52 postfix:- (8428:tqdm_logging.py:145)
+04:03:07.117 [I] Progress on: 9.04kit/200kit rate:2.8s/it remaining:146:44:21 elapsed:2:00:03 postfix:- (8428:tqdm_logging.py:145)
+04:03:10.854 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 77.3 MiB/s (total bytes: 12.1 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:03:10.854 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 232.0 MiB/s (total bytes: 36.2 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:03:10.854 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+04:03:10.856 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/assets.orbax-checkpoint-tmp-33 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/assets (8428:atomicity.py:289)
+04:03:10.861 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:03:10.904 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/train_state.orbax-checkpoint-tmp-35 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/train_state (8428:atomicity.py:289)
+04:03:10.910 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:03:11.018 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/params.orbax-checkpoint-tmp-34 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32/params (8428:atomicity.py:289)
+04:03:11.021 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000.orbax-checkpoint-tmp-32 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000 (8428:atomicity.py:289)
+04:03:11.028 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000`. (8428:atomicity.py:573)
+04:03:11.028 [I] Finished asynchronous save (blocking + background) in 159.88 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/9000 (8428:async_checkpointer.py:412)
+04:03:11.028 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+04:03:11.028 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+04:03:11.028 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+04:03:13.136 [I] Deleted step 8000.                                                               (8428:deleter.py:114)
+04:03:13.137 [I] [process=0][thread=save_finalize][step=9000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+04:03:13.137 [I] [process=0][thread=save_finalize][step=9000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+04:03:17.636 [I] Progress on: 9.05kit/200kit rate:1.4it/s remaining:38:00:59 elapsed:2:00:14 postfix:- (8428:tqdm_logging.py:145)
+04:03:28.245 [I] Progress on: 9.07kit/200kit rate:1.4it/s remaining:37:31:28 elapsed:2:00:25 postfix:- (8428:tqdm_logging.py:145)
+04:03:38.835 [I] Progress on: 9.08kit/200kit rate:1.4it/s remaining:37:28:21 elapsed:2:00:35 postfix:- (8428:tqdm_logging.py:145)
+04:03:49.434 [I] Progress on: 9.10kit/200kit rate:1.4it/s remaining:37:28:19 elapsed:2:00:46 postfix:- (8428:tqdm_logging.py:145)
+Step 9100: grad_norm=0.2653, loss=0.0156, param_norm=1381.5262
+04:04:00.071 [I] Progress on: 9.11kit/200kit rate:1.4it/s remaining:37:30:00 elapsed:2:00:56 postfix:- (8428:tqdm_logging.py:145)
+04:04:10.678 [I] Progress on: 9.13kit/200kit rate:1.4it/s remaining:37:30:42 elapsed:2:01:07 postfix:- (8428:tqdm_logging.py:145)
+04:04:21.285 [I] Progress on: 9.14kit/200kit rate:1.4it/s remaining:37:30:35 elapsed:2:01:18 postfix:- (8428:tqdm_logging.py:145)
+04:04:31.895 [I] Progress on: 9.16kit/200kit rate:1.4it/s remaining:37:30:59 elapsed:2:01:28 postfix:- (8428:tqdm_logging.py:145)
+04:04:42.500 [I] Progress on: 9.17kit/200kit rate:1.4it/s remaining:37:26:37 elapsed:2:01:39 postfix:- (8428:tqdm_logging.py:145)
+04:04:53.106 [I] Progress on: 9.19kit/200kit rate:1.4it/s remaining:37:27:08 elapsed:2:01:49 postfix:- (8428:tqdm_logging.py:145)
+Step 9200: grad_norm=0.2693, loss=0.0155, param_norm=1381.5593
+04:05:03.804 [I] Progress on: 9.20kit/200kit rate:1.4it/s remaining:37:23:54 elapsed:2:02:00 postfix:- (8428:tqdm_logging.py:145)
+04:05:14.361 [I] Progress on: 9.22kit/200kit rate:1.4it/s remaining:37:26:30 elapsed:2:02:11 postfix:- (8428:tqdm_logging.py:145)
+04:05:24.966 [I] Progress on: 9.23kit/200kit rate:1.4it/s remaining:37:27:05 elapsed:2:02:21 postfix:- (8428:tqdm_logging.py:145)
+04:05:35.584 [I] Progress on: 9.25kit/200kit rate:1.4it/s remaining:37:31:59 elapsed:2:02:32 postfix:- (8428:tqdm_logging.py:145)
+04:05:46.196 [I] Progress on: 9.26kit/200kit rate:1.4it/s remaining:37:30:45 elapsed:2:02:43 postfix:- (8428:tqdm_logging.py:145)
+04:05:56.802 [I] Progress on: 9.28kit/200kit rate:1.4it/s remaining:37:26:58 elapsed:2:02:53 postfix:- (8428:tqdm_logging.py:145)
+04:06:07.405 [I] Progress on: 9.29kit/200kit rate:1.4it/s remaining:37:23:49 elapsed:2:03:04 postfix:- (8428:tqdm_logging.py:145)
+Step 9300: grad_norm=0.2587, loss=0.0158, param_norm=1381.5914
+04:06:18.055 [I] Progress on: 9.31kit/200kit rate:1.4it/s remaining:37:28:34 elapsed:2:03:14 postfix:- (8428:tqdm_logging.py:145)
+04:06:28.666 [I] Progress on: 9.32kit/200kit rate:1.4it/s remaining:37:26:41 elapsed:2:03:25 postfix:- (8428:tqdm_logging.py:145)
+04:06:39.281 [I] Progress on: 9.34kit/200kit rate:1.4it/s remaining:37:30:25 elapsed:2:03:36 postfix:- (8428:tqdm_logging.py:145)
+04:06:49.890 [I] Progress on: 9.35kit/200kit rate:1.4it/s remaining:37:27:17 elapsed:2:03:46 postfix:- (8428:tqdm_logging.py:145)
+04:07:00.497 [I] Progress on: 9.37kit/200kit rate:1.4it/s remaining:37:27:15 elapsed:2:03:57 postfix:- (8428:tqdm_logging.py:145)
+04:07:11.103 [I] Progress on: 9.38kit/200kit rate:1.4it/s remaining:37:25:54 elapsed:2:04:07 postfix:- (8428:tqdm_logging.py:145)
+04:07:21.704 [I] Progress on: 9.40kit/200kit rate:1.4it/s remaining:37:22:36 elapsed:2:04:18 postfix:- (8428:tqdm_logging.py:145)
+Step 9400: grad_norm=0.2639, loss=0.0152, param_norm=1381.6234
+04:07:32.363 [I] Progress on: 9.41kit/200kit rate:1.4it/s remaining:37:30:27 elapsed:2:04:29 postfix:- (8428:tqdm_logging.py:145)
+04:07:42.963 [I] Progress on: 9.43kit/200kit rate:1.4it/s remaining:37:24:30 elapsed:2:04:39 postfix:- (8428:tqdm_logging.py:145)
+04:07:53.583 [I] Progress on: 9.44kit/200kit rate:1.4it/s remaining:37:26:15 elapsed:2:04:50 postfix:- (8428:tqdm_logging.py:145)
+04:08:04.202 [I] Progress on: 9.46kit/200kit rate:1.4it/s remaining:37:27:44 elapsed:2:05:01 postfix:- (8428:tqdm_logging.py:145)
+04:08:14.817 [I] Progress on: 9.47kit/200kit rate:1.4it/s remaining:37:27:57 elapsed:2:05:11 postfix:- (8428:tqdm_logging.py:145)
+04:08:25.430 [I] Progress on: 9.49kit/200kit rate:1.4it/s remaining:37:24:20 elapsed:2:05:22 postfix:- (8428:tqdm_logging.py:145)
+Step 9500: grad_norm=0.2734, loss=0.0154, param_norm=1381.6553
+04:08:36.131 [I] Progress on: 9.50kit/200kit rate:1.4it/s remaining:37:19:34 elapsed:2:05:32 postfix:- (8428:tqdm_logging.py:145)
+04:08:46.682 [I] Progress on: 9.52kit/200kit rate:1.4it/s remaining:37:28:14 elapsed:2:05:43 postfix:- (8428:tqdm_logging.py:145)
+04:08:57.290 [I] Progress on: 9.53kit/200kit rate:1.4it/s remaining:37:25:02 elapsed:2:05:54 postfix:- (8428:tqdm_logging.py:145)
+04:09:07.896 [I] Progress on: 9.55kit/200kit rate:1.4it/s remaining:37:24:58 elapsed:2:06:04 postfix:- (8428:tqdm_logging.py:145)
+04:09:18.503 [I] Progress on: 9.56kit/200kit rate:1.4it/s remaining:37:23:50 elapsed:2:06:15 postfix:- (8428:tqdm_logging.py:145)
+04:09:29.116 [I] Progress on: 9.58kit/200kit rate:1.4it/s remaining:37:24:04 elapsed:2:06:25 postfix:- (8428:tqdm_logging.py:145)
+04:09:39.723 [I] Progress on: 9.59kit/200kit rate:1.4it/s remaining:37:22:52 elapsed:2:06:36 postfix:- (8428:tqdm_logging.py:145)
+Step 9600: grad_norm=0.2648, loss=0.0154, param_norm=1381.6871
+04:09:50.384 [I] Progress on: 9.61kit/200kit rate:1.4it/s remaining:37:27:53 elapsed:2:06:47 postfix:- (8428:tqdm_logging.py:145)
+04:10:00.997 [I] Progress on: 9.62kit/200kit rate:1.4it/s remaining:37:24:30 elapsed:2:06:57 postfix:- (8428:tqdm_logging.py:145)
+04:10:11.616 [I] Progress on: 9.64kit/200kit rate:1.4it/s remaining:37:26:14 elapsed:2:07:08 postfix:- (8428:tqdm_logging.py:145)
+04:10:22.231 [I] Progress on: 9.65kit/200kit rate:1.4it/s remaining:37:27:06 elapsed:2:07:19 postfix:- (8428:tqdm_logging.py:145)
+04:10:32.844 [I] Progress on: 9.67kit/200kit rate:1.4it/s remaining:37:23:46 elapsed:2:07:29 postfix:- (8428:tqdm_logging.py:145)
+04:10:43.455 [I] Progress on: 9.68kit/200kit rate:1.4it/s remaining:37:27:01 elapsed:2:07:40 postfix:- (8428:tqdm_logging.py:145)
+04:10:54.062 [I] Progress on: 9.70kit/200kit rate:1.4it/s remaining:37:25:18 elapsed:2:07:50 postfix:- (8428:tqdm_logging.py:145)
+Step 9700: grad_norm=0.2434, loss=0.0147, param_norm=1381.7188
+04:11:04.722 [I] Progress on: 9.71kit/200kit rate:1.4it/s remaining:37:21:52 elapsed:2:08:01 postfix:- (8428:tqdm_logging.py:145)
+04:11:15.336 [I] Progress on: 9.73kit/200kit rate:1.4it/s remaining:37:22:52 elapsed:2:08:12 postfix:- (8428:tqdm_logging.py:145)
+04:11:25.946 [I] Progress on: 9.74kit/200kit rate:1.4it/s remaining:37:20:06 elapsed:2:08:22 postfix:- (8428:tqdm_logging.py:145)
+04:11:36.559 [I] Progress on: 9.76kit/200kit rate:1.4it/s remaining:37:23:35 elapsed:2:08:33 postfix:- (8428:tqdm_logging.py:145)
+04:11:47.163 [I] Progress on: 9.77kit/200kit rate:1.4it/s remaining:37:21:23 elapsed:2:08:44 postfix:- (8428:tqdm_logging.py:145)
+04:11:57.772 [I] Progress on: 9.79kit/200kit rate:1.4it/s remaining:37:22:05 elapsed:2:08:54 postfix:- (8428:tqdm_logging.py:145)
+Step 9800: grad_norm=0.2576, loss=0.0147, param_norm=1381.7500
+04:12:08.477 [I] Progress on: 9.80kit/200kit rate:1.4it/s remaining:37:23:52 elapsed:2:09:05 postfix:- (8428:tqdm_logging.py:145)
+04:12:19.037 [I] Progress on: 9.82kit/200kit rate:1.4it/s remaining:37:20:53 elapsed:2:09:15 postfix:- (8428:tqdm_logging.py:145)
+04:12:29.662 [I] Progress on: 9.83kit/200kit rate:1.4it/s remaining:37:26:26 elapsed:2:09:26 postfix:- (8428:tqdm_logging.py:145)
+04:12:40.263 [I] Progress on: 9.85kit/200kit rate:1.4it/s remaining:37:19:25 elapsed:2:09:37 postfix:- (8428:tqdm_logging.py:145)
+04:12:50.421 [I] Progress on: 9.86kit/200kit rate:1.4it/s remaining:38:28:31 elapsed:2:09:47 postfix:- (8428:tqdm_logging.py:145)
+04:13:00.998 [I] Progress on: 9.88kit/200kit rate:1.4it/s remaining:37:01:53 elapsed:2:09:57 postfix:- (8428:tqdm_logging.py:145)
+04:13:11.622 [I] Progress on: 9.89kit/200kit rate:1.4it/s remaining:37:18:53 elapsed:2:10:08 postfix:- (8428:tqdm_logging.py:145)
+Step 9900: grad_norm=0.2428, loss=0.0141, param_norm=1381.7800
+04:13:22.283 [I] Progress on: 9.90kit/200kit rate:1.4it/s remaining:37:23:15 elapsed:2:10:19 postfix:- (8428:tqdm_logging.py:145)
+04:13:32.896 [I] Progress on: 9.92kit/200kit rate:1.4it/s remaining:37:19:48 elapsed:2:10:29 postfix:- (8428:tqdm_logging.py:145)
+04:13:43.502 [I] Progress on: 9.94kit/200kit rate:1.4it/s remaining:37:19:18 elapsed:2:10:40 postfix:- (8428:tqdm_logging.py:145)
+04:13:54.117 [I] Progress on: 9.95kit/200kit rate:1.4it/s remaining:37:19:30 elapsed:2:10:50 postfix:- (8428:tqdm_logging.py:145)
+04:14:04.723 [I] Progress on: 9.96kit/200kit rate:1.4it/s remaining:37:19:21 elapsed:2:11:01 postfix:- (8428:tqdm_logging.py:145)
+04:14:15.328 [I] Progress on: 9.98kit/200kit rate:1.4it/s remaining:37:17:07 elapsed:2:11:12 postfix:- (8428:tqdm_logging.py:145)
+04:14:25.935 [I] Progress on: 10.0kit/200kit rate:1.4it/s remaining:37:23:24 elapsed:2:11:22 postfix:- (8428:tqdm_logging.py:145)
+Step 10000: grad_norm=0.2637, loss=0.0147, param_norm=1381.8110
+04:14:30.311 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+04:14:30.311 [I] [process=0] Saving checkpoint at step 10000                                      (8428:checkpoint_manager.py:1408)
+04:14:30.969 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000. (8428:async_checkpointer.py:439)
+04:14:30.978 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36 (8428:atomicity.py:144)
+04:14:31.295 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/train_state.orbax-checkpoint-tmp-39 (8428:atomicity.py:144)
+04:14:31.295 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/assets.orbax-checkpoint-tmp-37 (8428:atomicity.py:144)
+04:14:31.295 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/params.orbax-checkpoint-tmp-38 (8428:atomicity.py:144)
+04:14:31.315 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:14:37.325 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:14:37.326 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:14:37.483 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/params.orbax-checkpoint-tmp-38/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:17:17.165 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:17:17.165 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 74.3 MiB/s (total bytes: 12.1 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:17:17.168 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:17:17.170 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:17:17.172 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 223.0 MiB/s (total bytes: 36.2 GiB) (time elapsed: 2 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:17:17.186 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+04:17:17.186 [I] Finished blocking save in 166.22 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000. (8428:async_checkpointer.py:548)
+04:17:17.197 [I] Preserving Checkpoint[step=5000 | time=2026-01-05 19:09:47.715849+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+04:17:17.197 [I] Deleting Checkpoint[step=9000 | time=2026-01-05 20:02:34.933491+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+04:17:17.197 [I] [process=0][thread=MainThread][step=10000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+04:17:17.199 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+04:17:17.201 [I] {'step': 10000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767644070.311049, 'wait_for_prev_duration_secs': 0.000164031982421875, 'checkpointer_blocking_start_time': 1767644070.9687338, 'checkpointer_blocking_duration_secs': 166.22877717018127, 'get_old_steps_start_time': 1767644237.1975303, 'get_old_steps_duration_secs': 0.00016641616821289062, 'checkpoint_manager_blocking_start_time': 1767644070.3109305, 'checkpoint_manager_blocking_duration_secs': 166.89006972312927} (8428:standard_logger.py:34)
+04:17:17.202 [I] Progress on: 10.0kit/200kit rate:50.8s/it remaining:2681:51:13 elapsed:2:14:14 postfix:- (8428:tqdm_logging.py:145)
+04:17:17.218 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/train_state.orbax-checkpoint-tmp-39/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:17:27.248 [I] Progress on: 10.0kit/200kit rate:1.2s/it remaining:63:03:39 elapsed:2:14:24 postfix:- (8428:tqdm_logging.py:145)
+04:17:37.460 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 66.2 MiB/s (total bytes: 12.1 GiB) (time elapsed: 3 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:17:37.843 [I] Progress on: 10.0kit/200kit rate:1.4it/s remaining:37:20:20 elapsed:2:14:34 postfix:- (8428:tqdm_logging.py:145)
+04:17:48.456 [I] Progress on: 10.0kit/200kit rate:1.4it/s remaining:37:19:12 elapsed:2:14:45 postfix:- (8428:tqdm_logging.py:145)
+04:17:54.455 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 182.1 MiB/s (total bytes: 36.2 GiB) (time elapsed: 3 minutes) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:17:54.455 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+04:17:54.457 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/assets.orbax-checkpoint-tmp-37 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/assets (8428:atomicity.py:289)
+04:17:54.463 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:17:54.566 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/train_state.orbax-checkpoint-tmp-39 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/train_state (8428:atomicity.py:289)
+04:17:54.572 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:17:54.600 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/params.orbax-checkpoint-tmp-38 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36/params (8428:atomicity.py:289)
+04:17:54.602 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000.orbax-checkpoint-tmp-36 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000 (8428:atomicity.py:289)
+04:17:54.608 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000`. (8428:atomicity.py:573)
+04:17:54.608 [I] Finished asynchronous save (blocking + background) in 203.64 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/10000 (8428:async_checkpointer.py:412)
+04:17:54.608 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+04:17:54.609 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+04:17:54.609 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+04:17:56.912 [I] Deleted step 9000.                                                               (8428:deleter.py:114)
+04:17:56.913 [I] [process=0][thread=save_finalize][step=10000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+04:17:56.913 [I] [process=0][thread=save_finalize][step=10000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+04:17:59.078 [I] Progress on: 10.1kit/200kit rate:1.4it/s remaining:37:23:43 elapsed:2:14:55 postfix:- (8428:tqdm_logging.py:145)
+04:18:09.681 [I] Progress on: 10.1kit/200kit rate:1.4it/s remaining:37:18:14 elapsed:2:15:06 postfix:- (8428:tqdm_logging.py:145)
+04:18:20.284 [I] Progress on: 10.1kit/200kit rate:1.4it/s remaining:37:17:20 elapsed:2:15:17 postfix:- (8428:tqdm_logging.py:145)
+Step 10100: grad_norm=0.2369, loss=0.0138, param_norm=1381.8422
+04:18:30.946 [I] Progress on: 10.1kit/200kit rate:1.4it/s remaining:37:25:13 elapsed:2:15:27 postfix:- (8428:tqdm_logging.py:145)
+04:18:41.545 [I] Progress on: 10.1kit/200kit rate:1.4it/s remaining:37:21:09 elapsed:2:15:38 postfix:- (8428:tqdm_logging.py:145)
+04:18:52.148 [I] Progress on: 10.1kit/200kit rate:1.4it/s remaining:37:18:13 elapsed:2:15:49 postfix:- (8428:tqdm_logging.py:145)
+04:19:02.762 [I] Progress on: 10.1kit/200kit rate:1.4it/s remaining:37:20:44 elapsed:2:15:59 postfix:- (8428:tqdm_logging.py:145)
+04:19:13.370 [I] Progress on: 10.2kit/200kit rate:1.4it/s remaining:37:16:28 elapsed:2:16:10 postfix:- (8428:tqdm_logging.py:145)
+04:19:23.981 [I] Progress on: 10.2kit/200kit rate:1.4it/s remaining:37:16:50 elapsed:2:16:20 postfix:- (8428:tqdm_logging.py:145)
+04:19:34.589 [I] Progress on: 10.2kit/200kit rate:1.4it/s remaining:37:15:41 elapsed:2:16:31 postfix:- (8428:tqdm_logging.py:145)
+Step 10200: grad_norm=0.2561, loss=0.0146, param_norm=1381.8722
+04:19:45.244 [I] Progress on: 10.2kit/200kit rate:1.4it/s remaining:37:16:19 elapsed:2:16:42 postfix:- (8428:tqdm_logging.py:145)
+04:19:55.843 [I] Progress on: 10.2kit/200kit rate:1.4it/s remaining:37:15:04 elapsed:2:16:52 postfix:- (8428:tqdm_logging.py:145)
+04:20:06.454 [I] Progress on: 10.2kit/200kit rate:1.4it/s remaining:37:16:59 elapsed:2:17:03 postfix:- (8428:tqdm_logging.py:145)
+04:20:17.057 [I] Progress on: 10.3kit/200kit rate:1.4it/s remaining:37:14:57 elapsed:2:17:13 postfix:- (8428:tqdm_logging.py:145)
+04:20:27.676 [I] Progress on: 10.3kit/200kit rate:1.4it/s remaining:37:21:48 elapsed:2:17:24 postfix:- (8428:tqdm_logging.py:145)
+04:20:38.295 [I] Progress on: 10.3kit/200kit rate:1.4it/s remaining:37:21:07 elapsed:2:17:35 postfix:- (8428:tqdm_logging.py:145)
+04:20:48.898 [I] Progress on: 10.3kit/200kit rate:1.4it/s remaining:37:14:55 elapsed:2:17:45 postfix:- (8428:tqdm_logging.py:145)
+Step 10300: grad_norm=0.2406, loss=0.0138, param_norm=1381.9003
+04:20:59.544 [I] Progress on: 10.3kit/200kit rate:1.4it/s remaining:37:14:46 elapsed:2:17:56 postfix:- (8428:tqdm_logging.py:145)
+04:21:10.151 [I] Progress on: 10.3kit/200kit rate:1.4it/s remaining:37:14:12 elapsed:2:18:07 postfix:- (8428:tqdm_logging.py:145)
+04:21:20.765 [I] Progress on: 10.3kit/200kit rate:1.4it/s remaining:37:19:48 elapsed:2:18:17 postfix:- (8428:tqdm_logging.py:145)
+04:21:31.369 [I] Progress on: 10.4kit/200kit rate:1.4it/s remaining:37:12:49 elapsed:2:18:28 postfix:- (8428:tqdm_logging.py:145)
+04:21:41.987 [I] Progress on: 10.4kit/200kit rate:1.4it/s remaining:37:18:27 elapsed:2:18:38 postfix:- (8428:tqdm_logging.py:145)
+04:21:52.596 [I] Progress on: 10.4kit/200kit rate:1.4it/s remaining:37:12:05 elapsed:2:18:49 postfix:- (8428:tqdm_logging.py:145)
+Step 10400: grad_norm=0.2456, loss=0.0140, param_norm=1381.9303
+04:22:03.258 [I] Progress on: 10.4kit/200kit rate:1.4it/s remaining:37:19:22 elapsed:2:19:00 postfix:- (8428:tqdm_logging.py:145)
+04:22:13.867 [I] Progress on: 10.4kit/200kit rate:1.4it/s remaining:37:13:31 elapsed:2:19:10 postfix:- (8428:tqdm_logging.py:145)
+04:22:24.489 [I] Progress on: 10.4kit/200kit rate:1.4it/s remaining:37:14:31 elapsed:2:19:21 postfix:- (8428:tqdm_logging.py:145)
+04:22:35.109 [I] Progress on: 10.4kit/200kit rate:1.4it/s remaining:37:12:42 elapsed:2:19:31 postfix:- (8428:tqdm_logging.py:145)
+04:22:45.725 [I] Progress on: 10.5kit/200kit rate:1.4it/s remaining:37:15:58 elapsed:2:19:42 postfix:- (8428:tqdm_logging.py:145)
+04:22:56.343 [I] Progress on: 10.5kit/200kit rate:1.4it/s remaining:37:12:00 elapsed:2:19:53 postfix:- (8428:tqdm_logging.py:145)
+04:23:06.952 [I] Progress on: 10.5kit/200kit rate:1.4it/s remaining:37:12:55 elapsed:2:20:03 postfix:- (8428:tqdm_logging.py:145)
+Step 10500: grad_norm=0.2488, loss=0.0143, param_norm=1381.9594
+04:23:17.613 [I] Progress on: 10.5kit/200kit rate:1.4it/s remaining:37:16:29 elapsed:2:20:14 postfix:- (8428:tqdm_logging.py:145)
+04:23:28.235 [I] Progress on: 10.5kit/200kit rate:1.4it/s remaining:37:14:06 elapsed:2:20:25 postfix:- (8428:tqdm_logging.py:145)
+04:23:38.851 [I] Progress on: 10.5kit/200kit rate:1.4it/s remaining:37:13:16 elapsed:2:20:35 postfix:- (8428:tqdm_logging.py:145)
+04:23:49.476 [I] Progress on: 10.6kit/200kit rate:1.4it/s remaining:37:17:22 elapsed:2:20:46 postfix:- (8428:tqdm_logging.py:145)
+04:24:00.082 [I] Progress on: 10.6kit/200kit rate:1.4it/s remaining:37:15:33 elapsed:2:20:56 postfix:- (8428:tqdm_logging.py:145)
+04:24:10.688 [I] Progress on: 10.6kit/200kit rate:1.4it/s remaining:37:12:50 elapsed:2:21:07 postfix:- (8428:tqdm_logging.py:145)
+04:24:21.304 [I] Progress on: 10.6kit/200kit rate:1.4it/s remaining:37:12:43 elapsed:2:21:18 postfix:- (8428:tqdm_logging.py:145)
+Step 10600: grad_norm=0.2375, loss=0.0133, param_norm=1381.9884
+04:24:31.965 [I] Progress on: 10.6kit/200kit rate:1.4it/s remaining:37:15:22 elapsed:2:21:28 postfix:- (8428:tqdm_logging.py:145)
+04:24:42.583 [I] Progress on: 10.6kit/200kit rate:1.4it/s remaining:37:14:29 elapsed:2:21:39 postfix:- (8428:tqdm_logging.py:145)
+04:24:53.189 [I] Progress on: 10.6kit/200kit rate:1.4it/s remaining:37:08:57 elapsed:2:21:50 postfix:- (8428:tqdm_logging.py:145)
+04:25:03.804 [I] Progress on: 10.7kit/200kit rate:1.4it/s remaining:37:10:21 elapsed:2:22:00 postfix:- (8428:tqdm_logging.py:145)
+04:25:14.409 [I] Progress on: 10.7kit/200kit rate:1.4it/s remaining:37:12:01 elapsed:2:22:11 postfix:- (8428:tqdm_logging.py:145)
+04:25:25.024 [I] Progress on: 10.7kit/200kit rate:1.4it/s remaining:37:11:56 elapsed:2:22:21 postfix:- (8428:tqdm_logging.py:145)
+Step 10700: grad_norm=0.2410, loss=0.0138, param_norm=1382.0162
+04:25:35.675 [I] Progress on: 10.7kit/200kit rate:1.4it/s remaining:37:14:58 elapsed:2:22:32 postfix:- (8428:tqdm_logging.py:145)
+04:25:46.284 [I] Progress on: 10.7kit/200kit rate:1.4it/s remaining:37:11:53 elapsed:2:22:43 postfix:- (8428:tqdm_logging.py:145)
+04:25:56.906 [I] Progress on: 10.7kit/200kit rate:1.4it/s remaining:37:13:53 elapsed:2:22:53 postfix:- (8428:tqdm_logging.py:145)
+04:26:07.516 [I] Progress on: 10.7kit/200kit rate:1.4it/s remaining:37:09:54 elapsed:2:23:04 postfix:- (8428:tqdm_logging.py:145)
+04:26:17.645 [I] Progress on: 10.8kit/200kit rate:1.4it/s remaining:37:19:02 elapsed:2:23:14 postfix:- (8428:tqdm_logging.py:145)
+04:26:28.265 [I] Progress on: 10.8kit/200kit rate:1.4it/s remaining:37:15:47 elapsed:2:23:25 postfix:- (8428:tqdm_logging.py:145)
+04:26:38.883 [I] Progress on: 10.8kit/200kit rate:1.4it/s remaining:37:13:32 elapsed:2:23:35 postfix:- (8428:tqdm_logging.py:145)
+Step 10800: grad_norm=0.2393, loss=0.0140, param_norm=1382.0447
+04:26:49.546 [I] Progress on: 10.8kit/200kit rate:1.4it/s remaining:37:17:23 elapsed:2:23:46 postfix:- (8428:tqdm_logging.py:145)
+04:27:00.149 [I] Progress on: 10.8kit/200kit rate:1.4it/s remaining:37:06:45 elapsed:2:23:57 postfix:- (8428:tqdm_logging.py:145)
+04:27:10.765 [I] Progress on: 10.8kit/200kit rate:1.4it/s remaining:37:14:26 elapsed:2:24:07 postfix:- (8428:tqdm_logging.py:145)
+04:27:21.386 [I] Progress on: 10.9kit/200kit rate:1.4it/s remaining:37:13:25 elapsed:2:24:18 postfix:- (8428:tqdm_logging.py:145)
+04:27:32.009 [I] Progress on: 10.9kit/200kit rate:1.4it/s remaining:37:16:49 elapsed:2:24:28 postfix:- (8428:tqdm_logging.py:145)
+04:27:42.614 [I] Progress on: 10.9kit/200kit rate:1.4it/s remaining:37:10:26 elapsed:2:24:39 postfix:- (8428:tqdm_logging.py:145)
+04:27:53.232 [I] Progress on: 10.9kit/200kit rate:1.4it/s remaining:37:09:17 elapsed:2:24:50 postfix:- (8428:tqdm_logging.py:145)
+Step 10900: grad_norm=0.2350, loss=0.0129, param_norm=1382.0731
+04:28:03.894 [I] Progress on: 10.9kit/200kit rate:1.4it/s remaining:37:13:48 elapsed:2:25:00 postfix:- (8428:tqdm_logging.py:145)
+04:28:14.505 [I] Progress on: 10.9kit/200kit rate:1.4it/s remaining:37:07:35 elapsed:2:25:11 postfix:- (8428:tqdm_logging.py:145)
+04:28:25.138 [I] Progress on: 10.9kit/200kit rate:1.4it/s remaining:37:14:06 elapsed:2:25:21 postfix:- (8428:tqdm_logging.py:145)
+04:28:35.761 [I] Progress on: 11.0kit/200kit rate:1.4it/s remaining:37:12:25 elapsed:2:25:32 postfix:- (8428:tqdm_logging.py:145)
+04:28:46.372 [I] Progress on: 11.0kit/200kit rate:1.4it/s remaining:37:07:50 elapsed:2:25:43 postfix:- (8428:tqdm_logging.py:145)
+04:28:56.998 [I] Progress on: 11.0kit/200kit rate:1.4it/s remaining:37:15:28 elapsed:2:25:53 postfix:- (8428:tqdm_logging.py:145)
+Step 11000: grad_norm=0.2274, loss=0.0126, param_norm=1382.1003
+04:29:06.331 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+04:29:06.331 [I] [process=0] Saving checkpoint at step 11000                                      (8428:checkpoint_manager.py:1408)
+04:29:06.331 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000. (8428:async_checkpointer.py:439)
+04:29:06.339 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40 (8428:atomicity.py:144)
+04:29:06.346 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/train_state.orbax-checkpoint-tmp-43 (8428:atomicity.py:144)
+04:29:06.346 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/params.orbax-checkpoint-tmp-42 (8428:atomicity.py:144)
+04:29:06.347 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/assets.orbax-checkpoint-tmp-41 (8428:atomicity.py:144)
+04:29:06.359 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:29:08.549 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:29:08.550 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:29:08.588 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/params.orbax-checkpoint-tmp-42/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:29:16.067 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:29:16.068 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.2 GiB/s (total bytes: 12.1 GiB) (time elapsed: 9 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:29:16.070 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:29:16.072 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:29:16.073 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 3.7 GiB/s (total bytes: 36.2 GiB) (time elapsed: 9 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:29:16.087 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+04:29:16.087 [I] Finished blocking save in 9.76 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000. (8428:async_checkpointer.py:548)
+04:29:16.089 [I] Preserving Checkpoint[step=5000 | time=2026-01-05 19:09:47.715849+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+04:29:16.089 [I] Preserving Checkpoint[step=10000 | time=2026-01-05 20:17:17.197516+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+04:29:16.089 [I] [process=0][thread=MainThread][step=11000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+04:29:16.090 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+04:29:16.090 [I] {'step': 11000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767644946.3310444, 'wait_for_prev_duration_secs': 0.00016760826110839844, 'checkpointer_blocking_start_time': 1767644946.3315115, 'checkpointer_blocking_duration_secs': 9.758191108703613, 'get_old_steps_start_time': 1767644956.0897222, 'get_old_steps_duration_secs': 0.00015974044799804688, 'checkpoint_manager_blocking_start_time': 1767644946.3309345, 'checkpoint_manager_blocking_duration_secs': 9.759425640106201} (8428:standard_logger.py:34)
+04:29:16.091 [I] Progress on: 11.0kit/200kit rate:3.7s/it remaining:192:48:52 elapsed:2:26:12 postfix:- (8428:tqdm_logging.py:145)
+04:29:16.110 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/train_state.orbax-checkpoint-tmp-43/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:29:26.573 [I] Progress on: 11.0kit/200kit rate:3.0s/it remaining:158:31:20 elapsed:2:26:23 postfix:- (8428:tqdm_logging.py:145)
+04:29:37.096 [I] Progress on: 11.0kit/200kit rate:1.4it/s remaining:37:36:26 elapsed:2:26:33 postfix:- (8428:tqdm_logging.py:145)
+04:29:47.399 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 300.8 MiB/s (total bytes: 12.1 GiB) (time elapsed: 41 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:29:47.699 [I] Progress on: 11.0kit/200kit rate:1.4it/s remaining:36:57:41 elapsed:2:26:44 postfix:- (8428:tqdm_logging.py:145)
+04:29:48.693 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 874.9 MiB/s (total bytes: 36.2 GiB) (time elapsed: 42 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:29:48.693 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+04:29:48.695 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/assets.orbax-checkpoint-tmp-41 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/assets (8428:atomicity.py:289)
+04:29:48.701 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:29:48.727 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/train_state.orbax-checkpoint-tmp-43 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/train_state (8428:atomicity.py:289)
+04:29:48.733 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:29:48.759 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/params.orbax-checkpoint-tmp-42 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40/params (8428:atomicity.py:289)
+04:29:48.761 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000.orbax-checkpoint-tmp-40 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000 (8428:atomicity.py:289)
+04:29:48.767 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000`. (8428:atomicity.py:573)
+04:29:48.767 [I] Finished asynchronous save (blocking + background) in 42.44 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/11000 (8428:async_checkpointer.py:412)
+04:29:48.767 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+04:29:48.767 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+04:29:48.767 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+04:29:48.767 [I] [process=0][thread=save_finalize][step=11000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+04:29:48.767 [I] [process=0][thread=save_finalize][step=11000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+04:29:58.299 [I] Progress on: 11.1kit/200kit rate:1.4it/s remaining:37:06:16 elapsed:2:26:55 postfix:- (8428:tqdm_logging.py:145)
+04:30:08.906 [I] Progress on: 11.1kit/200kit rate:1.4it/s remaining:37:05:06 elapsed:2:27:05 postfix:- (8428:tqdm_logging.py:145)
+04:30:19.523 [I] Progress on: 11.1kit/200kit rate:1.4it/s remaining:37:14:15 elapsed:2:27:16 postfix:- (8428:tqdm_logging.py:145)
+04:30:30.134 [I] Progress on: 11.1kit/200kit rate:1.4it/s remaining:37:06:57 elapsed:2:27:26 postfix:- (8428:tqdm_logging.py:145)
+Step 11100: grad_norm=0.2386, loss=0.0133, param_norm=1382.1272
+04:30:40.794 [I] Progress on: 11.1kit/200kit rate:1.4it/s remaining:37:06:14 elapsed:2:27:37 postfix:- (8428:tqdm_logging.py:145)
+04:30:51.411 [I] Progress on: 11.1kit/200kit rate:1.4it/s remaining:37:07:37 elapsed:2:27:48 postfix:- (8428:tqdm_logging.py:145)
+04:31:02.027 [I] Progress on: 11.1kit/200kit rate:1.4it/s remaining:37:08:48 elapsed:2:27:58 postfix:- (8428:tqdm_logging.py:145)
+04:31:12.656 [I] Progress on: 11.2kit/200kit rate:1.4it/s remaining:37:19:50 elapsed:2:28:09 postfix:- (8428:tqdm_logging.py:145)
+04:31:23.266 [I] Progress on: 11.2kit/200kit rate:1.4it/s remaining:37:12:10 elapsed:2:28:20 postfix:- (8428:tqdm_logging.py:145)
+04:31:33.886 [I] Progress on: 11.2kit/200kit rate:1.4it/s remaining:37:10:30 elapsed:2:28:30 postfix:- (8428:tqdm_logging.py:145)
+Step 11200: grad_norm=0.2387, loss=0.0131, param_norm=1382.1534
+04:31:44.614 [I] Progress on: 11.2kit/200kit rate:1.4it/s remaining:37:13:29 elapsed:2:28:41 postfix:- (8428:tqdm_logging.py:145)
+04:31:55.188 [I] Progress on: 11.2kit/200kit rate:1.4it/s remaining:37:11:42 elapsed:2:28:52 postfix:- (8428:tqdm_logging.py:145)
+04:32:05.803 [I] Progress on: 11.2kit/200kit rate:1.4it/s remaining:37:06:54 elapsed:2:29:02 postfix:- (8428:tqdm_logging.py:145)
+04:32:16.414 [I] Progress on: 11.2kit/200kit rate:1.4it/s remaining:37:05:49 elapsed:2:29:13 postfix:- (8428:tqdm_logging.py:145)
+04:32:27.030 [I] Progress on: 11.3kit/200kit rate:1.4it/s remaining:37:11:57 elapsed:2:29:23 postfix:- (8428:tqdm_logging.py:145)
+04:32:37.640 [I] Progress on: 11.3kit/200kit rate:1.4it/s remaining:37:04:56 elapsed:2:29:34 postfix:- (8428:tqdm_logging.py:145)
+04:32:48.257 [I] Progress on: 11.3kit/200kit rate:1.4it/s remaining:37:07:00 elapsed:2:29:45 postfix:- (8428:tqdm_logging.py:145)
+Step 11300: grad_norm=0.2294, loss=0.0124, param_norm=1382.1797
+04:32:58.928 [I] Progress on: 11.3kit/200kit rate:1.4it/s remaining:37:11:11 elapsed:2:29:55 postfix:- (8428:tqdm_logging.py:145)
+04:33:09.553 [I] Progress on: 11.3kit/200kit rate:1.4it/s remaining:37:06:24 elapsed:2:30:06 postfix:- (8428:tqdm_logging.py:145)
+04:33:20.174 [I] Progress on: 11.3kit/200kit rate:1.4it/s remaining:37:10:29 elapsed:2:30:17 postfix:- (8428:tqdm_logging.py:145)
+04:33:30.778 [I] Progress on: 11.4kit/200kit rate:1.4it/s remaining:37:01:13 elapsed:2:30:27 postfix:- (8428:tqdm_logging.py:145)
+04:33:41.386 [I] Progress on: 11.4kit/200kit rate:1.4it/s remaining:37:02:38 elapsed:2:30:38 postfix:- (8428:tqdm_logging.py:145)
+04:33:52.021 [I] Progress on: 11.4kit/200kit rate:1.4it/s remaining:37:05:43 elapsed:2:30:48 postfix:- (8428:tqdm_logging.py:145)
+04:34:02.646 [I] Progress on: 11.4kit/200kit rate:1.4it/s remaining:37:07:24 elapsed:2:30:59 postfix:- (8428:tqdm_logging.py:145)
+Step 11400: grad_norm=0.2260, loss=0.0127, param_norm=1382.2058
+04:34:13.305 [I] Progress on: 11.4kit/200kit rate:1.4it/s remaining:37:03:25 elapsed:2:31:10 postfix:- (8428:tqdm_logging.py:145)
+04:34:23.921 [I] Progress on: 11.4kit/200kit rate:1.4it/s remaining:37:05:06 elapsed:2:31:20 postfix:- (8428:tqdm_logging.py:145)
+04:34:34.546 [I] Progress on: 11.4kit/200kit rate:1.4it/s remaining:37:03:50 elapsed:2:31:31 postfix:- (8428:tqdm_logging.py:145)
+04:34:45.159 [I] Progress on: 11.5kit/200kit rate:1.4it/s remaining:37:05:41 elapsed:2:31:42 postfix:- (8428:tqdm_logging.py:145)
+04:34:55.786 [I] Progress on: 11.5kit/200kit rate:1.4it/s remaining:37:06:10 elapsed:2:31:52 postfix:- (8428:tqdm_logging.py:145)
+04:35:06.411 [I] Progress on: 11.5kit/200kit rate:1.4it/s remaining:37:03:23 elapsed:2:32:03 postfix:- (8428:tqdm_logging.py:145)
+Step 11500: grad_norm=0.2266, loss=0.0120, param_norm=1382.2316
+04:35:17.127 [I] Progress on: 11.5kit/200kit rate:1.4it/s remaining:37:05:21 elapsed:2:32:13 postfix:- (8428:tqdm_logging.py:145)
+04:35:27.701 [I] Progress on: 11.5kit/200kit rate:1.4it/s remaining:37:11:01 elapsed:2:32:24 postfix:- (8428:tqdm_logging.py:145)
+04:35:38.318 [I] Progress on: 11.5kit/200kit rate:1.4it/s remaining:37:05:58 elapsed:2:32:35 postfix:- (8428:tqdm_logging.py:145)
+04:35:48.934 [I] Progress on: 11.5kit/200kit rate:1.4it/s remaining:37:04:05 elapsed:2:32:45 postfix:- (8428:tqdm_logging.py:145)
+04:35:59.553 [I] Progress on: 11.6kit/200kit rate:1.4it/s remaining:37:01:30 elapsed:2:32:56 postfix:- (8428:tqdm_logging.py:145)
+04:36:10.179 [I] Progress on: 11.6kit/200kit rate:1.4it/s remaining:37:07:29 elapsed:2:33:07 postfix:- (8428:tqdm_logging.py:145)
+04:36:20.802 [I] Progress on: 11.6kit/200kit rate:1.4it/s remaining:37:04:27 elapsed:2:33:17 postfix:- (8428:tqdm_logging.py:145)
+Step 11600: grad_norm=0.2383, loss=0.0125, param_norm=1382.2572
+04:36:31.451 [I] Progress on: 11.6kit/200kit rate:1.4it/s remaining:37:01:49 elapsed:2:33:28 postfix:- (8428:tqdm_logging.py:145)
+04:36:42.081 [I] Progress on: 11.6kit/200kit rate:1.4it/s remaining:37:03:42 elapsed:2:33:38 postfix:- (8428:tqdm_logging.py:145)
+04:36:52.707 [I] Progress on: 11.6kit/200kit rate:1.4it/s remaining:37:08:46 elapsed:2:33:49 postfix:- (8428:tqdm_logging.py:145)
+04:37:02.847 [I] Progress on: 11.7kit/200kit rate:1.3it/s remaining:38:47:26 elapsed:2:33:59 postfix:- (8428:tqdm_logging.py:145)
+04:37:13.435 [I] Progress on: 11.7kit/200kit rate:1.4it/s remaining:36:40:53 elapsed:2:34:10 postfix:- (8428:tqdm_logging.py:145)
+04:37:24.088 [I] Progress on: 11.7kit/200kit rate:1.4it/s remaining:37:20:49 elapsed:2:34:20 postfix:- (8428:tqdm_logging.py:145)
+04:37:34.669 [I] Progress on: 11.7kit/200kit rate:1.4it/s remaining:36:39:54 elapsed:2:34:31 postfix:- (8428:tqdm_logging.py:145)
+Step 11700: grad_norm=0.2315, loss=0.0129, param_norm=1382.2821
+04:37:45.346 [I] Progress on: 11.7kit/200kit rate:1.4it/s remaining:37:13:59 elapsed:2:34:42 postfix:- (8428:tqdm_logging.py:145)
+04:37:55.930 [I] Progress on: 11.7kit/200kit rate:1.4it/s remaining:36:40:10 elapsed:2:34:52 postfix:- (8428:tqdm_logging.py:145)
+04:38:06.597 [I] Progress on: 11.7kit/200kit rate:1.4it/s remaining:37:24:05 elapsed:2:35:03 postfix:- (8428:tqdm_logging.py:145)
+04:38:17.189 [I] Progress on: 11.8kit/200kit rate:1.4it/s remaining:36:44:21 elapsed:2:35:14 postfix:- (8428:tqdm_logging.py:145)
+04:38:27.849 [I] Progress on: 11.8kit/200kit rate:1.4it/s remaining:37:15:20 elapsed:2:35:24 postfix:- (8428:tqdm_logging.py:145)
+04:38:38.443 [I] Progress on: 11.8kit/200kit rate:1.4it/s remaining:36:43:00 elapsed:2:35:35 postfix:- (8428:tqdm_logging.py:145)
+04:38:49.105 [I] Progress on: 11.8kit/200kit rate:1.4it/s remaining:37:24:01 elapsed:2:35:45 postfix:- (8428:tqdm_logging.py:145)
+Step 11800: grad_norm=0.2276, loss=0.0123, param_norm=1382.3071
+04:38:59.703 [I] Progress on: 11.8kit/200kit rate:1.4it/s remaining:36:39:08 elapsed:2:35:56 postfix:- (8428:tqdm_logging.py:145)
+04:39:10.352 [I] Progress on: 11.8kit/200kit rate:1.4it/s remaining:37:20:42 elapsed:2:36:07 postfix:- (8428:tqdm_logging.py:145)
+04:39:20.948 [I] Progress on: 11.8kit/200kit rate:1.4it/s remaining:36:45:09 elapsed:2:36:17 postfix:- (8428:tqdm_logging.py:145)
+04:39:31.611 [I] Progress on: 11.9kit/200kit rate:1.4it/s remaining:37:22:09 elapsed:2:36:28 postfix:- (8428:tqdm_logging.py:145)
+04:39:42.195 [I] Progress on: 11.9kit/200kit rate:1.4it/s remaining:36:39:36 elapsed:2:36:39 postfix:- (8428:tqdm_logging.py:145)
+04:39:52.843 [I] Progress on: 11.9kit/200kit rate:1.4it/s remaining:37:15:24 elapsed:2:36:49 postfix:- (8428:tqdm_logging.py:145)
+Step 11900: grad_norm=0.2413, loss=0.0122, param_norm=1382.3320
+04:40:03.461 [I] Progress on: 11.9kit/200kit rate:1.4it/s remaining:36:38:49 elapsed:2:37:00 postfix:- (8428:tqdm_logging.py:145)
+04:40:14.116 [I] Progress on: 11.9kit/200kit rate:1.4it/s remaining:37:18:17 elapsed:2:37:10 postfix:- (8428:tqdm_logging.py:145)
+04:40:24.712 [I] Progress on: 11.9kit/200kit rate:1.4it/s remaining:36:38:23 elapsed:2:37:21 postfix:- (8428:tqdm_logging.py:145)
+04:40:35.377 [I] Progress on: 11.9kit/200kit rate:1.4it/s remaining:37:18:43 elapsed:2:37:32 postfix:- (8428:tqdm_logging.py:145)
+04:40:45.978 [I] Progress on: 12.0kit/200kit rate:1.4it/s remaining:36:44:51 elapsed:2:37:42 postfix:- (8428:tqdm_logging.py:145)
+04:40:56.637 [I] Progress on: 12.0kit/200kit rate:1.4it/s remaining:37:17:21 elapsed:2:37:53 postfix:- (8428:tqdm_logging.py:145)
+04:41:07.220 [I] Progress on: 12.0kit/200kit rate:1.4it/s remaining:36:41:18 elapsed:2:38:04 postfix:- (8428:tqdm_logging.py:145)
+Step 12000: grad_norm=0.2315, loss=0.0125, param_norm=1382.3566
+04:41:11.594 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (8428:checkpoint_manager.py:1987)
+04:41:11.595 [I] [process=0] Saving checkpoint at step 12000                                      (8428:checkpoint_manager.py:1408)
+04:41:11.595 [I] [process=0] Started async saving checkpoint to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000. (8428:async_checkpointer.py:439)
+04:41:11.608 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44 (8428:atomicity.py:144)
+04:41:11.614 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/params.orbax-checkpoint-tmp-46 (8428:atomicity.py:144)
+04:41:11.614 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/train_state.orbax-checkpoint-tmp-47 (8428:atomicity.py:144)
+04:41:11.614 [I] Creating tmp directory /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/assets.orbax-checkpoint-tmp-45 (8428:atomicity.py:144)
+04:41:11.629 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:41:13.695 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (8428:replica_slices.py:341)
+04:41:13.699 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:41:13.730 [I] [process=0][thread=array_type_handler] Wrote 50 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/params.orbax-checkpoint-tmp-46/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:41:21.361 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.2 GiB/s (total bytes: 12.1 GiB) (time elapsed: 9 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:41:21.362 [I] Array name: 'params.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:41:21.363 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 3.7 GiB/s (total bytes: 36.2 GiB) (time elapsed: 9 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:41:21.364 [I] Array name: 'opt_state.1.0.mu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:41:21.366 [I] Array name: 'opt_state.1.0.nu.PaliGemma.llm.layers.mlp.gating_einsum.value', global shape: (18, 2, 2048, 16384), write shape: (18, 2, 2048, 8192), chosen chunk shape: (18, 2, 2048, 4096) (8428:tensorstore_utils.py:408)
+04:41:21.385 [I] [process=0][thread=async_save] Background save thread started.                   (8428:async_checkpointer.py:77)
+04:41:21.385 [I] Finished blocking save in 9.79 seconds. Continuing to save asynchronously to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000. (8428:async_checkpointer.py:548)
+04:41:21.386 [I] Preserving Checkpoint[step=5000 | time=2026-01-05 19:09:47.715849+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+04:41:21.386 [I] Preserving Checkpoint[step=10000 | time=2026-01-05 20:17:17.197516+00:00]: (Reason: on keep_period=5000). (8428:checkpoint_manager.py:1949)
+04:41:21.386 [I] Deleting Checkpoint[step=11000 | time=2026-01-05 20:29:16.089708+00:00]: (Reason: old checkpoint). (8428:checkpoint_manager.py:1963)
+04:41:21.387 [I] [process=0][thread=MainThread][step=12000] Starting CheckpointManager Save Finalize thread=save_finalize (8428:checkpoint_manager.py:1453)
+04:41:21.388 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (8428:async_checkpointer.py:258)
+04:41:21.388 [I] {'step': 12000, 'event_type': 'save', 'directory': '/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1767645671.5947034, 'wait_for_prev_duration_secs': 0.0001437664031982422, 'checkpointer_blocking_start_time': 1767645671.5951018, 'checkpointer_blocking_duration_secs': 9.79093599319458, 'get_old_steps_start_time': 1767645681.386056, 'get_old_steps_duration_secs': 0.0012080669403076172, 'checkpoint_manager_blocking_start_time': 1767645671.5945928, 'checkpoint_manager_blocking_duration_secs': 9.794316291809082} (8428:standard_logger.py:34)
+04:41:21.389 [I] Progress on: 12.0kit/200kit rate:3.7s/it remaining:192:02:20 elapsed:2:38:18 postfix:- (8428:tqdm_logging.py:145)
+04:41:21.423 [I] [process=0][thread=array_type_handler] Wrote 153 array_metadata.ArrayMetadata to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/train_state.orbax-checkpoint-tmp-47/array_metadatas/process_0 (8428:array_metadata_store.py:198)
+04:41:49.456 [I] Progress on: 12.0kit/200kit rate:7.0s/it remaining:368:03:35 elapsed:2:38:46 postfix:- (8428:tqdm_logging.py:145)
+04:41:55.040 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 284.4 MiB/s (total bytes: 12.1 GiB) (time elapsed: 43 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:41:55.040 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 853.2 MiB/s (total bytes: 36.2 GiB) (time elapsed: 43 seconds) (per-host) (8428:base_pytree_checkpoint_handler.py:114)
+04:41:55.040 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (8428:async_checkpointer.py:87)
+04:41:55.042 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/assets.orbax-checkpoint-tmp-45 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/assets (8428:atomicity.py:289)
+04:41:55.050 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:41:55.083 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/train_state.orbax-checkpoint-tmp-47 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/train_state (8428:atomicity.py:289)
+04:41:55.094 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (8428:array_metadata_store.py:362)
+04:41:55.213 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/params.orbax-checkpoint-tmp-46 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44/params (8428:atomicity.py:289)
+04:41:55.215 [I] Renaming /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000.orbax-checkpoint-tmp-44 to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000 (8428:atomicity.py:289)
+04:41:55.222 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000`. (8428:atomicity.py:573)
+04:41:55.222 [I] Finished asynchronous save (blocking + background) in 43.63 seconds to /project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_aloha_folding_full/folding_clothes/12000 (8428:async_checkpointer.py:412)
+04:41:55.222 [I] [process=0][thread=async_save] Background save thread done.                      (8428:async_checkpointer.py:143)
+04:41:55.222 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (8428:async_checkpointer.py:266)
+04:41:55.222 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (8428:async_checkpointer.py:276)
+04:41:57.525 [I] Deleted step 11000.                                                              (8428:deleter.py:114)
+04:41:57.526 [I] [process=0][thread=save_finalize][step=12000] CheckpointManager Save Finalize is syncing with other hosts... (8428:checkpoint_manager.py:2095)
+04:41:57.526 [I] [process=0][thread=save_finalize][step=12000] CheckpointManager Save Finalize is done on all hosts. (8428:checkpoint_manager.py:2110)
+04:41:59.953 [I] Progress on: 12.0kit/200kit rate:1.4it/s remaining:38:01:02 elapsed:2:38:56 postfix:- (8428:tqdm_logging.py:145)
+04:42:10.608 [I] Progress on: 12.0kit/200kit rate:1.4it/s remaining:37:23:58 elapsed:2:39:07 postfix:- (8428:tqdm_logging.py:145)
+04:42:21.170 [I] Progress on: 12.1kit/200kit rate:1.4it/s remaining:36:37:46 elapsed:2:39:18 postfix:- (8428:tqdm_logging.py:145)
+04:42:31.837 [I] Progress on: 12.1kit/200kit rate:1.4it/s remaining:37:24:06 elapsed:2:39:28 postfix:- (8428:tqdm_logging.py:145)
+04:42:42.403 [I] Progress on: 12.1kit/200kit rate:1.4it/s remaining:36:32:47 elapsed:2:39:39 postfix:- (8428:tqdm_logging.py:145)
+04:42:53.072 [I] Progress on: 12.1kit/200kit rate:1.4it/s remaining:37:25:07 elapsed:2:39:49 postfix:- (8428:tqdm_logging.py:145)
+Step 12100: grad_norm=0.2225, loss=0.0119, param_norm=1382.3806
+04:43:03.670 [I] Progress on: 12.1kit/200kit rate:1.4it/s remaining:36:37:59 elapsed:2:40:00 postfix:- (8428:tqdm_logging.py:145)
+04:43:14.330 [I] Progress on: 12.1kit/200kit rate:1.4it/s remaining:37:22:30 elapsed:2:40:11 postfix:- (8428:tqdm_logging.py:145)
+04:43:24.920 [I] Progress on: 12.1kit/200kit rate:1.4it/s remaining:36:38:59 elapsed:2:40:21 postfix:- (8428:tqdm_logging.py:145)
+04:43:35.574 [I] Progress on: 12.2kit/200kit rate:1.4it/s remaining:37:12:25 elapsed:2:40:32 postfix:- (8428:tqdm_logging.py:145)
+04:43:45.880 [I] Progress on: 12.2kit/200kit rate:1.4it/s remaining:37:24:29 elapsed:2:40:42 postfix:- (8428:tqdm_logging.py:145)
+04:43:56.470 [I] Progress on: 12.2kit/200kit rate:1.4it/s remaining:36:37:52 elapsed:2:40:53 postfix:- (8428:tqdm_logging.py:145)
+Step 12200: grad_norm=0.2209, loss=0.0116, param_norm=1382.4047
+04:44:07.163 [I] Progress on: 12.2kit/200kit rate:1.4it/s remaining:37:16:39 elapsed:2:41:04 postfix:- (8428:tqdm_logging.py:145)
+04:44:17.751 [I] Progress on: 12.2kit/200kit rate:1.4it/s remaining:36:37:16 elapsed:2:41:14 postfix:- (8428:tqdm_logging.py:145)
+04:44:28.418 [I] Progress on: 12.2kit/200kit rate:1.4it/s remaining:37:20:41 elapsed:2:41:25 postfix:- (8428:tqdm_logging.py:145)
+04:44:39.001 [I] Progress on: 12.2kit/200kit rate:1.4it/s remaining:36:33:40 elapsed:2:41:35 postfix:- (8428:tqdm_logging.py:145)
+04:44:49.653 [I] Progress on: 12.3kit/200kit rate:1.4it/s remaining:37:13:59 elapsed:2:41:46 postfix:- (8428:tqdm_logging.py:145)
+04:45:00.225 [I] Progress on: 12.3kit/200kit rate:1.4it/s remaining:36:30:08 elapsed:2:41:57 postfix:- (8428:tqdm_logging.py:145)
+04:45:10.874 [I] Progress on: 12.3kit/200kit rate:1.4it/s remaining:37:16:09 elapsed:2:42:07 postfix:- (8428:tqdm_logging.py:145)
+Step 12300: grad_norm=0.2229, loss=0.0120, param_norm=1382.4269
+04:45:21.484 [I] Progress on: 12.3kit/200kit rate:1.4it/s remaining:36:30:24 elapsed:2:42:18 postfix:- (8428:tqdm_logging.py:145)
+04:45:32.149 [I] Progress on: 12.3kit/200kit rate:1.4it/s remaining:37:15:38 elapsed:2:42:29 postfix:- (8428:tqdm_logging.py:145)
+04:45:42.722 [I] Progress on: 12.3kit/200kit rate:1.4it/s remaining:36:30:50 elapsed:2:42:39 postfix:- (8428:tqdm_logging.py:145)
+04:45:53.387 [I] Progress on: 12.4kit/200kit rate:1.4it/s remaining:37:19:40 elapsed:2:42:50 postfix:- (8428:tqdm_logging.py:145)
+04:46:03.969 [I] Progress on: 12.4kit/200kit rate:1.4it/s remaining:36:33:22 elapsed:2:43:00 postfix:- (8428:tqdm_logging.py:145)
+04:46:14.636 [I] Progress on: 12.4kit/200kit rate:1.4it/s remaining:37:16:45 elapsed:2:43:11 postfix:- (8428:tqdm_logging.py:145)
+04:46:25.219 [I] Progress on: 12.4kit/200kit rate:1.4it/s remaining:36:33:49 elapsed:2:43:22 postfix:- (8428:tqdm_logging.py:145)
+Step 12400: grad_norm=0.2186, loss=0.0117, param_norm=1382.4506
+04:46:35.905 [I] Progress on: 12.4kit/200kit rate:1.4it/s remaining:37:12:58 elapsed:2:43:32 postfix:- (8428:tqdm_logging.py:145)
+04:46:46.495 [I] Progress on: 12.4kit/200kit rate:1.4it/s remaining:36:40:17 elapsed:2:43:43 postfix:- (8428:tqdm_logging.py:145)
+04:46:57.143 [I] Progress on: 12.4kit/200kit rate:1.4it/s remaining:37:11:01 elapsed:2:43:54 postfix:- (8428:tqdm_logging.py:145)
+04:47:07.730 [I] Progress on: 12.5kit/200kit rate:1.4it/s remaining:36:31:24 elapsed:2:44:04 postfix:- (8428:tqdm_logging.py:145)
+04:47:18.398 [I] Progress on: 12.5kit/200kit rate:1.4it/s remaining:37:19:00 elapsed:2:44:15 postfix:- (8428:tqdm_logging.py:145)
+04:47:28.994 [I] Progress on: 12.5kit/200kit rate:1.4it/s remaining:36:34:27 elapsed:2:44:25 postfix:- (8428:tqdm_logging.py:145)
+Step 12500: grad_norm=0.2246, loss=0.0115, param_norm=1382.4734
+04:47:39.676 [I] Progress on: 12.5kit/200kit rate:1.4it/s remaining:37:09:17 elapsed:2:44:36 postfix:- (8428:tqdm_logging.py:145)
+04:47:50.269 [I] Progress on: 12.5kit/200kit rate:1.4it/s remaining:36:36:26 elapsed:2:44:47 postfix:- (8428:tqdm_logging.py:145)
+04:48:01.248 [I] Progress on: 12.5kit/200kit rate:1.4it/s remaining:37:12:52 elapsed:2:44:58 postfix:- (8428:tqdm_logging.py:145)
+04:48:11.361 [I] Progress on: 12.5kit/200kit rate:1.4it/s remaining:37:33:18 elapsed:2:45:08 postfix:- (8428:tqdm_logging.py:145)
+04:48:21.986 [I] Progress on: 12.6kit/200kit rate:1.4it/s remaining:36:54:12 elapsed:2:45:18 postfix:- (8428:tqdm_logging.py:145)
+04:48:32.619 [I] Progress on: 12.6kit/200kit rate:1.4it/s remaining:36:51:14 elapsed:2:45:29 postfix:- (8428:tqdm_logging.py:145)
+04:48:43.249 [I] Progress on: 12.6kit/200kit rate:1.4it/s remaining:36:55:52 elapsed:2:45:40 postfix:- (8428:tqdm_logging.py:145)
+Step 12600: grad_norm=0.2110, loss=0.0109, param_norm=1382.4958
+04:48:53.906 [I] Progress on: 12.6kit/200kit rate:1.4it/s remaining:36:50:30 elapsed:2:45:50 postfix:- (8428:tqdm_logging.py:145)
+04:49:04.527 [I] Progress on: 12.6kit/200kit rate:1.4it/s remaining:36:50:24 elapsed:2:46:01 postfix:- (8428:tqdm_logging.py:145)
+04:49:15.162 [I] Progress on: 12.6kit/200kit rate:1.4it/s remaining:36:52:23 elapsed:2:46:12 postfix:- (8428:tqdm_logging.py:145)
+04:49:25.789 [I] Progress on: 12.7kit/200kit rate:1.4it/s remaining:36:48:24 elapsed:2:46:22 postfix:- (8428:tqdm_logging.py:145)
+04:49:36.411 [I] Progress on: 12.7kit/200kit rate:1.4it/s remaining:36:45:41 elapsed:2:46:33 postfix:- (8428:tqdm_logging.py:145)
+04:49:47.048 [I] Progress on: 12.7kit/200kit rate:1.4it/s remaining:36:55:01 elapsed:2:46:43 postfix:- (8428:tqdm_logging.py:145)
+04:49:57.668 [I] Progress on: 12.7kit/200kit rate:1.4it/s remaining:36:49:29 elapsed:2:46:54 postfix:- (8428:tqdm_logging.py:145)
+Step 12700: grad_norm=0.2270, loss=0.0117, param_norm=1382.5178
+04:50:08.326 [I] Progress on: 12.7kit/200kit rate:1.4it/s remaining:36:47:59 elapsed:2:47:05 postfix:- (8428:tqdm_logging.py:145)
+04:50:18.958 [I] Progress on: 12.7kit/200kit rate:1.4it/s remaining:36:54:37 elapsed:2:47:15 postfix:- (8428:tqdm_logging.py:145)
+04:50:29.594 [I] Progress on: 12.7kit/200kit rate:1.4it/s remaining:36:52:28 elapsed:2:47:26 postfix:- (8428:tqdm_logging.py:145)
+04:50:40.212 [I] Progress on: 12.8kit/200kit rate:1.4it/s remaining:36:45:31 elapsed:2:47:37 postfix:- (8428:tqdm_logging.py:145)
+04:50:50.847 [I] Progress on: 12.8kit/200kit rate:1.4it/s remaining:36:48:28 elapsed:2:47:47 postfix:- (8428:tqdm_logging.py:145)
+04:51:01.470 [I] Progress on: 12.8kit/200kit rate:1.4it/s remaining:36:46:08 elapsed:2:47:58 postfix:- (8428:tqdm_logging.py:145)
+Step 12800: grad_norm=0.2181, loss=0.0112, param_norm=1382.5397
+04:51:12.146 [I] Progress on: 12.8kit/200kit rate:1.4it/s remaining:36:56:20 elapsed:2:48:09 postfix:- (8428:tqdm_logging.py:145)
+04:51:22.768 [I] Progress on: 12.8kit/200kit rate:1.4it/s remaining:36:49:47 elapsed:2:48:19 postfix:- (8428:tqdm_logging.py:145)
+04:51:33.417 [I] Progress on: 12.8kit/200kit rate:1.4it/s remaining:36:55:35 elapsed:2:48:30 postfix:- (8428:tqdm_logging.py:145)
+04:51:44.046 [I] Progress on: 12.8kit/200kit rate:1.4it/s remaining:36:51:39 elapsed:2:48:40 postfix:- (8428:tqdm_logging.py:145)
+04:51:54.678 [I] Progress on: 12.9kit/200kit rate:1.4it/s remaining:36:52:53 elapsed:2:48:51 postfix:- (8428:tqdm_logging.py:145)
+04:52:05.299 [I] Progress on: 12.9kit/200kit rate:1.4it/s remaining:36:46:52 elapsed:2:49:02 postfix:- (8428:tqdm_logging.py:145)
+04:52:15.926 [I] Progress on: 12.9kit/200kit rate:1.4it/s remaining:36:51:22 elapsed:2:49:12 postfix:- (8428:tqdm_logging.py:145)
+slurmstepd: error: *** JOB 334949 ON dgx-03 CANCELLED AT 2026-01-06T04:52:18 ***

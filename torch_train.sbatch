@@ -32,7 +32,9 @@ export PYTHONUNBUFFERED=1
 #bash eval_distributed.sh adjust_bottle demo_clean demo_clean 50 0 0 
 #bash finetune.sh pi0_base_piper real 0,1,2,3
 #bash quick_eval.bash
-uv run torchrun --standalone --nnodes=1 --nproc_per_node=8 scripts/train_pytorch.py pi0_base_torch_full \
+export XDG_CACHE_HOME=/project/peilab/yanzhengyang/.cache
+
+uv run torchrun --standalone --nnodes=1 --nproc_per_node=2 scripts/train_pytorch.py pi0_base_torch_awr \
  --exp_name pytorch_beat_block_hammer \
  --save_interval 5000 \
  --resume

@@ -1081,16 +1081,18 @@ _CONFIGS = [
             ),
         ),
         #freeze_filter=pi0_config.Pi0Config().get_freeze_filter(),
-        batch_size=128,  # the total batch_size not pre_gpu batch_size
+        batch_size=32,  # the total batch_size not pre_gpu batch_size
         weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_base/params"),
+        optimizer=_optimizer.AdamW(clip_gradient_norm=0.5),
         num_train_steps=200000,
-        fsdp_devices=8,  # refer line 359
+        log_interval= 1,
+        fsdp_devices=2,  # refer line 359
     ),
         TrainConfig(
         name="pi0_base_aloha_folding_full",
         model=pi0_config.Pi0Config(),
         data=LeRobotAlohaDataConfig(
-            repo_id="xvla-folding",  # your datasets repo_id
+            repo_id="folding_clothes",  # your datasets repo_id
             adapt_to_pi=False,
             repack_transforms=_transforms.Group(inputs=[
                 _transforms.RepackTransform({
@@ -1120,6 +1122,45 @@ _CONFIGS = [
         batch_size=32,  # the total batch_size not pre_gpu batch_size
         weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_base/params"),
         num_train_steps=200000,
+        log_interval= 1,
+        fsdp_devices=2,  # refer line 359
+    ),
+        TrainConfig(
+        name="pi0_base_torch_awr",
+        model=pi0_config.Pi0Config(pi05=False),
+        data=LeRobotAlohaDataConfig(
+            repo_id="beat_block_hammer_rollout",  # your datasets repo_id
+            adapt_to_pi=False,
+            # assets=AssetsConfig(asset_id="beat_hammer"),
+            repack_transforms=_transforms.Group(inputs=[
+                _transforms.RepackTransform({
+                    "images": {
+                        "cam_high": "observation.images.cam_high",
+                        "cam_left_wrist": "observation.images.cam_left_wrist",
+                        "cam_right_wrist": "observation.images.cam_right_wrist",
+                    },
+                    "state": "observation.state",
+                    "actions": "action",
+                    "prompt": "prompt",
+                })
+            ]),
+            base_config=DataConfig(
+                #local_files_only=True,  # Set to True for local-only datasets.
+                prompt_from_task=True,  # Set to True for prompt by task_name
+            ),
+        ),
+        batch_size=32,
+        # lr_schedule=_optimizer.CosineDecaySchedule(
+        #     warmup_steps=10_000,
+        #     peak_lr=5e-5,
+        #     decay_steps=1_000_000,
+        #     decay_lr=5e-5,
+        # ),
+        # optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
+        ema_decay=0.999,
+        #weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
+        pytorch_weight_path="/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_torch",
+        num_train_steps=100_000,
         fsdp_devices=2,  # refer line 359
     ),
     TrainConfig(
@@ -1146,7 +1187,7 @@ _CONFIGS = [
                 prompt_from_task=True,  # Set to True for prompt by task_name
             ),
         ),
-        batch_size=32,
+        batch_size=128,
         lr_schedule=_optimizer.CosineDecaySchedule(
             warmup_steps=10_000,
             peak_lr=5e-5,
