@@ -98,6 +98,10 @@ class DataConfig:
     filter_dict_path: str | None = None
 
 
+
+
+
+
 class GroupFactory(Protocol):
     def __call__(self, model_config: _model.BaseModelConfig) -> _transforms.Group:
         """Create a group."""
@@ -577,6 +581,10 @@ class TrainConfig:
     # eg. if total device is 4 and fsdp devices is 2; then the model will shard to 2 devices and run
     # data parallel between 2 groups of devices.
     fsdp_devices: int = 1
+    
+    value_function_path: str | None = None
+    discount_factor: float = 0.99
+    max_steps: int = 400
 
     @property
     def assets_dirs(self) -> pathlib.Path:
@@ -1109,7 +1117,7 @@ _CONFIGS = [
             base_config=DataConfig(
                 #local_files_only=True,  # Set to True for local-only datasets.
                 prompt_from_task=True,  # Set to True for prompt by task_name
-            ),
+            )
         ),
         # lr_schedule=_optimizer.CosineDecaySchedule(
         #     warmup_steps=10_000,
@@ -1142,6 +1150,10 @@ _CONFIGS = [
                     "state": "observation.state",
                     "actions": "action",
                     "prompt": "prompt",
+                    'reward': 'reward',
+                    'episode_index': 'episode_index',
+                    'result': 'result',
+                    'timestep' : "frame_index"
                 })
             ]),
             base_config=DataConfig(
@@ -1159,7 +1171,10 @@ _CONFIGS = [
         # optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
         ema_decay=0.999,
         #weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
-        pytorch_weight_path="/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_torch",
+        pytorch_weight_path="/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_torch_full/pytorch_beat_block_hammer/40000",
+        value_function_path="/project/peilab/junhao/Value_Function/qwen-vl-finetune/output/gpus_8/checkpoint-3000",
+        discount_factor=0.99,
+        max_steps=400,
         num_train_steps=100_000,
         fsdp_devices=2,  # refer line 359
     ),

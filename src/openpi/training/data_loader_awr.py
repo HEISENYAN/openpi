@@ -3,7 +3,7 @@ import logging
 import multiprocessing
 import os
 import typing
-from typing import Literal, Protocol, SupportsIndex, TypeVar
+from typing import Any, Literal, Protocol, SupportsIndex, TypeVar
 
 import jax
 import jax.numpy as jnp
@@ -37,6 +37,19 @@ class IterableDataset(Protocol[T_co]):
 
     def __len__(self) -> int:
         raise NotImplementedError("Subclasses of Dataset should implement __len__.")
+
+
+class IndexedDataset:
+    """Wrapper dataset that adds original index to each sample."""
+    def __init__(self, dataset: Dataset):
+        self._dataset = dataset
+    
+    def __getitem__(self, index: SupportsIndex) -> tuple[Any, int]:
+        data = self._dataset[index]
+        return data, int(index.__index__())
+    
+    def __len__(self) -> int:
+        return len(self._dataset)
 
 
 class DataLoader(Protocol[T_co]):
@@ -165,7 +178,7 @@ def create_rlds_dataset(
         shuffle=shuffle,
         action_chunk_size=action_horizon,
         action_space=data_config.action_space,
-        datasets=data_config.datasets,
+        filter_dict_path=data_config.filter_dict_path,
     )
 
 
@@ -301,6 +314,9 @@ def create_torch_data_loader(
     """
     dataset = create_torch_dataset(data_config, action_horizon, model_config)
     dataset = transform_dataset(dataset, data_config, skip_norm_stats=skip_norm_stats)
+    
+    # Wrap dataset to track original indices
+    dataset = IndexedDataset(dataset)
 
     # Use TorchDataLoader for both frameworks
     # For PyTorch DDP, create DistributedSampler and divide batch size by world size
@@ -461,18 +477,40 @@ class TorchDataLoader:
                 except StopIteration:
                     break  # We've exhausted the dataset. Create a new iterator and start over.
                 num_items += 1
+                
+                # Check if batch contains indices (from IndexedDataset)
+                if isinstance(batch, tuple) and len(batch) == 2:
+                    batch_data, batch_indices = batch
+                else:
+                    batch_data = batch
+                    batch_indices = None
+                
                 # For JAX, convert to sharded arrays; for PyTorch, return torch tensors
                 if self._sharding is not None:
-                    yield jax.tree.map(lambda x: jax.make_array_from_process_local_data(self._sharding, x), batch)
+                    batch_data = jax.tree.map(lambda x: jax.make_array_from_process_local_data(self._sharding, x), batch_data)
                 else:
-                    yield jax.tree.map(torch.as_tensor, batch)
+                    batch_data = jax.tree.map(torch.as_tensor, batch_data)
+                
+                # Return batch with metadata if indices are present
+                if batch_indices is not None:
+                    yield (batch_data, batch_indices)
+                else:
+                    yield batch_data
 
 
 def _collate_fn(items):
     """Collate the batch elements into batched numpy arrays."""
-    # Make sure to convert to numpy arrays before stacking since some of the incoming elements
-    # may be JAX arrays.
-    return jax.tree.map(lambda *xs: np.stack([np.asarray(x) for x in xs], axis=0), *items)
+    # Check if items contain (data, index) tuples from IndexedDataset
+    if items and isinstance(items[0], tuple) and len(items[0]) == 2:
+        # Separate data and indices
+        data_items = [item[0] for item in items]
+        indices = np.array([item[1] for item in items], dtype=np.int64)
+        # Collate data normally
+        batched_data = jax.tree.map(lambda *xs: np.stack([np.asarray(x) for x in xs], axis=0), *data_items)
+        return batched_data, indices
+    else:
+        # Original behavior for non-indexed datasets
+        return jax.tree.map(lambda *xs: np.stack([np.asarray(x) for x in xs], axis=0), *items)
 
 
 def _worker_init_fn(worker_id: int) -> None:
@@ -537,4 +575,18 @@ class DataLoaderImpl(DataLoader):
 
     def __iter__(self):
         for batch in self._data_loader:
-            yield _model.Observation.from_dict(batch), batch["actions"]
+            # Check if batch contains indices
+            if isinstance(batch, tuple) and len(batch) == 2:
+                batch_data, batch_indices = batch
+            else:
+                batch_data = batch
+                batch_indices = None
+            
+            observation = _model.Observation.from_dict(batch_data)
+            actions = batch_data["actions"]
+            
+            # Return tuple with metadata if indices are present
+            if batch_indices is not None:
+                yield (observation, actions), {"dataset_indices": batch_indices}
+            else:
+                yield observation, actions

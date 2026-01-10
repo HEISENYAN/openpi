@@ -44,7 +44,7 @@ import openpi.models.pi0_config
 import openpi.models_pytorch.pi0_pytorch_awr
 import openpi.shared.normalize as _normalize
 import openpi.training.config as _config
-import openpi.training.data_loader as _data
+import openpi.training.data_loader_awr as _data
 from openpi.qwenvl.value_function import ValueFunction
 
 def init_logging():
@@ -362,7 +362,7 @@ def train_loop(config: _config.TrainConfig):
     if is_main and config.wandb_enabled and not resuming:
         # Create a separate data loader for sample batch to avoid consuming the main loader
         sample_data_loader = _data.create_data_loader(config, framework="pytorch", shuffle=False)
-        sample_batch = next(iter(sample_data_loader))
+        sample_batch, dataset_indices = next(iter(sample_data_loader))
         # Convert observation and actions to torch tensors
         observation, actions = sample_batch
         sample_batch = observation.to_dict()
