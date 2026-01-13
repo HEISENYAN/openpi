@@ -1161,7 +1161,10 @@ _CONFIGS = [
                 prompt_from_task=True,  # Set to True for prompt by task_name
             ),
         ),
+        wandb_enabled=False,
         batch_size=32,
+        freeze_filter=pi0_config.Pi0Config(paligemma_variant="gemma_2b_lora",
+                                    action_expert_variant="gemma_300m_lora").get_freeze_filter(),
         # lr_schedule=_optimizer.CosineDecaySchedule(
         #     warmup_steps=10_000,
         #     peak_lr=5e-5,
@@ -1172,7 +1175,7 @@ _CONFIGS = [
         ema_decay=0.999,
         #weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
         pytorch_weight_path="/project/peilab/yanzhengyang/RoboTwin/policy/yzy_openpi/checkpoints/pi0_base_torch_full/pytorch_beat_block_hammer/40000",
-        value_function_path="/project/peilab/junhao/Value_Function/qwen-vl-finetune/output/gpus_8/checkpoint-3000",
+        value_function_path="/project/peilab/junhao/Value_Function/qwen-vl-finetune/output/robotwin_single_view/checkpoint-3000",
         discount_factor=0.99,
         max_steps=400,
         num_train_steps=100_000,

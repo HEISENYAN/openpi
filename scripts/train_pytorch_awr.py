@@ -364,7 +364,7 @@ def train_loop(config: _config.TrainConfig):
         sample_data_loader = _data.create_data_loader(config, framework="pytorch", shuffle=False)
         sample_batch = next(iter(sample_data_loader))
         # Convert observation and actions to torch tensors
-        observation, actions = sample_batch
+        observation, actions, _ = sample_batch
         sample_batch = observation.to_dict()
         sample_batch["actions"] = actions
 
@@ -406,8 +406,9 @@ def train_loop(config: _config.TrainConfig):
         # Update dtype to match pytorch_training_precision
         object.__setattr__(model_cfg, "dtype", config.pytorch_training_precision)
 
-    model = openpi.models_pytorch.pi0_pytorch.PI0Pytorch(model_cfg).to(device)
-
+    model = openpi.models_pytorch.pi0_pytorch_awr.PI0Pytorch(model_cfg).to(device)
+    value_function = ValueFunction(config).to(device)
+    value_function.eval()
     if hasattr(model, "gradient_checkpointing_enable"):
         enable_gradient_checkpointing = True
         model.gradient_checkpointing_enable()
@@ -432,6 +433,13 @@ def train_loop(config: _config.TrainConfig):
     if use_ddp:
         model = torch.nn.parallel.DistributedDataParallel(
             model,
+            device_ids=[device.index] if device.type == "cuda" else None,
+            find_unused_parameters=True,  # Disable for memory efficiency
+            gradient_as_bucket_view=True,  # Enable for memory efficiency
+            static_graph=world_size >= 8,  # Enable for 8+ GPUs
+        )
+        value_function = torch.nn.parallel.DistributedDataParallel(
+            value_function,
             device_ids=[device.index] if device.type == "cuda" else None,
             find_unused_parameters=True,  # Disable for memory efficiency
             gradient_as_bucket_view=True,  # Enable for memory efficiency
@@ -505,22 +513,33 @@ def train_loop(config: _config.TrainConfig):
         if is_main
         else None
     )
-
+    
+    
     while global_step < config.num_train_steps:
         # Set epoch for distributed training
         if use_ddp and hasattr(loader, "set_epoch"):
             loader.set_epoch(global_step // len(loader))
 
-        for observation, actions in loader:
+        for observation, actions, reward_batch in loader:
             # Check if we've reached the target number of steps
             if global_step >= config.num_train_steps:
                 break
-
             # The unified data loader returns (observation, actions) tuple
             observation = jax.tree.map(lambda x: x.to(device), observation)  # noqa: PLW2901
             actions = actions.to(torch.float32)  # noqa: PLW2901
             actions = actions.to(device)  # noqa: PLW2901
+            reward_batch = {k: v.to(device) for k, v in reward_batch.items()}
+            discount_factor = torch.tensor(config.discount_factor, device=device)
+            max_steps = torch.tensor(config.max_steps, device=device)
+            if isinstance(value_function, torch.nn.parallel.DistributedDataParallel):
+                values = torch.tensor(value_function.module.predict_value(reward_batch['future_images'], reward_batch['episode_index']), device=device)
+            else:
+                values = torch.tensor(value_function.predict_value(reward_batch['future_images'], reward_batch['episode_index']), device=device)
 
+            rewards = [torch.sum(torch.tensor([torch.pow(discount_factor, num) * -1 / max_steps for num in range(i[1].item() - i[0].item() - 1)])) for i in reward_batch['timestep']]
+            rewards = torch.tensor(rewards, device=device)
+            weights = torch.tensor([torch.pow(discount_factor, timestep[1].item() - timestep[0].item()) * values[i] for i, timestep in enumerate(reward_batch['timestep'])], device=device)
+            weights = torch.softmax(weights, dim=0)
             # Update LR
             for pg in optim.param_groups:
                 pg["lr"] = lr_schedule(global_step)
@@ -533,6 +552,8 @@ def train_loop(config: _config.TrainConfig):
             elif not isinstance(losses, torch.Tensor):
                 losses = torch.tensor(losses, device=device, dtype=torch.float32)
 
+            weights_expanded = weights.view(effective_batch_size, 1, 1) * effective_batch_size
+            losses = weights_expanded.detach() * losses
             loss = losses.mean()
 
             # Backward pass
@@ -624,14 +645,12 @@ def train_loop(config: _config.TrainConfig):
 
 def main():
     init_logging()
-    #from transformsers import Qwen2_5_VLForConditionalGeneration
-    path = '/project/peilab/junhao/Value_Function/qwen-vl-finetune/output/gpus_8/checkpoint-3000'
-    if int(os.environ.get('LOCAL_RANK')) == 0:
-        import debugpy
-        print(f"Waiting for debugger to attach on port 5678...")
-        debugpy.listen(('0.0.0.0', 5678))
-        debugpy.wait_for_client()
-        print(f"Debugger attached")
+    # if int(os.environ.get('LOCAL_RANK')) == 0:
+    #     import debugpy
+    #     print(f"Waiting for debugger to attach on port 5678...")
+    #     debugpy.listen(('0.0.0.0', 5678))
+    #     debugpy.wait_for_client()
+    #     print(f"Debugger attached")
     
     config = _config.cli()
     train_loop(config)

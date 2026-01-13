@@ -83,7 +83,14 @@ class AlohaInputs(transforms.DataTransformFn):
 
         if "prompt" in data:
             inputs["prompt"] = data["prompt"]
-
+        if 'reward' in data:
+            inputs["reward"] = data["reward"]
+        if "episode_index" in data:
+            inputs["episode_index"] = data["episode_index"]
+        if "result" in data:
+            inputs["result"] = data["result"]
+        if "timestep" in data:
+            inputs["timestep"] = data["timestep"]
         return inputs
 
 
@@ -164,11 +171,21 @@ def _decode_aloha(data: dict, *, adapt_to_pi: bool = False) -> dict:
 
     def convert_image(img):
         img = np.asarray(img)
-        # Convert to uint8 if using float images.
-        if np.issubdtype(img.dtype, np.floating):
-            img = (255 * img).astype(np.uint8)
-        # Convert from [channel, height, width] to [height, width, channel].
-        return einops.rearrange(img, "c h w -> h w c")
+        if img.ndim == 4:
+            imgs = []
+            for tmp_img in img:
+                if np.issubdtype(tmp_img.dtype, np.floating):
+                    tmp_img = (255 * tmp_img).astype(np.uint8)
+                # Convert from [channel, height, width] to [height, width, channel].
+                tmp_img = einops.rearrange(tmp_img, "c h w -> h w c")
+                imgs.append(tmp_img)
+            return np.array(imgs)
+        else:
+            # Convert to uint8 if using float images.
+            if np.issubdtype(img.dtype, np.floating):
+                img = (255 * img).astype(np.uint8)
+            # Convert from [channel, height, width] to [height, width, channel].
+            return einops.rearrange(img, "c h w -> h w c")
 
     images = data["images"]
     images_dict = {name: convert_image(img) for name, img in images.items()}

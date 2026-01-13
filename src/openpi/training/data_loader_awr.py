@@ -138,11 +138,15 @@ def create_torch_dataset(
         return FakeDataset(model_config, num_samples=1024)
 
     dataset_meta = lerobot_dataset.LeRobotDatasetMetadata(repo_id)
+    delta_timestamps={
+            key: [t / dataset_meta.fps for t in range(action_horizon)] for key in data_config.action_sequence_keys
+        }
+    delta_timestamps["observation.images.cam_high"] = [0, (action_horizon) / dataset_meta.fps]
+    delta_timestamps["reward"] = [0, (action_horizon) / dataset_meta.fps]
+    delta_timestamps["frame_index"] = [0, (action_horizon) / dataset_meta.fps]
     dataset = lerobot_dataset.LeRobotDataset(
         data_config.repo_id,
-        delta_timestamps={
-            key: [t / dataset_meta.fps for t in range(action_horizon)] for key in data_config.action_sequence_keys
-        },
+        delta_timestamps=delta_timestamps,
     )
 
     if data_config.prompt_from_task:
@@ -537,4 +541,11 @@ class DataLoaderImpl(DataLoader):
 
     def __iter__(self):
         for batch in self._data_loader:
-            yield _model.Observation.from_dict(batch), batch["actions"]
+            reward_batch = {
+                "future_images" : batch['image']['base_0_rgb'][:,1,:,:],
+                "reward" : batch['reward'],
+                "timestep" : batch['timestep'],
+                "episode_index" : batch['episode_index']
+            }
+            batch['image']['base_0_rgb'] = batch['image']['base_0_rgb'][:,0,:,:]
+            yield _model.Observation.from_dict(batch), batch["actions"], reward_batch

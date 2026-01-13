@@ -9,6 +9,7 @@ from transformers import AutoProcessor
 from openpi.qwenvl.utils.value_tokenizer import ValueTokenizer
 from PIL import Image
 import numpy as np
+from openpi.qwenvl.value_function import ValueFunction
 def load_model_and_processor(model_name_or_path, attn_implementation=None):
 
     """Load model and processor from checkpoint."""
@@ -47,52 +48,55 @@ if __name__ == "__main__":
 
     data = LeRobotDataset(repo_id="beat_block_hammer_rollout")
     dataset_meta = LeRobotDatasetMetadata(repo_id = "beat_block_hammer_rollout")
+    value_function = ValueFunction("/project/peilab/junhao/Value_Function/qwen-vl-finetune/output/robotwin_single_view/checkpoint-3000")
+    print()
+
     #dataset_meta.episodes[0]['length']
     #print(data[0])
-    model, processor, value_tokenizer = load_model_and_processor("/project/peilab/junhao/Value_Function/qwen-vl-finetune/output/gpus_8/checkpoint-3000")
-    messages = []
-    for i in range(5):
-        episode = data[i]
-        image =  episode['observation.images.cam_high']
-        image = image.detach().cpu().numpy() # (3, 224, 224)
-        image = image.transpose(1, 2, 0) # (224, 224, 3)
-        image = (image * 255).astype(np.uint8)
-        image = Image.fromarray(image)
-        messages.append([{
-                'role' : 'user',
-                'content' : [
-                    {
-                        'type' : 'text',
-                        'text' : "What's the main object in this picture?"
-                    },
-                    {
-                        'type' : 'image',
-                        'image' : image
-                    }
-                ]
-            }])
-    inputs = processor.apply_chat_template(
-            messages,
-            tokenize=True,
-            add_generation_prompt=True,  # Add generation prompt to get model to generate
-            return_dict=True,
-            return_tensors="pt"
-        )
-    with torch.no_grad():
-        generation_config = {
-            "max_new_tokens": 1,  # We only need one value token
-            "do_sample": False,   # Greedy decoding for deterministic prediction
-            "pad_token_id": processor.tokenizer.pad_token_id,
-            "eos_token_id": processor.tokenizer.eos_token_id,
-        }
-        generated_outputs = model.generate(
-            **inputs,
-            **generation_config,
-            return_dict_in_generate=True,
-            output_logits=True
-        )
-        generated_token_ids = generated_outputs.sequences[0][len(inputs['input_ids'][0]):]
-        generated_token_id = generated_token_ids[0].item() if len(generated_token_ids) > 0 else None
-        if generated_token_id and generated_token_id in value_tokenizer.extra_id_token_ids:
-            predicted_value = decode_value_token(value_tokenizer, generated_token_id)
-        print(predicted_value)
+    # model, processor, value_tokenizer = load_model_and_processor("/project/peilab/junhao/Value_Function/qwen-vl-finetune/output/gpus_8/checkpoint-3000")
+    # messages = []
+    # for i in range(5):
+    #     episode = data[i]
+    #     image =  episode['observation.images.cam_high']
+    #     image = image.detach().cpu().numpy() # (3, 224, 224)
+    #     image = image.transpose(1, 2, 0) # (224, 224, 3)
+    #     image = (image * 255).astype(np.uint8)
+    #     image = Image.fromarray(image)
+    #     messages.append([{
+    #             'role' : 'user',
+    #             'content' : [
+    #                 {
+    #                     'type' : 'text',
+    #                     'text' : "What's the main object in this picture?"
+    #                 },
+    #                 {
+    #                     'type' : 'image',
+    #                     'image' : image
+    #                 }
+    #             ]
+    #         }])
+    # inputs = processor.apply_chat_template(
+    #         messages,
+    #         tokenize=True,
+    #         add_generation_prompt=True,  # Add generation prompt to get model to generate
+    #         return_dict=True,
+    #         return_tensors="pt"
+    #     )
+    # with torch.no_grad():
+    #     generation_config = {
+    #         "max_new_tokens": 1,  # We only need one value token
+    #         "do_sample": False,   # Greedy decoding for deterministic prediction
+    #         "pad_token_id": processor.tokenizer.pad_token_id,
+    #         "eos_token_id": processor.tokenizer.eos_token_id,
+    #     }
+    #     generated_outputs = model.generate(
+    #         **inputs,
+    #         **generation_config,
+    #         return_dict_in_generate=True,
+    #         output_logits=True
+    #     )
+    #     generated_token_ids = generated_outputs.sequences[0][len(inputs['input_ids'][0]):]
+    #     generated_token_id = generated_token_ids[0].item() if len(generated_token_ids) > 0 else None
+    #     if generated_token_id and generated_token_id in value_tokenizer.extra_id_token_ids:
+    #         predicted_value = decode_value_token(value_tokenizer, generated_token_id)
+    #     print(predicted_value)
